@@ -43,7 +43,7 @@
     <div class="card" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
             <a href="#" class="btn btn-fix ">
               <img width="200" height="200" src="../img/Mantenimiento.png" alt="Cartera de Cliente" />
-                <div class="card-block   ">
+                <div class="card-block  ">
                     <p class="card-title text-center"> Mantenimiento </p>
                     <p class="card-text "><small class="text-muted">Clic para acceder </small></p>
                 </div>
