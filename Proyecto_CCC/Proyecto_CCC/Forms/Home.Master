@@ -12,7 +12,6 @@ ul.topnav {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    overflow: hidden;
     background-color: #333;
 }
 
@@ -37,12 +36,9 @@ ul.topnav li.right {float: right;}
     ul.topnav li {float: none;}
 }
 </style>
-     <link href="../Content/bootstrap-grid.css" rel="stylesheet" />
-    <link href="../Content/bootstrap-grid.min.css" rel="stylesheet" />
-    <link href="../Content/bootstrap-reboot.css" rel="stylesheet" />
-    <link href="../Content/bootstrap-reboot.min.css" rel="stylesheet" />
-    <link href="../Content/bootstrap.css" rel="stylesheet" />
-    <link href="../Content/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <title>ILEDView - GLOBAL SERVICE</title>
     <asp:ContentPlaceHolder ID="head" runat="server">
@@ -57,9 +53,8 @@ body {
     padding: 0;
     width: 25%;
     background-color: black;
-    position: fixed;
+    overflow:hidden;
     height: 100%;
-    overflow: auto;
 
 }
 ul {
@@ -68,9 +63,8 @@ ul {
     padding: 0;
     width: 25%;
     background-color: #f1f1f1;
-    position: fixed;
+    position: absolute;
     height: 100%;
-    overflow: auto;
 }
 
 li a {
@@ -94,23 +88,24 @@ li a:hover:not(.active) {
 <body>
 
 <div class="navsss text-xl-center" >
-    <div class="border-bottom"> <h1 style=" color:white"> <strong>  ILEDVIEW </strong></h1>  </div>
+    <div class="border-bottom"> <h1 class="text-center" style="  color:white"> <strong>  ILEDVIEW </strong> </h1> 
 
 <ul>
   <li><a class="active" href="/Forms/Principal.aspx">  Volver al menu </a></li>
   <li><a href="/Forms/RegistrarCliente.aspx"> Registrar Clientes </a></li>
   <li><a href="/Forms/RegistroDeContrato.aspx"> Registrar Contratos</a></li>
   <li><a href="/Forms/Agenda.aspx">  Agenda  </a></li>
+  <li><a href="RegistrarVisita.aspx"> Registrar visita</a></li>
   <li><a href="/Forms/Promociones.aspx">  Promociones/Planes </a></li>
   <li><a href="/Forms/ListaClientes.aspx">  Historial de Clientes  </a></li>
   <li><a href="#about"> Recordatorios  </a></li>
-<li><a href="/Forms/Login.aspx"> Cerrar Sesión </a></li>
+  <li><a href="/Forms/Login.aspx"> Cerrar Sesión </a></li>
 </ul>
 
     </div>
 
-
-<div style="margin-left:25%;padding:1px 16px;height:1000px; ">
+ </div>
+<div style="margin-left:25%;padding:1px 16px;">
   
     <form id="form1" runat="server">
     <div>
@@ -120,17 +115,6 @@ li a:hover:not(.active) {
     </div>
     </form>
     </div>
-
-
-    <script src="../scripts/bootstrap.js"></script>
-    <script src="../scripts/bootstrap.min.js"></script>
-    <script src="../scripts/bootstrap.bundle.js"></script>
-    <script src="../scripts/bootstrap.bundle.min.js"></script>
-    <script src="../scripts/jquery-3.0.0-vsdoc.js"></script>
-    <script src="../scripts/jquery-3.0.0.js"></script>
-    <script src="../scripts/jquery-3.0.0.min.js"></script>
-    <script src="../scripts/jquery-3.0.0.slim.js"></script>
-    <script src="../scripts/jquery-3.0.0.slim.min.js"></script>
 
 </body>
 </html>

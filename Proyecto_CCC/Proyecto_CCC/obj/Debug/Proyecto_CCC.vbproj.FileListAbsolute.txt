@@ -1,148 +1,37 @@
-c:\users\chave_001\documents\visual studio 2015\Projects\Proyecto_CCC\Proyecto_CCC\obj\Debug\Proyecto_CCC.vbprojResolveAssemblyReference.cache
-c:\users\chave_001\documents\visual studio 2015\Projects\Proyecto_CCC\Proyecto_CCC\obj\Debug\Proyecto_CCC.Resources.resources
-c:\users\chave_001\documents\visual studio 2015\Projects\Proyecto_CCC\Proyecto_CCC\obj\Debug\Proyecto_CCC.vbproj.GenerateResource.Cache
-c:\users\chave_001\documents\visual studio 2015\Projects\Proyecto_CCC\Proyecto_CCC\bin\ApplicationInsights.config
-c:\users\chave_001\documents\visual studio 2015\Projects\Proyecto_CCC\Proyecto_CCC\bin\roslyn\csc.exe
-c:\users\chave_001\documents\visual studio 2015\Projects\Proyecto_CCC\Proyecto_CCC\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
-c:\users\chave_001\documents\visual studio 2015\Projects\Proyecto_CCC\Proyecto_CCC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
-c:\users\chave_001\documents\visual studio 2015\Projects\Proyecto_CCC\Proyecto_CCC\bin\roslyn\Microsoft.CodeAnalysis.dll
-c:\users\chave_001\documents\visual studio 2015\Projects\Proyecto_CCC\Proyecto_CCC\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
-c:\users\chave_001\documents\visual studio 2015\Projects\Proyecto_CCC\Proyecto_CCC\bin\roslyn\Microsoft.CSharp.Core.targets
-c:\users\chave_001\documents\visual studio 2015\Projects\Proyecto_CCC\Proyecto_CCC\bin\roslyn\Microsoft.VisualBasic.Core.targets
-c:\users\chave_001\documents\visual studio 2015\Projects\Proyecto_CCC\Proyecto_CCC\bin\roslyn\System.Collections.Immutable.dll
-c:\users\chave_001\documents\visual studio 2015\Projects\Proyecto_CCC\Proyecto_CCC\bin\roslyn\System.Reflection.Metadata.dll
-c:\users\chave_001\documents\visual studio 2015\Projects\Proyecto_CCC\Proyecto_CCC\bin\roslyn\vbc.exe
-c:\users\chave_001\documents\visual studio 2015\Projects\Proyecto_CCC\Proyecto_CCC\bin\roslyn\VBCSCompiler.exe
-c:\users\chave_001\documents\visual studio 2015\Projects\Proyecto_CCC\Proyecto_CCC\bin\roslyn\VBCSCompiler.exe.config
-c:\users\chave_001\documents\visual studio 2015\Projects\Proyecto_CCC\Proyecto_CCC\bin\Proyecto_CCC.dll.config
-c:\users\chave_001\documents\visual studio 2015\Projects\Proyecto_CCC\Proyecto_CCC\bin\Proyecto_CCC.dll
-c:\users\chave_001\documents\visual studio 2015\Projects\Proyecto_CCC\Proyecto_CCC\bin\Proyecto_CCC.pdb
-c:\users\chave_001\documents\visual studio 2015\Projects\Proyecto_CCC\Proyecto_CCC\bin\Proyecto_CCC.xml
-c:\users\chave_001\documents\visual studio 2015\Projects\Proyecto_CCC\Proyecto_CCC\bin\Microsoft.AI.Agent.Intercept.dll
-c:\users\chave_001\documents\visual studio 2015\Projects\Proyecto_CCC\Proyecto_CCC\bin\Microsoft.AI.DependencyCollector.dll
-c:\users\chave_001\documents\visual studio 2015\Projects\Proyecto_CCC\Proyecto_CCC\bin\Microsoft.AI.PerfCounterCollector.dll
-c:\users\chave_001\documents\visual studio 2015\Projects\Proyecto_CCC\Proyecto_CCC\bin\Microsoft.AI.ServerTelemetryChannel.dll
-c:\users\chave_001\documents\visual studio 2015\Projects\Proyecto_CCC\Proyecto_CCC\bin\Microsoft.AI.Web.dll
-c:\users\chave_001\documents\visual studio 2015\Projects\Proyecto_CCC\Proyecto_CCC\bin\Microsoft.AI.WindowsServer.dll
-c:\users\chave_001\documents\visual studio 2015\Projects\Proyecto_CCC\Proyecto_CCC\bin\Microsoft.ApplicationInsights.dll
-c:\users\chave_001\documents\visual studio 2015\Projects\Proyecto_CCC\Proyecto_CCC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
-c:\users\chave_001\documents\visual studio 2015\Projects\Proyecto_CCC\Proyecto_CCC\bin\Microsoft.AI.DependencyCollector.xml
-c:\users\chave_001\documents\visual studio 2015\Projects\Proyecto_CCC\Proyecto_CCC\bin\Microsoft.AI.ServerTelemetryChannel.xml
-c:\users\chave_001\documents\visual studio 2015\Projects\Proyecto_CCC\Proyecto_CCC\bin\Microsoft.AI.Web.xml
-c:\users\chave_001\documents\visual studio 2015\Projects\Proyecto_CCC\Proyecto_CCC\bin\Microsoft.AI.WindowsServer.xml
-c:\users\chave_001\documents\visual studio 2015\Projects\Proyecto_CCC\Proyecto_CCC\bin\Microsoft.ApplicationInsights.xml
-c:\users\chave_001\documents\visual studio 2015\Projects\Proyecto_CCC\Proyecto_CCC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-c:\users\chave_001\documents\visual studio 2015\Projects\Proyecto_CCC\Proyecto_CCC\obj\Debug\Proyecto_CCC.dll
-c:\users\chave_001\documents\visual studio 2015\Projects\Proyecto_CCC\Proyecto_CCC\obj\Debug\Proyecto_CCC.xml
-c:\users\chave_001\documents\visual studio 2015\Projects\Proyecto_CCC\Proyecto_CCC\obj\Debug\Proyecto_CCC.pdb
-C:\Users\jefferson\Desktop\CCC\Proyecto_CCC\Proyecto_CCC\bin\ApplicationInsights.config
-C:\Users\jefferson\Desktop\CCC\Proyecto_CCC\Proyecto_CCC\bin\roslyn\csc.exe
-C:\Users\jefferson\Desktop\CCC\Proyecto_CCC\Proyecto_CCC\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
-C:\Users\jefferson\Desktop\CCC\Proyecto_CCC\Proyecto_CCC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
-C:\Users\jefferson\Desktop\CCC\Proyecto_CCC\Proyecto_CCC\bin\roslyn\Microsoft.CodeAnalysis.dll
-C:\Users\jefferson\Desktop\CCC\Proyecto_CCC\Proyecto_CCC\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
-C:\Users\jefferson\Desktop\CCC\Proyecto_CCC\Proyecto_CCC\bin\roslyn\Microsoft.CSharp.Core.targets
-C:\Users\jefferson\Desktop\CCC\Proyecto_CCC\Proyecto_CCC\bin\roslyn\Microsoft.VisualBasic.Core.targets
-C:\Users\jefferson\Desktop\CCC\Proyecto_CCC\Proyecto_CCC\bin\roslyn\System.Collections.Immutable.dll
-C:\Users\jefferson\Desktop\CCC\Proyecto_CCC\Proyecto_CCC\bin\roslyn\System.Reflection.Metadata.dll
-C:\Users\jefferson\Desktop\CCC\Proyecto_CCC\Proyecto_CCC\bin\roslyn\vbc.exe
-C:\Users\jefferson\Desktop\CCC\Proyecto_CCC\Proyecto_CCC\bin\roslyn\VBCSCompiler.exe
-C:\Users\jefferson\Desktop\CCC\Proyecto_CCC\Proyecto_CCC\bin\roslyn\VBCSCompiler.exe.config
-C:\Users\jefferson\Desktop\CCC\Proyecto_CCC\Proyecto_CCC\bin\Proyecto_CCC.dll.config
-C:\Users\jefferson\Desktop\CCC\Proyecto_CCC\Proyecto_CCC\bin\Proyecto_CCC.dll
-C:\Users\jefferson\Desktop\CCC\Proyecto_CCC\Proyecto_CCC\bin\Proyecto_CCC.pdb
-C:\Users\jefferson\Desktop\CCC\Proyecto_CCC\Proyecto_CCC\bin\Proyecto_CCC.xml
-C:\Users\jefferson\Desktop\CCC\Proyecto_CCC\Proyecto_CCC\bin\Microsoft.AI.Agent.Intercept.dll
-C:\Users\jefferson\Desktop\CCC\Proyecto_CCC\Proyecto_CCC\bin\Microsoft.AI.DependencyCollector.dll
-C:\Users\jefferson\Desktop\CCC\Proyecto_CCC\Proyecto_CCC\bin\Microsoft.AI.PerfCounterCollector.dll
-C:\Users\jefferson\Desktop\CCC\Proyecto_CCC\Proyecto_CCC\bin\Microsoft.AI.ServerTelemetryChannel.dll
-C:\Users\jefferson\Desktop\CCC\Proyecto_CCC\Proyecto_CCC\bin\Microsoft.AI.Web.dll
-C:\Users\jefferson\Desktop\CCC\Proyecto_CCC\Proyecto_CCC\bin\Microsoft.AI.WindowsServer.dll
-C:\Users\jefferson\Desktop\CCC\Proyecto_CCC\Proyecto_CCC\bin\Microsoft.ApplicationInsights.dll
-C:\Users\jefferson\Desktop\CCC\Proyecto_CCC\Proyecto_CCC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
-C:\Users\jefferson\Desktop\CCC\Proyecto_CCC\Proyecto_CCC\bin\Microsoft.AI.DependencyCollector.xml
-C:\Users\jefferson\Desktop\CCC\Proyecto_CCC\Proyecto_CCC\bin\Microsoft.AI.ServerTelemetryChannel.xml
-C:\Users\jefferson\Desktop\CCC\Proyecto_CCC\Proyecto_CCC\bin\Microsoft.AI.Web.xml
-C:\Users\jefferson\Desktop\CCC\Proyecto_CCC\Proyecto_CCC\bin\Microsoft.AI.WindowsServer.xml
-C:\Users\jefferson\Desktop\CCC\Proyecto_CCC\Proyecto_CCC\bin\Microsoft.ApplicationInsights.xml
-C:\Users\jefferson\Desktop\CCC\Proyecto_CCC\Proyecto_CCC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Users\jefferson\Desktop\CCC\Proyecto_CCC\Proyecto_CCC\obj\Debug\Proyecto_CCC.vbprojResolveAssemblyReference.cache
-C:\Users\jefferson\Desktop\CCC\Proyecto_CCC\Proyecto_CCC\obj\Debug\Proyecto_CCC.Resources.resources
-C:\Users\jefferson\Desktop\CCC\Proyecto_CCC\Proyecto_CCC\obj\Debug\Proyecto_CCC.vbproj.GenerateResource.Cache
-C:\Users\jefferson\Desktop\CCC\Proyecto_CCC\Proyecto_CCC\obj\Debug\Proyecto_CCC.dll
-C:\Users\jefferson\Desktop\CCC\Proyecto_CCC\Proyecto_CCC\obj\Debug\Proyecto_CCC.xml
-C:\Users\jefferson\Desktop\CCC\Proyecto_CCC\Proyecto_CCC\obj\Debug\Proyecto_CCC.pdb
-C:\Users\jefferson\Desktop\Proyecto_CCC\Proyecto_CCC\Proyecto_CCC\bin\ApplicationInsights.config
-C:\Users\jefferson\Desktop\Proyecto_CCC\Proyecto_CCC\Proyecto_CCC\bin\roslyn\csc.exe
-C:\Users\jefferson\Desktop\Proyecto_CCC\Proyecto_CCC\Proyecto_CCC\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
-C:\Users\jefferson\Desktop\Proyecto_CCC\Proyecto_CCC\Proyecto_CCC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
-C:\Users\jefferson\Desktop\Proyecto_CCC\Proyecto_CCC\Proyecto_CCC\bin\roslyn\Microsoft.CodeAnalysis.dll
-C:\Users\jefferson\Desktop\Proyecto_CCC\Proyecto_CCC\Proyecto_CCC\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
-C:\Users\jefferson\Desktop\Proyecto_CCC\Proyecto_CCC\Proyecto_CCC\bin\roslyn\Microsoft.CSharp.Core.targets
-C:\Users\jefferson\Desktop\Proyecto_CCC\Proyecto_CCC\Proyecto_CCC\bin\roslyn\Microsoft.VisualBasic.Core.targets
-C:\Users\jefferson\Desktop\Proyecto_CCC\Proyecto_CCC\Proyecto_CCC\bin\roslyn\System.Collections.Immutable.dll
-C:\Users\jefferson\Desktop\Proyecto_CCC\Proyecto_CCC\Proyecto_CCC\bin\roslyn\System.Reflection.Metadata.dll
-C:\Users\jefferson\Desktop\Proyecto_CCC\Proyecto_CCC\Proyecto_CCC\bin\roslyn\vbc.exe
-C:\Users\jefferson\Desktop\Proyecto_CCC\Proyecto_CCC\Proyecto_CCC\bin\roslyn\VBCSCompiler.exe
-C:\Users\jefferson\Desktop\Proyecto_CCC\Proyecto_CCC\Proyecto_CCC\bin\roslyn\VBCSCompiler.exe.config
-C:\Users\jefferson\Desktop\Proyecto_CCC\Proyecto_CCC\Proyecto_CCC\bin\Proyecto_CCC.dll.config
-C:\Users\jefferson\Desktop\Proyecto_CCC\Proyecto_CCC\Proyecto_CCC\bin\Proyecto_CCC.dll
-C:\Users\jefferson\Desktop\Proyecto_CCC\Proyecto_CCC\Proyecto_CCC\bin\Proyecto_CCC.pdb
-C:\Users\jefferson\Desktop\Proyecto_CCC\Proyecto_CCC\Proyecto_CCC\bin\Proyecto_CCC.xml
-C:\Users\jefferson\Desktop\Proyecto_CCC\Proyecto_CCC\Proyecto_CCC\bin\Microsoft.AI.Agent.Intercept.dll
-C:\Users\jefferson\Desktop\Proyecto_CCC\Proyecto_CCC\Proyecto_CCC\bin\Microsoft.AI.DependencyCollector.dll
-C:\Users\jefferson\Desktop\Proyecto_CCC\Proyecto_CCC\Proyecto_CCC\bin\Microsoft.AI.PerfCounterCollector.dll
-C:\Users\jefferson\Desktop\Proyecto_CCC\Proyecto_CCC\Proyecto_CCC\bin\Microsoft.AI.ServerTelemetryChannel.dll
-C:\Users\jefferson\Desktop\Proyecto_CCC\Proyecto_CCC\Proyecto_CCC\bin\Microsoft.AI.Web.dll
-C:\Users\jefferson\Desktop\Proyecto_CCC\Proyecto_CCC\Proyecto_CCC\bin\Microsoft.AI.WindowsServer.dll
-C:\Users\jefferson\Desktop\Proyecto_CCC\Proyecto_CCC\Proyecto_CCC\bin\Microsoft.ApplicationInsights.dll
-C:\Users\jefferson\Desktop\Proyecto_CCC\Proyecto_CCC\Proyecto_CCC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
-C:\Users\jefferson\Desktop\Proyecto_CCC\Proyecto_CCC\Proyecto_CCC\bin\Microsoft.AI.DependencyCollector.xml
-C:\Users\jefferson\Desktop\Proyecto_CCC\Proyecto_CCC\Proyecto_CCC\bin\Microsoft.AI.ServerTelemetryChannel.xml
-C:\Users\jefferson\Desktop\Proyecto_CCC\Proyecto_CCC\Proyecto_CCC\bin\Microsoft.AI.Web.xml
-C:\Users\jefferson\Desktop\Proyecto_CCC\Proyecto_CCC\Proyecto_CCC\bin\Microsoft.AI.WindowsServer.xml
-C:\Users\jefferson\Desktop\Proyecto_CCC\Proyecto_CCC\Proyecto_CCC\bin\Microsoft.ApplicationInsights.xml
-C:\Users\jefferson\Desktop\Proyecto_CCC\Proyecto_CCC\Proyecto_CCC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Users\jefferson\Desktop\Proyecto_CCC\Proyecto_CCC\Proyecto_CCC\obj\Debug\Proyecto_CCC.vbprojResolveAssemblyReference.cache
-C:\Users\jefferson\Desktop\Proyecto_CCC\Proyecto_CCC\Proyecto_CCC\obj\Debug\Proyecto_CCC.Resources.resources
-C:\Users\jefferson\Desktop\Proyecto_CCC\Proyecto_CCC\Proyecto_CCC\obj\Debug\Proyecto_CCC.vbproj.GenerateResource.Cache
-C:\Users\jefferson\Desktop\Proyecto_CCC\Proyecto_CCC\Proyecto_CCC\obj\Debug\Proyecto_CCC.dll
-C:\Users\jefferson\Desktop\Proyecto_CCC\Proyecto_CCC\Proyecto_CCC\obj\Debug\Proyecto_CCC.xml
-C:\Users\jefferson\Desktop\Proyecto_CCC\Proyecto_CCC\Proyecto_CCC\obj\Debug\Proyecto_CCC.pdb
-C:\Users\jefferson\Desktop\RESPALDOS\Proyecto_CCC\Proyecto_CCC\Proyecto_CCC\bin\ApplicationInsights.config
-C:\Users\jefferson\Desktop\RESPALDOS\Proyecto_CCC\Proyecto_CCC\Proyecto_CCC\bin\roslyn\csc.exe
-C:\Users\jefferson\Desktop\RESPALDOS\Proyecto_CCC\Proyecto_CCC\Proyecto_CCC\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
-C:\Users\jefferson\Desktop\RESPALDOS\Proyecto_CCC\Proyecto_CCC\Proyecto_CCC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
-C:\Users\jefferson\Desktop\RESPALDOS\Proyecto_CCC\Proyecto_CCC\Proyecto_CCC\bin\roslyn\Microsoft.CodeAnalysis.dll
-C:\Users\jefferson\Desktop\RESPALDOS\Proyecto_CCC\Proyecto_CCC\Proyecto_CCC\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
-C:\Users\jefferson\Desktop\RESPALDOS\Proyecto_CCC\Proyecto_CCC\Proyecto_CCC\bin\roslyn\Microsoft.CSharp.Core.targets
-C:\Users\jefferson\Desktop\RESPALDOS\Proyecto_CCC\Proyecto_CCC\Proyecto_CCC\bin\roslyn\Microsoft.VisualBasic.Core.targets
-C:\Users\jefferson\Desktop\RESPALDOS\Proyecto_CCC\Proyecto_CCC\Proyecto_CCC\bin\roslyn\System.Collections.Immutable.dll
-C:\Users\jefferson\Desktop\RESPALDOS\Proyecto_CCC\Proyecto_CCC\Proyecto_CCC\bin\roslyn\System.Reflection.Metadata.dll
-C:\Users\jefferson\Desktop\RESPALDOS\Proyecto_CCC\Proyecto_CCC\Proyecto_CCC\bin\roslyn\vbc.exe
-C:\Users\jefferson\Desktop\RESPALDOS\Proyecto_CCC\Proyecto_CCC\Proyecto_CCC\bin\roslyn\VBCSCompiler.exe
-C:\Users\jefferson\Desktop\RESPALDOS\Proyecto_CCC\Proyecto_CCC\Proyecto_CCC\bin\roslyn\VBCSCompiler.exe.config
-C:\Users\jefferson\Desktop\RESPALDOS\Proyecto_CCC\Proyecto_CCC\Proyecto_CCC\bin\Proyecto_CCC.dll.config
-C:\Users\jefferson\Desktop\RESPALDOS\Proyecto_CCC\Proyecto_CCC\Proyecto_CCC\bin\Proyecto_CCC.dll
-C:\Users\jefferson\Desktop\RESPALDOS\Proyecto_CCC\Proyecto_CCC\Proyecto_CCC\bin\Proyecto_CCC.pdb
-C:\Users\jefferson\Desktop\RESPALDOS\Proyecto_CCC\Proyecto_CCC\Proyecto_CCC\bin\Proyecto_CCC.xml
-C:\Users\jefferson\Desktop\RESPALDOS\Proyecto_CCC\Proyecto_CCC\Proyecto_CCC\bin\Microsoft.AI.Agent.Intercept.dll
-C:\Users\jefferson\Desktop\RESPALDOS\Proyecto_CCC\Proyecto_CCC\Proyecto_CCC\bin\Microsoft.AI.DependencyCollector.dll
-C:\Users\jefferson\Desktop\RESPALDOS\Proyecto_CCC\Proyecto_CCC\Proyecto_CCC\bin\Microsoft.AI.PerfCounterCollector.dll
-C:\Users\jefferson\Desktop\RESPALDOS\Proyecto_CCC\Proyecto_CCC\Proyecto_CCC\bin\Microsoft.AI.ServerTelemetryChannel.dll
-C:\Users\jefferson\Desktop\RESPALDOS\Proyecto_CCC\Proyecto_CCC\Proyecto_CCC\bin\Microsoft.AI.Web.dll
-C:\Users\jefferson\Desktop\RESPALDOS\Proyecto_CCC\Proyecto_CCC\Proyecto_CCC\bin\Microsoft.AI.WindowsServer.dll
-C:\Users\jefferson\Desktop\RESPALDOS\Proyecto_CCC\Proyecto_CCC\Proyecto_CCC\bin\Microsoft.ApplicationInsights.dll
-C:\Users\jefferson\Desktop\RESPALDOS\Proyecto_CCC\Proyecto_CCC\Proyecto_CCC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
-C:\Users\jefferson\Desktop\RESPALDOS\Proyecto_CCC\Proyecto_CCC\Proyecto_CCC\bin\Microsoft.AI.DependencyCollector.xml
-C:\Users\jefferson\Desktop\RESPALDOS\Proyecto_CCC\Proyecto_CCC\Proyecto_CCC\bin\Microsoft.AI.ServerTelemetryChannel.xml
-C:\Users\jefferson\Desktop\RESPALDOS\Proyecto_CCC\Proyecto_CCC\Proyecto_CCC\bin\Microsoft.AI.Web.xml
-C:\Users\jefferson\Desktop\RESPALDOS\Proyecto_CCC\Proyecto_CCC\Proyecto_CCC\bin\Microsoft.AI.WindowsServer.xml
-C:\Users\jefferson\Desktop\RESPALDOS\Proyecto_CCC\Proyecto_CCC\Proyecto_CCC\bin\Microsoft.ApplicationInsights.xml
-C:\Users\jefferson\Desktop\RESPALDOS\Proyecto_CCC\Proyecto_CCC\Proyecto_CCC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Users\jefferson\Desktop\RESPALDOS\Proyecto_CCC\Proyecto_CCC\Proyecto_CCC\obj\Debug\Proyecto_CCC.vbprojResolveAssemblyReference.cache
-C:\Users\jefferson\Desktop\RESPALDOS\Proyecto_CCC\Proyecto_CCC\Proyecto_CCC\obj\Debug\Proyecto_CCC.Resources.resources
-C:\Users\jefferson\Desktop\RESPALDOS\Proyecto_CCC\Proyecto_CCC\Proyecto_CCC\obj\Debug\Proyecto_CCC.vbproj.GenerateResource.Cache
-C:\Users\jefferson\Desktop\RESPALDOS\Proyecto_CCC\Proyecto_CCC\Proyecto_CCC\obj\Debug\Proyecto_CCC.dll
-C:\Users\jefferson\Desktop\RESPALDOS\Proyecto_CCC\Proyecto_CCC\Proyecto_CCC\obj\Debug\Proyecto_CCC.xml
-C:\Users\jefferson\Desktop\RESPALDOS\Proyecto_CCC\Proyecto_CCC\Proyecto_CCC\obj\Debug\Proyecto_CCC.pdb
+C:\Users\Chave_001\Source\Repos\Informatica_Proyecto\Proyecto_CCC\Proyecto_CCC\bin\ApplicationInsights.config
+C:\Users\Chave_001\Source\Repos\Informatica_Proyecto\Proyecto_CCC\Proyecto_CCC\bin\roslyn\csc.exe
+C:\Users\Chave_001\Source\Repos\Informatica_Proyecto\Proyecto_CCC\Proyecto_CCC\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Chave_001\Source\Repos\Informatica_Proyecto\Proyecto_CCC\Proyecto_CCC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Chave_001\Source\Repos\Informatica_Proyecto\Proyecto_CCC\Proyecto_CCC\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Chave_001\Source\Repos\Informatica_Proyecto\Proyecto_CCC\Proyecto_CCC\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Chave_001\Source\Repos\Informatica_Proyecto\Proyecto_CCC\Proyecto_CCC\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Chave_001\Source\Repos\Informatica_Proyecto\Proyecto_CCC\Proyecto_CCC\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Chave_001\Source\Repos\Informatica_Proyecto\Proyecto_CCC\Proyecto_CCC\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Chave_001\Source\Repos\Informatica_Proyecto\Proyecto_CCC\Proyecto_CCC\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Chave_001\Source\Repos\Informatica_Proyecto\Proyecto_CCC\Proyecto_CCC\bin\roslyn\vbc.exe
+C:\Users\Chave_001\Source\Repos\Informatica_Proyecto\Proyecto_CCC\Proyecto_CCC\bin\roslyn\VBCSCompiler.exe
+C:\Users\Chave_001\Source\Repos\Informatica_Proyecto\Proyecto_CCC\Proyecto_CCC\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Chave_001\Source\Repos\Informatica_Proyecto\Proyecto_CCC\Proyecto_CCC\bin\Proyecto_CCC.dll.config
+C:\Users\Chave_001\Source\Repos\Informatica_Proyecto\Proyecto_CCC\Proyecto_CCC\bin\Proyecto_CCC.dll
+C:\Users\Chave_001\Source\Repos\Informatica_Proyecto\Proyecto_CCC\Proyecto_CCC\bin\Proyecto_CCC.pdb
+C:\Users\Chave_001\Source\Repos\Informatica_Proyecto\Proyecto_CCC\Proyecto_CCC\bin\Proyecto_CCC.xml
+C:\Users\Chave_001\Source\Repos\Informatica_Proyecto\Proyecto_CCC\Proyecto_CCC\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Chave_001\Source\Repos\Informatica_Proyecto\Proyecto_CCC\Proyecto_CCC\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Chave_001\Source\Repos\Informatica_Proyecto\Proyecto_CCC\Proyecto_CCC\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Chave_001\Source\Repos\Informatica_Proyecto\Proyecto_CCC\Proyecto_CCC\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Chave_001\Source\Repos\Informatica_Proyecto\Proyecto_CCC\Proyecto_CCC\bin\Microsoft.AI.Web.dll
+C:\Users\Chave_001\Source\Repos\Informatica_Proyecto\Proyecto_CCC\Proyecto_CCC\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Chave_001\Source\Repos\Informatica_Proyecto\Proyecto_CCC\Proyecto_CCC\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Chave_001\Source\Repos\Informatica_Proyecto\Proyecto_CCC\Proyecto_CCC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Chave_001\Source\Repos\Informatica_Proyecto\Proyecto_CCC\Proyecto_CCC\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Chave_001\Source\Repos\Informatica_Proyecto\Proyecto_CCC\Proyecto_CCC\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Chave_001\Source\Repos\Informatica_Proyecto\Proyecto_CCC\Proyecto_CCC\bin\Microsoft.AI.Web.xml
+C:\Users\Chave_001\Source\Repos\Informatica_Proyecto\Proyecto_CCC\Proyecto_CCC\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Chave_001\Source\Repos\Informatica_Proyecto\Proyecto_CCC\Proyecto_CCC\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Chave_001\Source\Repos\Informatica_Proyecto\Proyecto_CCC\Proyecto_CCC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Chave_001\Source\Repos\Informatica_Proyecto\Proyecto_CCC\Proyecto_CCC\obj\Debug\Proyecto_CCC.vbprojResolveAssemblyReference.cache
+C:\Users\Chave_001\Source\Repos\Informatica_Proyecto\Proyecto_CCC\Proyecto_CCC\obj\Debug\Proyecto_CCC.Resources.resources
+C:\Users\Chave_001\Source\Repos\Informatica_Proyecto\Proyecto_CCC\Proyecto_CCC\obj\Debug\Proyecto_CCC.vbproj.GenerateResource.Cache
+C:\Users\Chave_001\Source\Repos\Informatica_Proyecto\Proyecto_CCC\Proyecto_CCC\obj\Debug\Proyecto_CCC.dll
+C:\Users\Chave_001\Source\Repos\Informatica_Proyecto\Proyecto_CCC\Proyecto_CCC\obj\Debug\Proyecto_CCC.xml
+C:\Users\Chave_001\Source\Repos\Informatica_Proyecto\Proyecto_CCC\Proyecto_CCC\obj\Debug\Proyecto_CCC.pdb
