@@ -5,6 +5,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../Content/bootstrap.css" rel="stylesheet" />
+    <link href="../Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="../Content/bootstrap-reboot.min.css" rel="stylesheet" />
+    <link href="../Content/bootstrap-reboot.css" rel="stylesheet" />
+    <link href="../Content/bootstrap-grid.min.css" rel="stylesheet" />
+    <link href="../Content/bootstrap-grid.css" rel="stylesheet" />
 <style>
 body {margin: 0;}
 
@@ -37,12 +43,7 @@ ul.topnav li.right {float: right;}
     ul.topnav li {float: none;}
 }
 </style>
-     <link href="../Content/bootstrap-grid.css" rel="stylesheet" />
-    <link href="../Content/bootstrap-grid.min.css" rel="stylesheet" />
-    <link href="../Content/bootstrap-reboot.css" rel="stylesheet" />
-    <link href="../Content/bootstrap-reboot.min.css" rel="stylesheet" />
-    <link href="../Content/bootstrap.css" rel="stylesheet" />
-    <link href="../Content/bootstrap.min.css" rel="stylesheet" />
+
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <title>ILEDView - GLOBAL SERVICE</title>
     <asp:ContentPlaceHolder ID="head" runat="server">
@@ -115,22 +116,16 @@ li a:hover:not(.active) {
     <form id="form1" runat="server">
     <div>
         <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
-        
+            <script src="../scripts/jquery-3.0.0.slim.js"></script>
+            <script src="../scripts/jquery-3.0.0.slim.min.js"></script>
+            <script src="../scripts/jquery-3.0.0.js"></script>
+            <script src="../scripts/jquery-3.0.0.min.js"></script>
+            <script src="../scripts/bootstrap.bundle.js"></script>
+            <script src="../scripts/bootstrap.bundle.min.js"></script>
         </asp:ContentPlaceHolder>
     </div>
     </form>
     </div>
-
-
-    <script src="../scripts/bootstrap.js"></script>
-    <script src="../scripts/bootstrap.min.js"></script>
-    <script src="../scripts/bootstrap.bundle.js"></script>
-    <script src="../scripts/bootstrap.bundle.min.js"></script>
-    <script src="../scripts/jquery-3.0.0-vsdoc.js"></script>
-    <script src="../scripts/jquery-3.0.0.js"></script>
-    <script src="../scripts/jquery-3.0.0.min.js"></script>
-    <script src="../scripts/jquery-3.0.0.slim.js"></script>
-    <script src="../scripts/jquery-3.0.0.slim.min.js"></script>
 
 </body>
 </html>
