@@ -11,23 +11,26 @@
      <br />
     <div class="texto col-lg-12 border-success rounded border-bottom-0 ">  
         <h6>  Fecha de inicio:</h6>
-        <asp:TextBox ID="TxtUsuario" CssClass="border-success rounded form-control form-control-lg" PlaceHolder="DD/MM/AA" runat="server"></asp:TextBox>
+        <asp:TextBox ID="TxtFechaInicio" CssClass="border-success rounded form-control form-control-lg" PlaceHolder="DD/MM/AA" runat="server"></asp:TextBox>
     </div>
         <div class="texto col-lg-12 border-success rounded border-bottom-0" style="background-color: ">  
         <h6>  Fecha de finalización:</h6>
-        <asp:TextBox ID="TextBox1" CssClass="border-success rounded form-control form-control-lg" PlaceHolder="DD/MM/AA" runat="server"></asp:TextBox>
+        <asp:TextBox ID="TxtFechaFin" CssClass="border-success rounded form-control form-control-lg" PlaceHolder="DD/MM/AA" runat="server"></asp:TextBox>
     </div>
     <div class="texto col-lg-12"> 
          <h6>  Monto total: </h6>
-        <asp:TextBox ID="TxtContraseña" CssClass="border-success rounded form-control form-control-lg" PlaceHolder="$" runat="server"> </asp:TextBox>
+        <asp:TextBox ID="TxtMonto" CssClass="border-success rounded form-control form-control-lg" PlaceHolder="$" runat="server"> </asp:TextBox>
     </div>
             <div class="texto col-lg-12"> 
          <h6>  Tipo de facturación:</h6>
-        <asp:TextBox ID="TextBox2" CssClass="border-success rounded form-control form-control-lg" PlaceHolder="Ej: Credito fiscal" runat="server"> </asp:TextBox>
+        <asp:TextBox ID="TxtTipoFactuacion" CssClass="border-success rounded form-control form-control-lg" PlaceHolder="Ej: Credito fiscal" runat="server"> </asp:TextBox>
     </div>
             <div class="texto col-lg-12" style="margin-bottom: 4%; "> 
          <h6>  Fecha de pago: </h6>
-        <asp:TextBox ID="TextBox3" CssClass="border-success rounded form-control form-control-lg" PlaceHolder="DD/MM/AA" runat="server"> </asp:TextBox>
+        <asp:TextBox ID="TxtDiaPago" CssClass="border-success rounded form-control form-control-lg" PlaceHolder="DD/MM/AA" runat="server"> </asp:TextBox>
+                 <div class="texto col-lg-12" style="margin-bottom: 4%; "> 
+         <h6>  Descripcion: </h6>
+        <asp:TextBox ID="TxTDescripcion" CssClass="border-success rounded form-control form-control-lg" PlaceHolder=" " runat="server"> </asp:TextBox>
     </div>
         <div class="col-lg-4" style ="margin-left: 25%;  margin-bottom:-9%; align-content:space-around; text-align:left;">  
             <asp:Button ID="btnIngresar" CssClass="btn-group-lg btn-success btn-lg" runat="server" Text="Registrar" />

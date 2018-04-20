@@ -168,9 +168,9 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
-<member name="F:Proyecto_CCC.RegistrarCliente._TxtNombre">
+<member name="F:Proyecto_CCC.RegistrarCliente._TxtNombreContacto">
 <summary>
-Control TxtNombre.
+Control TxtNombreContacto.
 </summary>
 <remarks>
 Campo generado automáticamente.
@@ -312,45 +312,54 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
-<member name="F:Proyecto_CCC.RegistroDeContrato._TxtUsuario">
+<member name="F:Proyecto_CCC.RegistroDeContrato._TxtFechaInicio">
 <summary>
-Control TxtUsuario.
+Control TxtFechaInicio.
 </summary>
 <remarks>
 Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
-<member name="F:Proyecto_CCC.RegistroDeContrato._TextBox1">
+<member name="F:Proyecto_CCC.RegistroDeContrato._TxtFechaFin">
 <summary>
-Control TextBox1.
+Control TxtFechaFin.
 </summary>
 <remarks>
 Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
-<member name="F:Proyecto_CCC.RegistroDeContrato._TxtContraseña">
+<member name="F:Proyecto_CCC.RegistroDeContrato._TxtMonto">
 <summary>
-Control TxtContraseña.
+Control TxtMonto.
 </summary>
 <remarks>
 Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
-<member name="F:Proyecto_CCC.RegistroDeContrato._TextBox2">
+<member name="F:Proyecto_CCC.RegistroDeContrato._TxtTipoFactuacion">
 <summary>
-Control TextBox2.
+Control TxtTipoFactuacion.
 </summary>
 <remarks>
 Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
-<member name="F:Proyecto_CCC.RegistroDeContrato._TextBox3">
+<member name="F:Proyecto_CCC.RegistroDeContrato._TxtDiaPago">
 <summary>
-Control TextBox3.
+Control TxtDiaPago.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Proyecto_CCC.RegistroDeContrato._TxTDescripcion">
+<summary>
+Control TxTDescripcion.
 </summary>
 <remarks>
 Campo generado automáticamente.
