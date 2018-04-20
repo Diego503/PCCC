@@ -14,67 +14,67 @@ Option Explicit On
 Partial Public Class RegistrarCliente
     
     '''<summary>
-    '''Control TxtUsuario.
+    '''Control TxtNombreContacto.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents TxtUsuario As Global.System.Web.UI.WebControls.TextBox
+    Protected WithEvents TxtNombreContacto As Global.System.Web.UI.WebControls.TextBox
     
     '''<summary>
-    '''Control TextBox1.
+    '''Control TxtNombreNegocio.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents TextBox1 As Global.System.Web.UI.WebControls.TextBox
+    Protected WithEvents TxtNombreNegocio As Global.System.Web.UI.WebControls.TextBox
     
     '''<summary>
-    '''Control TxtContraseña.
+    '''Control TxtTelefono.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents TxtContraseña As Global.System.Web.UI.WebControls.TextBox
+    Protected WithEvents TxtTelefono As Global.System.Web.UI.WebControls.TextBox
     
     '''<summary>
-    '''Control TextBox2.
+    '''Control TxtDireccion.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents TextBox2 As Global.System.Web.UI.WebControls.TextBox
+    Protected WithEvents TxtDireccion As Global.System.Web.UI.WebControls.TextBox
     
     '''<summary>
-    '''Control TextBox3.
+    '''Control TxtCorreo.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents TextBox3 As Global.System.Web.UI.WebControls.TextBox
+    Protected WithEvents TxtCorreo As Global.System.Web.UI.WebControls.TextBox
     
     '''<summary>
-    '''Control TextBox4.
+    '''Control TxtNIT.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents TextBox4 As Global.System.Web.UI.WebControls.TextBox
+    Protected WithEvents TxtNIT As Global.System.Web.UI.WebControls.TextBox
     
     '''<summary>
-    '''Control TextBox5.
+    '''Control TxtRNC.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents TextBox5 As Global.System.Web.UI.WebControls.TextBox
+    Protected WithEvents TxtRNC As Global.System.Web.UI.WebControls.TextBox
     
     '''<summary>
     '''Control btnIngresar.

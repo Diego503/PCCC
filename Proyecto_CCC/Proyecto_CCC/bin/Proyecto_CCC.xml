@@ -168,63 +168,63 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
-<member name="F:Proyecto_CCC.RegistrarCliente._TxtUsuario">
+<member name="F:Proyecto_CCC.RegistrarCliente._TxtNombre">
 <summary>
-Control TxtUsuario.
+Control TxtNombre.
 </summary>
 <remarks>
 Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
-<member name="F:Proyecto_CCC.RegistrarCliente._TextBox1">
+<member name="F:Proyecto_CCC.RegistrarCliente._TxtNombreNegocio">
 <summary>
-Control TextBox1.
+Control TxtNombreNegocio.
 </summary>
 <remarks>
 Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
-<member name="F:Proyecto_CCC.RegistrarCliente._TxtContraseña">
+<member name="F:Proyecto_CCC.RegistrarCliente._TxtTelefono">
 <summary>
-Control TxtContraseña.
+Control TxtTelefono.
 </summary>
 <remarks>
 Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
-<member name="F:Proyecto_CCC.RegistrarCliente._TextBox2">
+<member name="F:Proyecto_CCC.RegistrarCliente._TxtDireccion">
 <summary>
-Control TextBox2.
+Control TxtDireccion.
 </summary>
 <remarks>
 Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
-<member name="F:Proyecto_CCC.RegistrarCliente._TextBox3">
+<member name="F:Proyecto_CCC.RegistrarCliente._TxtCorreo">
 <summary>
-Control TextBox3.
+Control TxtCorreo.
 </summary>
 <remarks>
 Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
-<member name="F:Proyecto_CCC.RegistrarCliente._TextBox4">
+<member name="F:Proyecto_CCC.RegistrarCliente._TxtNIT">
 <summary>
-Control TextBox4.
+Control TxtNIT.
 </summary>
 <remarks>
 Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
-<member name="F:Proyecto_CCC.RegistrarCliente._TextBox5">
+<member name="F:Proyecto_CCC.RegistrarCliente._TxtRNC">
 <summary>
-Control TextBox5.
+Control TxtRNC.
 </summary>
 <remarks>
 Campo generado automáticamente.

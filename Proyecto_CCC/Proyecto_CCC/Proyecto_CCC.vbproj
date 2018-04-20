@@ -192,6 +192,7 @@
     <Compile Include="Clases\Contacto.vb" />
     <Compile Include="Clases\Contrato.vb" />
     <Compile Include="Clases\DatosComunes.vb" />
+    <Compile Include="Clases\Usuario.vb" />
     <Compile Include="Forms\Agenda.aspx.designer.vb">
       <DependentUpon>Agenda.aspx</DependentUpon>
     </Compile>
