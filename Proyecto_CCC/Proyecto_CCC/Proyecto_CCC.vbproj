@@ -47,6 +47,14 @@
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="Microsoft.AI.Agent.Intercept, Version=1.2.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.ApplicationInsights.Agent.Intercept.1.2.1\lib\net45\Microsoft.AI.Agent.Intercept.dll</HintPath>
       <Private>True</Private>
@@ -136,9 +144,8 @@
     <Content Include="Forms\Login.aspx" />
     <Content Include="Forms\Principal.aspx" />
     <Content Include="Forms\Promociones.aspx" />
-    <Content Include="Forms\RegistrarCliente.aspx" />
+    <Content Include="Forms\Registrar.aspx" />
     <Content Include="Forms\RegistrarVisita.aspx" />
-    <Content Include="Forms\RegistroDeContrato.aspx" />
     <Content Include="img\Cliente.png" />
     <Content Include="img\Display.png" />
     <Content Include="img\Finero.png" />
@@ -147,6 +154,8 @@
     <Content Include="img\Muphis.jpg" />
     <Content Include="scripts\ai.0.22.9-build00167.js" />
     <Content Include="scripts\ai.0.22.9-build00167.min.js" />
+    <Content Include="Forms\Log.Master" />
+    <Content Include="Forms\Home.Master" />
     <Content Include="scripts\bootstrap.bundle.js" />
     <Content Include="scripts\bootstrap.bundle.min.js" />
     <Content Include="scripts\bootstrap.js" />
@@ -159,8 +168,6 @@
     <Content Include="scripts\esm\popper.js.map" />
     <Content Include="scripts\esm\popper-utils.min.js.map" />
     <Content Include="scripts\esm\popper-utils.js.map" />
-    <Content Include="Forms\Log.Master" />
-    <Content Include="Forms\Home.Master" />
     <Content Include="scripts\bootstrap.min.js.map" />
     <Content Include="scripts\bootstrap.js.map" />
     <Content Include="scripts\bootstrap.bundle.min.js.map" />
@@ -249,11 +256,11 @@
       <DependentUpon>Promociones.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
-    <Compile Include="Forms\RegistrarCliente.aspx.designer.vb">
-      <DependentUpon>RegistrarCliente.aspx</DependentUpon>
+    <Compile Include="Forms\Registrar.aspx.designer.vb">
+      <DependentUpon>Registrar.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Forms\RegistrarCliente.aspx.vb">
-      <DependentUpon>RegistrarCliente.aspx</DependentUpon>
+    <Compile Include="Forms\Registrar.aspx.vb">
+      <DependentUpon>Registrar.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="Forms\RegistrarVisita.aspx.designer.vb">
@@ -261,13 +268,6 @@
     </Compile>
     <Compile Include="Forms\RegistrarVisita.aspx.vb">
       <DependentUpon>RegistrarVisita.aspx</DependentUpon>
-      <SubType>ASPXCodebehind</SubType>
-    </Compile>
-    <Compile Include="Forms\RegistroDeContrato.aspx.designer.vb">
-      <DependentUpon>RegistroDeContrato.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Forms\RegistroDeContrato.aspx.vb">
-      <DependentUpon>RegistroDeContrato.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
