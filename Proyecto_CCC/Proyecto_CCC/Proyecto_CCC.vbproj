@@ -47,14 +47,6 @@
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
-      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
-      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
     <Reference Include="Microsoft.AI.Agent.Intercept, Version=1.2.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.ApplicationInsights.Agent.Intercept.1.2.1\lib\net45\Microsoft.AI.Agent.Intercept.dll</HintPath>
       <Private>True</Private>
@@ -93,9 +85,12 @@
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
+    <Reference Include="System.Data.Entity" />
     <Reference Include="System.Drawing" />
     <Reference Include="System.Core" />
     <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
     <Reference Include="System.Web.Extensions" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Web.DynamicData" />
@@ -142,6 +137,7 @@
     <Content Include="Forms\Home.aspx" />
     <Content Include="Forms\ListaClientes.aspx" />
     <Content Include="Forms\Login.aspx" />
+    <Content Include="Forms\PreRegistro.aspx" />
     <Content Include="Forms\Principal.aspx" />
     <Content Include="Forms\Promociones.aspx" />
     <Content Include="Forms\Registrar.aspx" />
@@ -241,6 +237,13 @@
     <Compile Include="Forms\Login.aspx.vb">
       <DependentUpon>Login.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Forms\PreRegistro.aspx.designer.vb">
+      <DependentUpon>PreRegistro.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\PreRegistro.aspx.vb">
+      <DependentUpon>PreRegistro.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="Forms\Principal.aspx.designer.vb">
       <DependentUpon>Principal.aspx</DependentUpon>

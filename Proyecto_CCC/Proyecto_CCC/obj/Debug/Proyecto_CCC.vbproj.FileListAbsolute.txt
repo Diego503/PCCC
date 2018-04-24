@@ -66,7 +66,6 @@ C:\Users\Chave_001\Source\Repos\PCCC\Proyecto_CCC\Proyecto_CCC\bin\Microsoft.AI.
 C:\Users\Chave_001\Source\Repos\PCCC\Proyecto_CCC\Proyecto_CCC\bin\Microsoft.AI.WindowsServer.xml
 C:\Users\Chave_001\Source\Repos\PCCC\Proyecto_CCC\Proyecto_CCC\bin\Microsoft.ApplicationInsights.xml
 C:\Users\Chave_001\Source\Repos\PCCC\Proyecto_CCC\Proyecto_CCC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Users\Chave_001\Source\Repos\PCCC\Proyecto_CCC\Proyecto_CCC\obj\Debug\Proyecto_CCC.vbprojResolveAssemblyReference.cache
 C:\Users\Chave_001\Source\Repos\PCCC\Proyecto_CCC\Proyecto_CCC\obj\Debug\Proyecto_CCC.Resources.resources
 C:\Users\Chave_001\Source\Repos\PCCC\Proyecto_CCC\Proyecto_CCC\obj\Debug\Proyecto_CCC.vbproj.GenerateResource.Cache
 C:\Users\Chave_001\Source\Repos\PCCC\Proyecto_CCC\Proyecto_CCC\obj\Debug\Proyecto_CCC.dll
@@ -74,7 +73,5 @@ C:\Users\Chave_001\Source\Repos\PCCC\Proyecto_CCC\Proyecto_CCC\obj\Debug\Proyect
 C:\Users\Chave_001\Source\Repos\PCCC\Proyecto_CCC\Proyecto_CCC\obj\Debug\Proyecto_CCC.pdb
 C:\Users\Chave_001\Source\Repos\PCCC\Proyecto_CCC\Proyecto_CCC\bin\MySql.Data.dll
 C:\Users\Chave_001\Source\Repos\PCCC\Proyecto_CCC\Proyecto_CCC\bin\MySql.Data.xml
-C:\Users\Chave_001\Source\Repos\PCCC\Proyecto_CCC\Proyecto_CCC\bin\EntityFramework.dll
-C:\Users\Chave_001\Source\Repos\PCCC\Proyecto_CCC\Proyecto_CCC\bin\EntityFramework.SqlServer.dll
-C:\Users\Chave_001\Source\Repos\PCCC\Proyecto_CCC\Proyecto_CCC\bin\EntityFramework.xml
-C:\Users\Chave_001\Source\Repos\PCCC\Proyecto_CCC\Proyecto_CCC\bin\EntityFramework.SqlServer.xml
+C:\Users\Chave_001\Source\Repos\PCCC\Proyecto_CCC\Proyecto_CCC\bin\Google.Protobuf.dll
+C:\Users\Chave_001\Source\Repos\PCCC\Proyecto_CCC\Proyecto_CCC\obj\Debug\Proyecto_CCC.vbprojResolveAssemblyReference.cache

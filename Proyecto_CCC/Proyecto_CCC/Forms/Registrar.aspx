@@ -55,12 +55,11 @@
   <div class="row">
     <div class="col-sm-7 ">
     
-        <div class="texto col-sm-12 border-success border-bottom-0" style="margin-top: 2%; ">  
+        
         <div class="texto col-sm-12 border-success">  
         <h6>Nombre del Contacto:</h6>
         <asp:TextBox ID="TxtContacto" CssClass="border-success rounded form-control form-control-lg" PlaceHolder="Diego Zepeda" runat="server"></asp:TextBox>
            </div>
-         </div>
 
                 <div class="texto col-sm-12"> 
          <h6>Correo electrónico:</h6>
@@ -86,7 +85,7 @@
     <div class="col-lg-7">
     <div class="texto col-lg-12 border-success rounded border-bottom-0 ">  
         <h6>  Fecha de inicio:</h6>
-        <asp:TextBox ID="TxtFechaInicio" CssClass="border-success rounded form-control form-control-lg" PlaceHolder="DD/MM/AA" runat="server"></asp:TextBox>
+        <asp:TextBox ID="TxtFechaInicio"  CssClass="border-success rounded form-control form-control-lg" PlaceHolder="Dia" runat="server"></asp:TextBox>
     </div>
         <div class="texto col-lg-12 border-success rounded border-bottom-0">  
         <h6>  Fecha de finalización:</h6>
@@ -103,13 +102,13 @@
             <div class="texto col-lg-12" style="margin-bottom: 4%; "> 
          <h6>  Fecha de pago: </h6>
         <asp:TextBox ID="TxtDiaPago" CssClass="border-success rounded form-control form-control-lg" PlaceHolder="DD/MM/AA" runat="server"> </asp:TextBox>
-                
+             </div>    
       <div class="texto col-lg-12" style="margin-bottom: 4%; "> 
          <h6>  Descripcion: </h6>
         <asp:TextBox ID="TxTDescripcion" CssClass="border-success rounded form-control form-control-lg" PlaceHolder=" " runat="server"> </asp:TextBox>
     </div>
 
-         </div>
+        
         </div>
        </div>
   </div>

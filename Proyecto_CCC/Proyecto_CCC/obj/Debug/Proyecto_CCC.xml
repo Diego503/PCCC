@@ -231,81 +231,81 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
-<member name="F:Proyecto_CCC.RegistrarCliente._TxtNombreContacto">
+<member name="F:Proyecto_CCC.Registrar._TxtCorreoContacto">
 <summary>
-Control TxtNombreContacto.
+Control TxtCorreoContacto.
 </summary>
 <remarks>
 Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
-<member name="F:Proyecto_CCC.RegistrarCliente._TxtNombreNegocio">
+<member name="F:Proyecto_CCC.Registrar._TxtTelefonoContacto">
 <summary>
-Control TxtNombreNegocio.
+Control TxtTelefonoContacto.
 </summary>
 <remarks>
 Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
-<member name="F:Proyecto_CCC.RegistrarCliente._TxtTelefono">
+<member name="F:Proyecto_CCC.Registrar._TxtDireccionContacto">
 <summary>
-Control TxtTelefono.
+Control TxtDireccionContacto.
 </summary>
 <remarks>
 Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
-<member name="F:Proyecto_CCC.RegistrarCliente._TxtDireccion">
+<member name="F:Proyecto_CCC.Registrar._TxtFechaInicio">
 <summary>
-Control TxtDireccion.
+Control TxtFechaInicio.
 </summary>
 <remarks>
 Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
-<member name="F:Proyecto_CCC.RegistrarCliente._TxtCorreo">
+<member name="F:Proyecto_CCC.Registrar._TxtFechaFin">
 <summary>
-Control TxtCorreo.
+Control TxtFechaFin.
 </summary>
 <remarks>
 Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
-<member name="F:Proyecto_CCC.RegistrarCliente._TxtNIT">
+<member name="F:Proyecto_CCC.Registrar._TxtMonto">
 <summary>
-Control TxtNIT.
+Control TxtMonto.
 </summary>
 <remarks>
 Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
-<member name="F:Proyecto_CCC.RegistrarCliente._TxtRNC">
+<member name="F:Proyecto_CCC.Registrar._TxtTipoFactuacion">
 <summary>
-Control TxtRNC.
+Control TxtTipoFactuacion.
 </summary>
 <remarks>
 Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
-<member name="F:Proyecto_CCC.RegistrarCliente._btnIngresar">
+<member name="F:Proyecto_CCC.Registrar._TxtDiaPago">
 <summary>
-Control btnIngresar.
+Control TxtDiaPago.
 </summary>
 <remarks>
 Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
-<member name="F:Proyecto_CCC.RegistrarCliente._Button1">
+<member name="F:Proyecto_CCC.Registrar._TxTDescripcion">
 <summary>
-Control Button1.
+Control TxTDescripcion.
 </summary>
 <remarks>
 Campo generado automáticamente.
@@ -369,78 +369,6 @@ Para modificarlo, mueva la declaración del campo del archivo del diseñador al 
 <member name="F:Proyecto_CCC.RegistrarVisita._btnCancelar">
 <summary>
 Control btnCancelar.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Proyecto_CCC.RegistroDeContrato._TxtFechaInicio">
-<summary>
-Control TxtFechaInicio.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Proyecto_CCC.RegistroDeContrato._TxtFechaFin">
-<summary>
-Control TxtFechaFin.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Proyecto_CCC.RegistroDeContrato._TxtMonto">
-<summary>
-Control TxtMonto.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Proyecto_CCC.RegistroDeContrato._TxtTipoFactuacion">
-<summary>
-Control TxtTipoFactuacion.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Proyecto_CCC.RegistroDeContrato._TxtDiaPago">
-<summary>
-Control TxtDiaPago.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Proyecto_CCC.RegistroDeContrato._TxTDescripcion">
-<summary>
-Control TxTDescripcion.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Proyecto_CCC.RegistroDeContrato._btnIngresar">
-<summary>
-Control btnIngresar.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Proyecto_CCC.RegistroDeContrato._Button1">
-<summary>
-Control Button1.
 </summary>
 <remarks>
 Campo generado automáticamente.
