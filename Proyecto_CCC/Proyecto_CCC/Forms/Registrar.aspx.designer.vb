@@ -131,13 +131,13 @@ Partial Public Class Registrar
     Protected WithEvents TxtMonto As Global.System.Web.UI.WebControls.TextBox
     
     '''<summary>
-    '''Control TxtTipoFactuacion.
+    '''Control DropDownList1.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents TxtTipoFactuacion As Global.System.Web.UI.WebControls.TextBox
+    Protected WithEvents DropDownList1 As Global.System.Web.UI.WebControls.DropDownList
     
     '''<summary>
     '''Control TxtDiaPago.

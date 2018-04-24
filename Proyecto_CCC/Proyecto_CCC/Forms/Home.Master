@@ -143,7 +143,7 @@ input.invalid {
 <ul>
   <li class="text-center"  style=" color:white;font-size:32px; font-weight:bold; text-decoration:underline; display:block; background-color:black;">  ILEDVIEW   </li>
   <li><a class="active" href="/Forms/Principal.aspx">  Volver al menu </a></li>
-  <li><a href="Registrar.aspx"> Registrar Cliente </a></li>
+  <li><a href="PreRegistro.aspx"> Registrar Cliente </a></li>
   <li><a href="/Forms/Agenda.aspx">  Agenda  </a></li>
   <li><a href="/Forms/Promociones.aspx">  Promociones/Planes </a></li>
   <li><a href="/Forms/ListaClientes.aspx">  Historial de Clientes  </a></li>

@@ -1,8 +1,8 @@
 ﻿
 Imports MySql.Data.MySqlClient
-Public Class Conexion
+Public Module Conexion
 
-    Public cadena As String = "Username= root; Password= Root; Server=localhost; Database=cccprueba;"
+    Public cadena As String = "Server=sql3.freemysqlhosting.net; Database=ql3221722; Uid=ql3221722; Pwd=j2mUFVbZM7;"
     Public Conexion As MySqlConnection
     Public cmd As MySqlCommand
 
@@ -30,6 +30,7 @@ Public Class Conexion
                 Return False
             End If
         Catch ex As Exception
+            MsgBox(ex.Message.ToString)
             Return False
         End Try
     End Function
@@ -43,6 +44,7 @@ Public Class Conexion
             Return Datos
             Desconectar()
         Catch ex As Exception
+            MsgBox(ex.Message.ToString)
             Return Datos
         End Try
     End Function
@@ -51,6 +53,7 @@ Public Class Conexion
         Try
             Conexion.Close()
         Catch ex As Exception
+            MsgBox(ex.Message.ToString)
         End Try
     End Sub
-End Class
+End Module

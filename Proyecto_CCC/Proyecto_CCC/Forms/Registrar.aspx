@@ -97,7 +97,10 @@
     </div>
             <div class="texto col-lg-12"> 
          <h6>  Tipo de facturación:</h6>
-        <asp:TextBox ID="TxtTipoFactuacion"  CssClass="border-success rounded form-control form-control-lg" PlaceHolder="Ej: Credito fiscal" runat="server"> </asp:TextBox>
+         <asp:DropDownList CssClass="dropdown form-control-lg border-success" ID="DropDownList1" runat="server">
+                    <asp:ListItem> Credito Fiscal </asp:ListItem>
+                 <asp:ListItem> Comprobante </asp:ListItem>
+             </asp:DropDownList>
     </div>
             <div class="texto col-lg-12" style="margin-bottom: 4%; "> 
          <h6>  Fecha de pago: </h6>
