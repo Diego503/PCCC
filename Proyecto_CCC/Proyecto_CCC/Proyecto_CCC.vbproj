@@ -134,6 +134,7 @@
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Forms\Agenda.aspx" />
+    <Content Include="Forms\Contrato.aspx" />
     <Content Include="Forms\Home.aspx" />
     <Content Include="Forms\ListaClientes.aspx" />
     <Content Include="Forms\Login.aspx" />
@@ -141,7 +142,6 @@
     <Content Include="Forms\Principal.aspx" />
     <Content Include="Forms\Promociones.aspx" />
     <Content Include="Forms\Registrar.aspx" />
-    <Content Include="Forms\RegistrarContrato.aspx" />
     <Content Include="Forms\RegistrarVisita.aspx" />
     <Content Include="img\Cliente.png" />
     <Content Include="img\Display.png" />
@@ -202,6 +202,13 @@
     </Compile>
     <Compile Include="Forms\Agenda.aspx.vb">
       <DependentUpon>Agenda.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Forms\Contrato.aspx.designer.vb">
+      <DependentUpon>Contrato.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Contrato.aspx.vb">
+      <DependentUpon>Contrato.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="Forms\Home.aspx.designer.vb">
@@ -265,13 +272,6 @@
     </Compile>
     <Compile Include="Forms\Registrar.aspx.vb">
       <DependentUpon>Registrar.aspx</DependentUpon>
-      <SubType>ASPXCodebehind</SubType>
-    </Compile>
-    <Compile Include="Forms\RegistrarContrato.aspx.designer.vb">
-      <DependentUpon>RegistrarContrato.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Forms\RegistrarContrato.aspx.vb">
-      <DependentUpon>RegistrarContrato.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="Forms\RegistrarVisita.aspx.designer.vb">

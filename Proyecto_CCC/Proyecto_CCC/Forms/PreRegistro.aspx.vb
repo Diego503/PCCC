@@ -9,6 +9,6 @@
     End Sub
 
     Protected Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
-        Response.Redirect("~/Forms/RegistrarContrato.aspx")
+        Response.Redirect("~/Forms/Contrato.aspx")
     End Sub
 End Class
