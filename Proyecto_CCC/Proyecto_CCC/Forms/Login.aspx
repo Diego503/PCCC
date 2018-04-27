@@ -19,7 +19,7 @@
     </div>
     <div class="texto col-lg-12"> 
          <h5>  Introduzca su Contraseña </h5>
-        <asp:TextBox ID="TxtContraseña" CssClass="border-success rounded form-control form-control-lg" PlaceHolder="Contraseña" runat="server"> </asp:TextBox>
+        <asp:TextBox ID="TxtContraseña" CssClass="border-success rounded form-control form-control-lg" PlaceHolder="Contraseña" TextMode="Password" runat="server"> </asp:TextBox>
     </div>
             <div class="col-lg-12" style ="margin-left: 40%;">  
             <asp:Button ID="btnIngresar" CssClass="btn-group-lg btn-success rounded" runat="server" Text="Ingresar" />

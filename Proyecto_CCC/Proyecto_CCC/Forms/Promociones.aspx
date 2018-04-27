@@ -11,11 +11,11 @@
      <br />
     <div class="texto col-lg-12 border-success rounded border-bottom-0" style="margin-top: 2%;  ">  
         <h6>  Fecha de inicio:</h6>
-        <asp:TextBox ID="TxtUsuario" CssClass="border-success rounded form-control form-control-lg" PlaceHolder="DD/MM/AA" runat="server"></asp:TextBox>
+        <asp:TextBox ID="TxtUsuario" CssClass="border-success rounded form-control form-control-lg" PlaceHolder="DD/MM/AA" TextMode="Date" runat="server"></asp:TextBox>
     </div>
         <div class="texto col-lg-12 border-success rounded border-bottom-0">  
         <h6>  Fecha de finalización:</h6>
-        <asp:TextBox ID="TextBox1" CssClass="border-success rounded form-control form-control-lg" PlaceHolder="DD/MM/AA " runat="server"></asp:TextBox>
+        <asp:TextBox ID="TextBox1" CssClass="border-success rounded form-control form-control-lg" PlaceHolder="DD/MM/AA " TextMode="Date" runat="server"></asp:TextBox>
     </div>
     <div class="texto col-lg-12"> 
          <h6>  Nombre de la promoción: </h6>
@@ -23,11 +23,11 @@
     </div>
             <div class="texto col-lg-12"> 
          <h6>  Precio actual:</h6>
-        <asp:TextBox ID="TextBox2" CssClass="border-success rounded form-control form-control-lg" PlaceHolder="$" onkeypress="return soloLetras(event)" MaxLength="6" runat="server"> </asp:TextBox>
+        <asp:TextBox ID="TextBox2" CssClass="border-success rounded form-control form-control-lg" PlaceHolder="$" TextMode="Number" onkeypress="return soloLetras(event)" MaxLength="6" runat="server"> </asp:TextBox>
     </div>
             <div class="texto col-lg-12"> 
          <h6>  Descuento: </h6>
-        <asp:TextBox ID="TextBox3" CssClass="border-success rounded form-control form-control-lg" PlaceHolder="%" onkeypress="return soloLetras(event)" MaxLength="3" runat="server"> </asp:TextBox>
+        <asp:TextBox ID="TextBox3" CssClass="border-success rounded form-control form-control-lg" PlaceHolder="%" TextMode="Number" onkeypress="return soloLetras(event)" MaxLength="3" runat="server"> </asp:TextBox>
     </div>
         <div class="texto col-lg-12" style="margin-bottom: 4%; "> 
          <h6> Observaciones: </h6>

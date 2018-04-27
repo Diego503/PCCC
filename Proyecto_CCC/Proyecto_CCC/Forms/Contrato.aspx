@@ -19,26 +19,26 @@
     </div>
     <div class="texto col-lg-12 border-success rounded border-bottom-0 ">  
         <h6>  Fecha de inicio:</h6>
-        <asp:TextBox ID="TxtFechaInicio"  CssClass="border-success rounded form-control form-control-lg" PlaceHolder="Dia" runat="server"></asp:TextBox>
+        <asp:TextBox ID="TxtFechaInicio"  CssClass="border-success rounded form-control form-control-lg" PlaceHolder="Dia" TextMode="Date" runat="server"></asp:TextBox>
     </div>
         <div class="texto col-lg-12 border-success rounded border-bottom-0">  
         <h6>  Fecha de finalización:</h6>
-        <asp:TextBox ID="TxtFechaFin" CssClass="border-success rounded form-control form-control-lg" PlaceHolder="DD/MM/AA" runat="server"></asp:TextBox>
+        <asp:TextBox ID="TxtFechaFin" CssClass="border-success rounded form-control form-control-lg" PlaceHolder="DD/MM/AA" TextMode="Date" runat="server"></asp:TextBox>
     </div>
     <div class="texto col-lg-12"> 
          <h6>  Monto total: </h6>
-        <asp:TextBox ID="TxtMonto" CssClass="border-success rounded form-control form-control-lg" PlaceHolder="$" onkeypress="return soloLetras(event)" MaxLength="6" runat="server"> </asp:TextBox>
+        <asp:TextBox ID="TxtMonto" CssClass="border-success rounded form-control form-control-lg" PlaceHolder="$" TextMode="Number" onkeypress="return soloLetras(event)" MaxLength="6" runat="server"> </asp:TextBox>
     </div>
             <div class="texto col-lg-12"> 
          <h6>  Tipo de facturación:</h6>
                     <asp:DropDownList CssClass="dropdown form-control-lg border-success" ID="DropDownList1" runat="server">
-                    <asp:ListItem> Credito Fiscal </asp:ListItem>
+                    <asp:ListItem> Crédito Fiscal </asp:ListItem>
                  <asp:ListItem> Comprobante </asp:ListItem>
              </asp:DropDownList>
     </div>
             <div class="texto col-lg-12" style="margin-bottom: 4%; "> 
          <h6>  Fecha de pago: </h6>
-        <asp:TextBox ID="TxtDiaPago" CssClass="border-success rounded form-control form-control-lg" PlaceHolder="DD/MM/AA" runat="server"> </asp:TextBox>
+        <asp:TextBox ID="TxtDiaPago" CssClass="border-success rounded form-control form-control-lg" PlaceHolder="DD/MM/AA" TextMode="Date" runat="server"> </asp:TextBox>
              </div>    
       <div class="texto col-lg-12" style="margin-bottom: 4%; "> 
          <h6>  Descripción: </h6>

@@ -53,7 +53,7 @@ ul.topnav li.right {float: right;}
 
                                                                                                                                                                                                                                                                                            </script><script src="../scripts/bootstrap.bundle.js"></script>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <title>ILEDView - GLOBAL SERVICE</title>
+    <title>ILEDVIEW - GLOBAL SERVICE</title>
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
 <style>
@@ -144,11 +144,12 @@ input.invalid {
   <li class="text-center"  style=" color:white;font-size:32px; font-weight:bold; text-decoration:underline; display:block; background-color:black;">  ILEDVIEW   </li>
   <li><a class="active" href="/Forms/Principal.aspx">  Volver al menu </a></li>
   <li><a href="PreRegistro.aspx"> Registrar Cliente </a></li>
+  <li><a href="RegistrarVisita.aspx"> Registrar Visita </a></li>
   <li><a href="/Forms/Agenda.aspx">  Agenda  </a></li>
   <li><a href="/Forms/Promociones.aspx">  Promociones/Planes </a></li>
   <li><a href="/Forms/ListaClientes.aspx">  Historial de Clientes  </a></li>
   <li><a href="#about"> Recordatorios  </a></li>
-  <li><a href="/Forms/Login.aspx"> Cerrar Sesión </a></li>
+  <li><a href="/Forms/log.aspx"> Cerrar Sesión </a></li>
 </ul>
 
 

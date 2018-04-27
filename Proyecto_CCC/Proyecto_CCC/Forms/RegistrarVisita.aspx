@@ -22,23 +22,23 @@ For i As Integer = 0 To 2 %>
      <br />
     <div class="texto col-lg-12 border-success rounded border-bottom-0" style="margin-top: 2%;  ">  
         <h6>  Fecha de visita:</h6>
-        <asp:TextBox ID="TxtUsuario" CssClass="border-success rounded form-control form-control-lg" PlaceHolder="DD/MM/AA" runat="server"></asp:TextBox>
+        <asp:TextBox ID="TxtUsuario" CssClass="border-success rounded form-control form-control-lg" PlaceHolder="DD/MM/AA" TextMode="Date" runat="server"></asp:TextBox>
     </div>
         <div class="texto col-lg-12 border-success rounded border-bottom-0">  
         <h6>  Hora de visita:</h6>
-        <asp:TextBox ID="TextBox1" CssClass="border-success rounded form-control form-control-lg" PlaceHolder="00/00/00 " runat="server"></asp:TextBox>
+        <asp:TextBox ID="TextBox1" CssClass="border-success rounded form-control form-control-lg" PlaceHolder="00/00/00" TextMode="Time" runat="server"></asp:TextBox>
     </div>
     <div class="texto col-lg-12"> 
          <h6>  Nombre del encargado: </h6>
-        <asp:TextBox ID="TxtContraseña" CssClass="border-success rounded form-control form-control-lg" PlaceHolder="Ej: Juan Perez" onkeypress="return LetrasN(event)" MaxLength="50" runat="server"> </asp:TextBox>
+        <asp:TextBox ID="TxtContraseña" CssClass="border-success rounded form-control form-control-lg" PlaceHolder="Ej: Juan Perez" onkeypress="return LetrasN(event)" onKeyUp="this.value = this.value.toUpperCase()" MaxLength="50" runat="server"> </asp:TextBox>
     </div>
                <div class="texto col-lg-12" > 
          <h6>  Estado: </h6>
         <asp:DropDownList runat="server" CssClass="dropdown form-control"> <asp:ListItem Text="Pendiente">  </asp:ListItem> <asp:ListItem Text="Finalizada">  </asp:ListItem></asp:DropDownList>
     </div>
             <div class="texto col-lg-12"> 
-         <h6>  Descripcion: </h6>
-        <asp:TextBox ID="TextBox3" CssClass="border-success rounded form-control form-control-lg" PlaceHolder="detalle de actividad" onkeypress="return LetrasN(event)" MaxLength="100" runat="server"> </asp:TextBox>
+         <h6>  Descripción: </h6>
+        <asp:TextBox ID="TextBox3" CssClass="border-success rounded form-control form-control-lg" PlaceHolder="Detalle de actividad" onkeypress="return LetrasN(event)" MaxLength="100" runat="server"> </asp:TextBox>
     </div>
         <div class="texto col-lg-12" > 
          <h6>  Contacto: </h6>

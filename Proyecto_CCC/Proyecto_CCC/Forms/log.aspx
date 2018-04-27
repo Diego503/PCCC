@@ -44,7 +44,7 @@
                       </div>
                      <div class="col-sm-2">
                          <img style="position:center" src="../img/candado01.png" width="75" height="75"/>
-                      <asp:TextBox ID="TxtContraseña" CssClass=" border-white rounded form-control form-control-sm" PlaceHolder="Contraseña" runat="server"></asp:TextBox>
+                      <asp:TextBox ID="TxtContraseña" CssClass=" border-white rounded form-control form-control-sm" PlaceHolder="Contraseña" TextMode="Password" runat="server"></asp:TextBox>
                          </div>
 
                        <div class="col-sm-8" > </div>
