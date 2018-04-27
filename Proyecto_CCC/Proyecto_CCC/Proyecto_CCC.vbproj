@@ -148,6 +148,7 @@
     <Content Include="Forms\Promociones.aspx" />
     <Content Include="Forms\Registrar.aspx" />
     <Content Include="Forms\RegistrarVisita.aspx" />
+    <Content Include="img\2.jpg" />
     <Content Include="img\candado01.png" />
     <Content Include="img\Cliente.png" />
     <Content Include="img\Display.png" />

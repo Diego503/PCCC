@@ -3,7 +3,6 @@
 
     Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
         Restablecer()
-        MsgBox(GetLastID("cliente", "idCliente").ToString)
 
     End Sub
 

@@ -11,7 +11,7 @@
     <div class="col-lg-7">
          <div class="texto col-lg-12 border-success rounded border-bottom-0 ">  
         <h6> Propietario del contrato </h6>
-             <asp:DropDownList CssClass="dropdown form-control-lg border-success" ID="CmbCliente" runat="server">
+             <asp:DropDownList CssClass="dropdown form-control-sm border-success" ID="CmbCliente" runat="server">
 <asp:ListItem> Empresa de Ejemplo 1 </asp:ListItem>
                  <asp:ListItem> Empresa de Ejemplo 1 </asp:ListItem>
              </asp:DropDownList>
@@ -19,32 +19,32 @@
     </div>
     <div class="texto col-lg-12 border-success rounded border-bottom-0 ">  
         <h6>  Fecha de inicio:</h6>
-        <asp:TextBox ID="TxtFechaInicio"  CssClass="border-success rounded form-control form-control-lg" PlaceHolder="Dia" TextMode="Date" runat="server"></asp:TextBox>
+        <asp:TextBox ID="TxtFechaInicio"  CssClass="border-success rounded form-control form-control-sm" PlaceHolder="Dd/Mm/Aa" TextMode="Date" runat="server"></asp:TextBox>
     </div>
         <div class="texto col-lg-12 border-success rounded border-bottom-0">  
         <h6>  Fecha de finalización:</h6>
-        <asp:TextBox ID="TxtFechaFin" CssClass="border-success rounded form-control form-control-lg" PlaceHolder="DD/MM/AA" TextMode="Date" runat="server"></asp:TextBox>
+        <asp:TextBox ID="TxtFechaFin" CssClass="border-success rounded form-control form-control-sm" PlaceHolder="Dd/Mm/Aa" TextMode="Date" runat="server"></asp:TextBox>
     </div>
     <div class="texto col-lg-12"> 
          <h6>  Monto total: </h6>
-        <asp:TextBox ID="TxtMonto" CssClass="border-success rounded form-control form-control-lg" PlaceHolder="$" TextMode="Number" onkeypress="return soloLetras(event)" MaxLength="6" runat="server"> </asp:TextBox>
+        <asp:TextBox ID="TxtMonto" CssClass="border-success rounded form-control form-control-sm" PlaceHolder="$" TextMode="Number" onkeypress="return soloLetras(event)" MaxLength="6" runat="server"> </asp:TextBox>
     </div>
             <div class="texto col-lg-12"> 
          <h6>  Tipo de facturación:</h6>
-                    <asp:DropDownList CssClass="dropdown form-control-lg border-success" ID="cmbtipodefacturacion" runat="server">
+                    <asp:DropDownList CssClass="dropdown form-control-sm border-success" ID="cmbtipodefacturacion" runat="server">
                     <asp:ListItem> Crédito Fiscal </asp:ListItem>
                  <asp:ListItem> Comprobante </asp:ListItem>
              </asp:DropDownList>
     </div>
             <div class="texto col-lg-12" style="margin-bottom: 4%; "> 
-         <h6>  Fecha de pago: </h6>
-       <asp:DropDownList CssClass="dropdown form-control-lg border-success" ID="cmbdiapago" runat="server">
+         <h6>  Dia de pago: </h6>
+       <asp:DropDownList CssClass="dropdown form-control-sm border-success" ID="cmbdiapago" runat="server">
 
              </asp:DropDownList>
              </div>    
       <div class="texto col-lg-12" style="margin-bottom: 4%; "> 
          <h6>  Descripción: </h6>
-        <asp:TextBox ID="TxTDescripcion" CssClass="border-success rounded form-control form-control-lg" PlaceHolder=" " onkeypress="return LetrasN(event)" MaxLength="100" runat="server"> </asp:TextBox>
+        <asp:TextBox ID="TxTDescripcion" CssClass="border-success rounded form-control form-control-sm" PlaceHolder=" " onkeypress="return LetrasN(event)" MaxLength="100" runat="server"> </asp:TextBox>
     </div>
 
         <div class="texto col-lg-12" style="margin-bottom: 4%; "> 
@@ -77,7 +77,7 @@
     function LetrasN(e) {
         key = e.keyCode || e.which;
         tecla = String.fromCharCode(key).toString();
-        letras = " áéíóúabcdefghijklmnñopqrstuvwxyzÁÉÍÓÚABCDEFGHIJKLMNÑOPQRSTUVWXYZ";
+        letras = " áéíóúabcdefghijklmnñopqrstuvwxyzÁÉÍÓÚABCDEFGHIJKLMNÑOPQRSTUVWXYZ,";
         especiales = [8, 37, 39, 46, 6]; 
 
         tecla_especial = false

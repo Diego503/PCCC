@@ -78,6 +78,15 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
+<member name="F:Proyecto_CCC.Home1._LBNOMBRE">
+<summary>
+Control LBNOMBRE.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
 <member name="F:Proyecto_CCC.Home._head">
 <summary>
 Control head.
@@ -105,9 +114,9 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
-<member name="F:Proyecto_CCC.ListaClientes._TextBox1">
+<member name="F:Proyecto_CCC.ListaClientes._GridView1">
 <summary>
-Control TextBox1.
+Control GridView1.
 </summary>
 <remarks>
 Campo generado automáticamente.

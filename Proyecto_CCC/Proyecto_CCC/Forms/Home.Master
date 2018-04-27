@@ -60,45 +60,56 @@ ul.topnav li.right {float: right;}
 body {
     margin: 0;
 }
+        .pantalla {
+            background-image: url('../img/2.jpg');
+            background-repeat: repeat;
+            background-size: 100%;
+            text-align: center;
+        }
 
-.navsss { list-style-type: none;
-    margin: 0;
-    padding: 0;
-    width: 25%;
-    background-color: black;
-    overflow:hidden;
-    height: 100%;
+        .contenedor {
+            margin: 0px;
+            padding: 0px;
+            display: inline-block;
+            height: 500px;
+            width: 80%;
+            background-color: #fff;
+        }
 
-}
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    width: 25%;
-    position: fixed;
-    background-color: #f1f1f1;
-    height: 100%;
-}
+        .menu {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            background-color: black;
+            overflow: auto;
+        }
 
-li a {
-    display: block;
-    color: #000;
-    padding: 8px 16px;
-    text-decoration: none;
-}
 
-li a.active {
-    background-color: #4CAF50;
-    color: white;
-}
+            .menu ul {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                width: 100%;
+                background-color: #f1f1f1;
+            }
 
-li a:hover:not(.active) {
-    background-color: #555;
-    color: white;
-}
-* {
-  box-sizing: border-box;
-}
+            .menu li a {
+                display: block;
+                color: #000;
+                padding: 8px 16px;
+                text-decoration: none;
+            }
+
+                .menu li a.active {
+                    background-color: #4CAF50;
+                    color: white;
+                }
+
+                .menu li a:hover:not(.active) {
+                    background-color: #555;
+                    color: white;
+                }
 
 /* Hide all steps by default: */
 .tab {
@@ -135,36 +146,47 @@ input.invalid {
 }
 </style>
 </head>
-<body style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-size: 14px">
+<body class="pantalla" style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-size: 14px">
 
-<div class="navsss text-xl-center" >
- 
+      <br />
+    <br />
+    <div class="contenedor">
+        <section class="content-header bg-green">
+            <h1 style="background-color: green; color: white"> CONTROL DE CARTERA DE CLIENTE </h1>
+        </section>
+        <br />
+             <div class="row">
+                        <div class="col-lg-12">
+                            <div class="row">
+        <div class="col-lg-4">
 
-<ul>
-  <li class="text-center"  style=" color:white;font-size:32px; font-weight:bold; text-decoration:underline; display:block; background-color:black;">  ILEDVIEW   </li>
+            <div class="menu text-xl-center">
+
+              <ul>
+  <li class="text-center"  style=" color:white;font-size:32px; font-weight:bold; display:block; background-color:black;">  ILEDVIEW   </li>
   <li><a class="active" href="/Forms/Principal.aspx">  Volver al menu </a></li>
   <li><a href="PreRegistro.aspx"> Registrar Cliente </a></li>
-  <li><a href="RegistrarVisita.aspx"> Registrar Visita </a></li>
-  <li><a href="/Forms/Agenda.aspx">  Agenda  </a></li>
-  <li><a href="/Forms/Promociones.aspx">  Promociones/Planes </a></li>
   <li><a href="/Forms/ListaClientes.aspx">  Historial de Clientes  </a></li>
-  <li><a href="#about"> Recordatorios  </a></li>
   <li><a href="/Forms/log.aspx"> Cerrar Sesión </a></li>
 </ul>
+            </div>
+
+        </div>
 
 
- </div>
-<div style="margin-left:25%;padding:3%; padding-top:1%;">
-  
-    <form id="form1" runat="server">
-    <div>
-        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        <div class="col-lg-8">
+        <form id="form1" runat="server">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
         
         </asp:ContentPlaceHolder>
+        </form>
+            </div>
+
+                            </div>
+        </div>
     </div>
-    </form>
-    </div>
-    
+        </div>  
+
 <script>
 var currentTab = 0; // Current tab is set to be the first tab (0)
 showTab(currentTab); // Display the crurrent tab
