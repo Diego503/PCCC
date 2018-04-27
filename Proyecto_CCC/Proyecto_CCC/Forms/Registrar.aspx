@@ -21,7 +21,7 @@
     <div class="texto col-sm-12 border-success border-bottom-0" style="margin-top: 2%; ">  
         <div class="texto col-lg-12 border-success">  
         <h6> Nombre del negocio:</h6>
-        <asp:TextBox ID="TxtNombreNegocio" CssClass="border-success rounded form-control form-control-lg" PlaceHolder="Ecolab S.A de C.V" onkeypress="return LetrasN(event)" MaxLength="50" runat="server"></asp:TextBox>
+        <asp:TextBox ID="TxtNombreNegocio" CssClass="border-success rounded form-control form-control-lg" PlaceHolder="Ecolab S.A de C.V" runat="server"></asp:TextBox>
     </div>
         
         <div class="texto col-sm-12"> 
@@ -31,20 +31,20 @@
 
     <div class="texto col-sm-12"> 
          <h6>  Teléfono: </h6>
-        <asp:TextBox ID="TxtTelefono" CssClass="border-success rounded form-control form-control-lg" PlaceHolder="2354-8545" onkeypress="return soloLetras(event)" MaxLength="9" runat="server"> </asp:TextBox>
+        <asp:TextBox ID="TxtTelefono" CssClass="border-success rounded form-control form-control-lg" PlaceHolder="2354-8545" runat="server"> </asp:TextBox>
     </div>
             <div class="texto col-sm-12"> 
          <h6>  Dirección:</h6>
-        <asp:TextBox ID="TxtDireccion" CssClass="border-success rounded form-control form-control-lg" PlaceHolder="colonia El Centro, Ilobasco, Cabañas" onkeypress="return LetrasN(event)" MaxLength="100" runat="server"> </asp:TextBox>
+        <asp:TextBox ID="TxtDireccion" CssClass="border-success rounded form-control form-control-lg" PlaceHolder="colonia El Porvenir, Ilobasco, Cabañas" runat="server"> </asp:TextBox>
     </div>
             
             <div class="texto col-sm-12"> 
          <h6>  NIT: </h6>
-        <asp:TextBox ID="TxtNIT" CssClass="border-success rounded form-control form-control-lg" PlaceHolder="192-101098-120-2" onkeypress="return soloLetras(event)" MaxLength="17" runat="server"> </asp:TextBox>
+        <asp:TextBox ID="TxtNIT" CssClass="border-success rounded form-control form-control-lg" PlaceHolder="192-101098-120-2" runat="server"> </asp:TextBox>
     </div>
             <div class="texto col-sm-12" > 
          <h6>  NRC: </h6>
-        <asp:TextBox ID="TxtRNC" CssClass="border-success rounded form-control form-control-lg" PlaceHolder="192-101098-120-2" onkeypress="return soloLetras(event)" MaxLength="17" runat="server"> </asp:TextBox>
+        <asp:TextBox ID="TxtRNC" CssClass="border-success rounded form-control form-control-lg" PlaceHolder="192-101098-120-2" runat="server"> </asp:TextBox>
     </div>
                 </div>
             </div>
@@ -58,7 +58,7 @@
         
         <div class="texto col-sm-12 border-success">  
         <h6>Nombre del Contacto:</h6>
-        <asp:TextBox ID="TxtContacto" CssClass="border-success rounded form-control form-control-lg" PlaceHolder="Diego Zepeda" onkeypress="return LetrasN(event)" MaxLength="50" runat="server"></asp:TextBox>
+        <asp:TextBox ID="TxtContacto" CssClass="border-success rounded form-control form-control-lg" PlaceHolder="Diego Zepeda" runat="server"></asp:TextBox>
            </div>
 
                 <div class="texto col-sm-12"> 
@@ -68,11 +68,11 @@
 
     <div class="texto col-sm-12"> 
          <h6>Teléfono:</h6>
-        <asp:TextBox ID="TxtTelefonoContacto" CssClass="border-success rounded form-control form-control-lg" PlaceHolder="2354-8545" onkeypress="return soloLetras(event)" MaxLength="9" runat="server"> </asp:TextBox>
+        <asp:TextBox ID="TxtTelefonoContacto" CssClass="border-success rounded form-control form-control-lg" PlaceHolder="2354-8545" runat="server"> </asp:TextBox>
     </div>
             <div class="texto col-sm-12"> 
          <h6>  Dirección:</h6>
-        <asp:TextBox ID="TxtDireccionContacto" CssClass="border-success rounded form-control form-control-lg" PlaceHolder="colonia El Centro, Ilobasco, Cabañas" onkeypress="return LetrasN(event)" MaxLength="100" runat="server"> </asp:TextBox>
+        <asp:TextBox ID="TxtDireccionContacto" CssClass="border-success rounded form-control form-control-lg" PlaceHolder="colonia El Porvenir, Ilobasco, Cabañas" runat="server"> </asp:TextBox>
     </div>
             
 
@@ -93,7 +93,7 @@
     </div>
     <div class="texto col-lg-12"> 
          <h6>  Monto total: </h6>
-        <asp:TextBox ID="TxtMonto" CssClass="border-success rounded form-control form-control-lg" PlaceHolder="$" onkeypress="return soloLetras(event)" MaxLength="6" runat="server" > </asp:TextBox>
+        <asp:TextBox ID="TxtMonto" CssClass="border-success rounded form-control form-control-lg" PlaceHolder="$" runat="server"> </asp:TextBox>
     </div>
             <div class="texto col-lg-12"> 
          <h6>  Tipo de facturación:</h6>
@@ -108,7 +108,7 @@
              </div>    
       <div class="texto col-lg-12" style="margin-bottom: 4%; "> 
          <h6>  Descripcion: </h6>
-        <asp:TextBox ID="TxTDescripcion" CssClass="border-success rounded form-control form-control-lg" PlaceHolder=" " onkeypress="return LetrasN(event)" MaxLength="100" runat="server"> </asp:TextBox>
+        <asp:TextBox ID="TxTDescripcion" CssClass="border-success rounded form-control form-control-lg" PlaceHolder=" " runat="server"> </asp:TextBox>
     </div>
 
         
@@ -125,47 +125,4 @@
 
     
 </div>
-
-    <script>
-    function soloLetras(e){
-       key = e.keyCode || e.which;
-       tecla = String.fromCharCode(key).toLowerCase();
-       letras = "1234567890";
-       especiales = "8-37-39-46";
-
-       tecla_especial = false
-       for(var i in especiales){
-            if(key == especiales[i]){
-                tecla_especial = true;
-                break;
-            }
-        }
-
-       if (letras.indexOf(tecla) == -1 && !tecla_especial) {
-           alert('Tecla no aceptada');
-            return false;
-        }
-    }
-
-    function LetrasN(e) {
-        key = e.keyCode || e.which;
-        tecla = String.fromCharCode(key).toString();
-        letras = " áéíóúabcdefghijklmnñopqrstuvwxyzÁÉÍÓÚABCDEFGHIJKLMNÑOPQRSTUVWXYZ";
-        especiales = [8, 37, 39, 46, 6]; 
-
-        tecla_especial = false
-        for (var i in especiales) {
-            if (key == especiales[i]) {
-                tecla_especial = true;
-                break;
-            }
-        }
-
-        if (letras.indexOf(tecla) == -1 && !tecla_especial) {
-            alert('Tecla no aceptada');
-            return false;
-        }
-    }
-</script>
-
 </asp:Content>
