@@ -3,7 +3,7 @@ Imports MySql.Data.MySqlClient
 Public Module Conexion
 
     'Public cadena As String = "Server=sql3.freemysqlhosting.net; Database=ql3221722; Uid=ql3221722; Pwd=j2mUFVbZM7;"
-    Public cadena As String = "server=localhost;" & "uid=root;" & "pwd=Root;" & "database=sql3221722; SSLmode=none;"
+    Public cadena As String = "Server=localhost; Database=sql3221722; Uid=root; Pwd=Root;"
     Public Conexion As MySqlConnection
     Public cmd As MySqlCommand
 

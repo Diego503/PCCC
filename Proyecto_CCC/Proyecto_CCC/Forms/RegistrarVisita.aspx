@@ -9,7 +9,7 @@
 For i As Integer = 0 To 2 %>
             <div class="texto col-lg-12"> 
          <h6>  Descripcion: </h6>
-        <asp:TextBox ID="TextBox2" CssClass="border-success rounded form-control form-control-lg" PlaceHolder="detalle de actividad" runat="server"> </asp:TextBox>
+        <asp:TextBox ID="TextBox2" CssClass="border-success rounded form-control form-control-lg" PlaceHolder="detalle de actividad" onkeypress="return LetrasN(event)" MaxLength="100" runat="server"> </asp:TextBox>
     </div>
 <% Next %>
 </div>
@@ -30,7 +30,7 @@ For i As Integer = 0 To 2 %>
     </div>
     <div class="texto col-lg-12"> 
          <h6>  Nombre del encargado: </h6>
-        <asp:TextBox ID="TxtContraseña" CssClass="border-success rounded form-control form-control-lg" PlaceHolder="Ej: Juan Perez" runat="server"> </asp:TextBox>
+        <asp:TextBox ID="TxtContraseña" CssClass="border-success rounded form-control form-control-lg" PlaceHolder="Ej: Juan Perez" onkeypress="return LetrasN(event)" MaxLength="50" runat="server"> </asp:TextBox>
     </div>
                <div class="texto col-lg-12" > 
          <h6>  Estado: </h6>
@@ -38,7 +38,7 @@ For i As Integer = 0 To 2 %>
     </div>
             <div class="texto col-lg-12"> 
          <h6>  Descripcion: </h6>
-        <asp:TextBox ID="TextBox3" CssClass="border-success rounded form-control form-control-lg" PlaceHolder="detalle de actividad" runat="server"> </asp:TextBox>
+        <asp:TextBox ID="TextBox3" CssClass="border-success rounded form-control form-control-lg" PlaceHolder="detalle de actividad" onkeypress="return LetrasN(event)" MaxLength="100" runat="server"> </asp:TextBox>
     </div>
         <div class="texto col-lg-12" > 
          <h6>  Contacto: </h6>
@@ -56,4 +56,26 @@ For i As Integer = 0 To 2 %>
            </div>
          </div>
        </div>
+
+    <script>
+    function LetrasN(e) {
+        key = e.keyCode || e.which;
+        tecla = String.fromCharCode(key).toString();
+        letras = " áéíóúabcdefghijklmnñopqrstuvwxyzÁÉÍÓÚABCDEFGHIJKLMNÑOPQRSTUVWXYZ";
+        especiales = [8, 37, 39, 46, 6]; 
+
+        tecla_especial = false
+        for (var i in especiales) {
+            if (key == especiales[i]) {
+                tecla_especial = true;
+                break;
+            }
+        }
+
+        if (letras.indexOf(tecla) == -1 && !tecla_especial) {
+            alert('Tecla no aceptada');
+            return false;
+        }
+    }
+</script>
 </asp:Content>
