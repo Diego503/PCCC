@@ -42,18 +42,18 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
-<member name="F:Proyecto_CCC.Contrato1._DropDownList1">
+<member name="F:Proyecto_CCC.Contrato1._cmbtipodefacturacion">
 <summary>
-Control DropDownList1.
+Control cmbtipodefacturacion.
 </summary>
 <remarks>
 Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
-<member name="F:Proyecto_CCC.Contrato1._TxtDiaPago">
+<member name="F:Proyecto_CCC.Contrato1._cmbdiapago">
 <summary>
-Control TxtDiaPago.
+Control cmbdiapago.
 </summary>
 <remarks>
 Campo generado automáticamente.
@@ -63,6 +63,15 @@ Para modificarlo, mueva la declaración del campo del archivo del diseñador al 
 <member name="F:Proyecto_CCC.Contrato1._TxTDescripcion">
 <summary>
 Control TxTDescripcion.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Proyecto_CCC.Contrato1._btnIngresar">
+<summary>
+Control btnIngresar.
 </summary>
 <remarks>
 Campo generado automáticamente.
@@ -402,18 +411,18 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
-<member name="F:Proyecto_CCC.Registrar._DropDownList1">
+<member name="F:Proyecto_CCC.Registrar._cmbtipodefacturacion">
 <summary>
-Control DropDownList1.
+Control cmbtipodefacturacion.
 </summary>
 <remarks>
 Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
-<member name="F:Proyecto_CCC.Registrar._TxtDiaPago">
+<member name="F:Proyecto_CCC.Registrar._cmbdiapago">
 <summary>
-Control TxtDiaPago.
+Control cmbdiapago.
 </summary>
 <remarks>
 Campo generado automáticamente.
@@ -423,6 +432,15 @@ Para modificarlo, mueva la declaración del campo del archivo del diseñador al 
 <member name="F:Proyecto_CCC.Registrar._TxTDescripcion">
 <summary>
 Control TxTDescripcion.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Proyecto_CCC.Registrar._btnRegistrar">
+<summary>
+Control btnRegistrar.
 </summary>
 <remarks>
 Campo generado automáticamente.

@@ -97,24 +97,27 @@
     </div>
             <div class="texto col-lg-12"> 
          <h6>  Tipo de facturación:</h6>
-         <asp:DropDownList CssClass="dropdown form-control-lg border-success" ID="DropDownList1" runat="server">
+         <asp:DropDownList CssClass="dropdown form-control-lg border-success" ID="cmbtipodefacturacion" runat="server">
                     <asp:ListItem> Crédito Fiscal </asp:ListItem>
                  <asp:ListItem> Comprobante </asp:ListItem>
              </asp:DropDownList>
     </div>
             <div class="texto col-lg-12" style="margin-bottom: 4%; "> 
          <h6>  Fecha de pago: </h6>
-        <asp:TextBox ID="TxtDiaPago" CssClass="border-success rounded form-control form-control-lg" PlaceHolder="DD/MM/AA" TextMode="Date" runat="server"> </asp:TextBox>
+        <asp:DropDownList CssClass="dropdown form-control-lg border-success" ID="cmbdiapago" runat="server">
+             </asp:DropDownList>
              </div>    
       <div class="texto col-lg-12" style="margin-bottom: 4%; "> 
          <h6>  Descripción: </h6>
         <asp:TextBox ID="TxTDescripcion" CssClass="border-success rounded form-control form-control-lg" PlaceHolder=" " onkeypress="return LetrasN(event)" MaxLength="100" runat="server"> </asp:TextBox>
     </div>
-
-        
+        <div class="texto col-lg-12" style="margin-bottom: 4%; "> 
+            <asp:Button ID="btnRegistrar" CssClass="btn-group-lg btn-success btn-lg" runat="server" Text="Registrar" />
+        </div>
         </div>
        </div>
   </div>
+        
 
   <div style="overflow:auto; padding:1%">
     <div style="float:right;">
@@ -130,7 +133,7 @@
     function soloLetras(e){
        key = e.keyCode || e.which;
        tecla = String.fromCharCode(key).toLowerCase();
-       letras = "1234567890";
+       letras = "1234567890.";
        especiales = "8-37-39-46";
 
        tecla_especial = false

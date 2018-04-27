@@ -50,22 +50,22 @@ Partial Public Class Contrato1
     Protected WithEvents TxtMonto As Global.System.Web.UI.WebControls.TextBox
     
     '''<summary>
-    '''Control DropDownList1.
+    '''Control cmbtipodefacturacion.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents DropDownList1 As Global.System.Web.UI.WebControls.DropDownList
+    Protected WithEvents cmbtipodefacturacion As Global.System.Web.UI.WebControls.DropDownList
     
     '''<summary>
-    '''Control TxtDiaPago.
+    '''Control cmbdiapago.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents TxtDiaPago As Global.System.Web.UI.WebControls.TextBox
+    Protected WithEvents cmbdiapago As Global.System.Web.UI.WebControls.DropDownList
     
     '''<summary>
     '''Control TxTDescripcion.
@@ -75,4 +75,13 @@ Partial Public Class Contrato1
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
     Protected WithEvents TxTDescripcion As Global.System.Web.UI.WebControls.TextBox
+    
+    '''<summary>
+    '''Control btnIngresar.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents btnIngresar As Global.System.Web.UI.WebControls.Button
 End Class
