@@ -85,7 +85,7 @@
     <div class="col-lg-7">
     <div class="texto col-lg-12 border-success rounded border-bottom-0 ">  
         <h6>  Fecha de inicio:</h6>
-        <asp:TextBox ID="TxtFechaInicio"  CssClass="border-success rounded form-control form-control-sm" PlaceHolder="Dia" TextMode="Date" runat="server"></asp:TextBox>
+        <asp:TextBox ID="TxtFechaInicio"  CssClass="border-success rounded form-control form-control-sm" PlaceHolder="Dia" TextMode="Date"  runat="server"></asp:TextBox>
     </div>
         <div class="texto col-lg-12 border-success rounded border-bottom-0">  
         <h6>  Fecha de finalización:</h6>
