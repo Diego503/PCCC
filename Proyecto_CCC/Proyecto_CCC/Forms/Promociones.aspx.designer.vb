@@ -14,58 +14,58 @@ Option Explicit On
 Partial Public Class Promociones
     
     '''<summary>
-    '''Control TxtUsuario.
+    '''Control Txtnombreprom.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents TxtUsuario As Global.System.Web.UI.WebControls.TextBox
+    Protected WithEvents Txtnombreprom As Global.System.Web.UI.WebControls.TextBox
     
     '''<summary>
-    '''Control TextBox1.
+    '''Control Txtfechainicio.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents TextBox1 As Global.System.Web.UI.WebControls.TextBox
+    Protected WithEvents Txtfechainicio As Global.System.Web.UI.WebControls.TextBox
     
     '''<summary>
-    '''Control TxtContraseña.
+    '''Control Txtfechafin.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents TxtContraseña As Global.System.Web.UI.WebControls.TextBox
+    Protected WithEvents Txtfechafin As Global.System.Web.UI.WebControls.TextBox
     
     '''<summary>
-    '''Control TextBox2.
+    '''Control TxtDescuento.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents TextBox2 As Global.System.Web.UI.WebControls.TextBox
+    Protected WithEvents TxtDescuento As Global.System.Web.UI.WebControls.TextBox
     
     '''<summary>
-    '''Control TextBox3.
+    '''Control txtAplicadesde.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents TextBox3 As Global.System.Web.UI.WebControls.TextBox
+    Protected WithEvents txtAplicadesde As Global.System.Web.UI.WebControls.TextBox
     
     '''<summary>
-    '''Control TextBox4.
+    '''Control txtdescripcion.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents TextBox4 As Global.System.Web.UI.WebControls.TextBox
+    Protected WithEvents txtdescripcion As Global.System.Web.UI.WebControls.TextBox
     
     '''<summary>
     '''Control btnIngresar.

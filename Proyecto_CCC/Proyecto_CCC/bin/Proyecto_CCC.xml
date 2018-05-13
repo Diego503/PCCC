@@ -231,54 +231,54 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
-<member name="F:Proyecto_CCC.Promociones._TxtUsuario">
+<member name="F:Proyecto_CCC.Promociones._Txtnombreprom">
 <summary>
-Control TxtUsuario.
+Control Txtnombreprom.
 </summary>
 <remarks>
 Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
-<member name="F:Proyecto_CCC.Promociones._TextBox1">
+<member name="F:Proyecto_CCC.Promociones._Txtfechainicio">
 <summary>
-Control TextBox1.
+Control Txtfechainicio.
 </summary>
 <remarks>
 Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
-<member name="F:Proyecto_CCC.Promociones._TxtContraseña">
+<member name="F:Proyecto_CCC.Promociones._Txtfechafin">
 <summary>
-Control TxtContraseña.
+Control Txtfechafin.
 </summary>
 <remarks>
 Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
-<member name="F:Proyecto_CCC.Promociones._TextBox2">
+<member name="F:Proyecto_CCC.Promociones._TxtDescuento">
 <summary>
-Control TextBox2.
+Control TxtDescuento.
 </summary>
 <remarks>
 Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
-<member name="F:Proyecto_CCC.Promociones._TextBox3">
+<member name="F:Proyecto_CCC.Promociones._txtAplicadesde">
 <summary>
-Control TextBox3.
+Control txtAplicadesde.
 </summary>
 <remarks>
 Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
-<member name="F:Proyecto_CCC.Promociones._TextBox4">
+<member name="F:Proyecto_CCC.Promociones._txtdescripcion">
 <summary>
-Control TextBox4.
+Control txtdescripcion.
 </summary>
 <remarks>
 Campo generado automáticamente.

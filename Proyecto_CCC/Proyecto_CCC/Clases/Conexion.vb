@@ -30,7 +30,7 @@ Public Module Conexion
                 Return False
             End If
         Catch ex As Exception
-            'MsgBox(ex.Message.ToString)
+            MsgBox(ex.Message.ToString)
             Desconectar()
             Return False
         End Try

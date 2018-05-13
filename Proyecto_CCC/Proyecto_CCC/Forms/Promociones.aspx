@@ -2,49 +2,67 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-     <div class="container" style="padding: 3%; margin-top:3px; padding-top:0px" > 
+     <div class="container-fluid"  style="padding : 1%"> 
     <div class="row">
-    <div class="col-lg-7 ">
-
-    <div class=" texto  border-success" style="overflow:auto;background-color:#FAFAFA; padding: 5%; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); ">
-    <div class="texto col-lg-12 text-center border-success rounded border-bottom btn-success" style="background-color: " > <h3> Promociones/Planes  </h3> </div>
+    <div class="col-lg-12 ">
+        <br />  
+            <h3> Promociones/Planes  </h3> 
      <br />
-    <div class="texto col-lg-12 border-success rounded border-bottom-0" style="margin-top: 2%;  ">  
-        <h6>  Fecha de inicio:</h6>
-        <asp:TextBox ID="TxtUsuario" CssClass="border-success rounded form-control form-control-lg" PlaceHolder="DD/MM/AA" TextMode="Date" runat="server"></asp:TextBox>
+        <div class="texto col-lg-12"> 
+        <div class="row"> 
+       <div class="col-lg-3"> <h6 class=" float-right" > Nombre: </h6> </div>
+        <div class="col-lg-6 float-left">
+        <asp:TextBox ID="Txtnombreprom" CssClass="border-success rounded form-control form-control-sm" PlaceHolder="Descuentos en servicios" onkeypress="return LetrasN(event)" MaxLength="50" runat="server"> </asp:TextBox></div></div>
     </div>
+    <div class="texto col-lg-12 border-success rounded border-bottom-0" style="margin-top: 2%;  "> 
+        <div class="row"> 
+       <div class="col-lg-3"> <h6 class="text-center float-right" >  Fecha de inicio: </h6> </div>
+        <div class="col-lg-6 float-left"> <asp:TextBox ID="Txtfechainicio" CssClass="border-success rounded form-control form-control-sm" PlaceHolder="DD/MM/AA" TextMode="Date" runat="server"></asp:TextBox></div></div>
+    </div>
+        <br />
         <div class="texto col-lg-12 border-success rounded border-bottom-0">  
-        <h6>  Fecha de finalización:</h6>
-        <asp:TextBox ID="TextBox1" CssClass="border-success rounded form-control form-control-lg" PlaceHolder="DD/MM/AA " TextMode="Date" runat="server"></asp:TextBox>
+        <div class="row"> 
+       <div class="col-lg-3"> <h6 class="text-center float-right" >  Fecha de finalización: </h6> </div>
+        <div class="col-lg-6 float-left">
+        <asp:TextBox ID="Txtfechafin" CssClass="border-success rounded form-control form-control-sm " PlaceHolder="DD/MM/AA " TextMode="Date" runat="server"></asp:TextBox></div></div>
     </div>
-    <div class="texto col-lg-12"> 
-         <h6>  Nombre de la promoción: </h6>
-        <asp:TextBox ID="TxtContraseña" CssClass="border-success rounded form-control form-control-lg" PlaceHolder="Ej: Descuentos en servicios" onkeypress="return LetrasN(event)" MaxLength="50" runat="server"> </asp:TextBox>
-    </div>
-            <div class="texto col-lg-12"> 
-         <h6>  Precio actual:</h6>
-        <asp:TextBox ID="TextBox2" CssClass="border-success rounded form-control form-control-lg" PlaceHolder="$" TextMode="Number" onkeypress="return soloLetras(event)" MaxLength="6" runat="server"> </asp:TextBox>
-    </div>
-            <div class="texto col-lg-12"> 
-         <h6>  Descuento: </h6>
-        <asp:TextBox ID="TextBox3" CssClass="border-success rounded form-control form-control-lg" PlaceHolder="%" TextMode="Number" onkeypress="return soloLetras(event)" MaxLength="3" runat="server"> </asp:TextBox>
-    </div>
-        <div class="texto col-lg-12" style="margin-bottom: 4%; "> 
-         <h6> Observaciones: </h6>
-        <asp:TextBox ID="TextBox4" CssClass="border-success rounded form-control form-control-lg" PlaceHolder="" onkeypress="return LetrasN(event)" MaxLength="100" runat="server"> </asp:TextBox>
-    </div>
-        <div class="col-lg-4" style ="margin-left: 25%; margin-bottom:-9%; align-content:space-around; text-align:left; ">  
-            <asp:Button ID="btnIngresar" CssClass="btn-group-lg btn-success btn-lg" runat="server" Text="Registrar" />
-            </div>
-        <div class="col-lg-4" style ="margin-left: 40%; margin-bottom:-1%; align-content:space-around; text-align:right;">  
-            <asp:Button ID="btnCancelar" CssClass="btn-group-lg btn-success btn-lg" runat="server" Text="Cancelar" />
-            </div>
+        <br />
+     <div class="texto col-lg-12"> 
+          <div class="row"> 
+        <div class="col-md-1"> </div>
+       <div class="col-lg-2"> <h6 class="text-center float-right"> Descuento: </h6> </div>
+        <div class="col-lg-2 float-left">
+        <asp:TextBox ID="TxtDescuento" CssClass="border-success rounded form-control form-control-sm" PlaceHolder="%25" TextMode="Number" onkeypress="return soloLetras(event)" MaxLength="3" runat="server"> </asp:TextBox></div>
+      </div> 
          </div>
-
+        <div class="texto col-lg-12"> 
+          <div class="row">
+         <div class="col-lg-3"> <h6 class="text-center float-right"> Aplica desde: </h6> </div>
+        <div class="col-lg-2 float-left">
+        <asp:TextBox ID="txtAplicadesde" CssClass="border-success rounded form-control form-control-sm" PlaceHolder="# Meses" TextMode="Number" onkeypress="return soloLetras(event)" MaxLength="3" runat="server"> </asp:TextBox></div>
+               </div>
+            </div>
+        <br />
+        <div class="texto col-lg-12" style="margin-bottom: 4%; "> 
+            <div class="row"> 
+       <div class="col-lg-3"> <h6 class="text-center float-right"> Descripción: </h6> </div>
+        <div class="col-lg-6 float-left">
+        <asp:TextBox ID="txtdescripcion" TextMode="MultiLine" CssClass="border-success rounded form-control form-control-sm" PlaceHolder="PROMOCION NAVIDEÑA ETC..." MaxLength="300" runat="server"> </asp:TextBox></div></div>
+    </div>
+        <div class="row">
+            <div class="col-lg-2"></div>
+        <div class="col-lg-3" style =" margin-left:5%; text-align:left; ">  
+           <asp:Button ID="btnIngresar" CssClass="btn-group-sm btn-success btn-sm" Width="75px" Height="35px" runat="server" Text="Registrar" />
+            </div>
+        <div class="col-lg-3" style =" margin-right: 25%;  text-align:right;">  
+            <asp:Button ID="btnCancelar" CssClass="btn-group-sm btn-success btn-sm" Width="75px" Height="35px" runat="server" Text="Cancelar" />
+            </div>
+             <div class="col-lg-2"></div>
+                </div>
             
            </div>
          </div>
-       </div>
+       </div> 
 
     <script>
     function soloLetras(e){
