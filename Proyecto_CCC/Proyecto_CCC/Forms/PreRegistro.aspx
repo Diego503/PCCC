@@ -15,7 +15,7 @@
         </div>
         <div class="col-sm-6" style="overflow: hidden;">
             <div  style="float:left; overflow: hidden;">
-<asp:Button ID="Button2" CssClass=" btn btn-group btn-group-lg btn-success rounded" runat="server" Text="Solo Contrato" />
+          <asp:Button ID="Button2" CssClass=" btn btn-group btn-group-lg btn-success rounded" runat="server" Text="Solo Contrato" />
             </div>
            
         </div>

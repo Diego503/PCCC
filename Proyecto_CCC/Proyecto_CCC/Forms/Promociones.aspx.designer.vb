@@ -23,6 +23,15 @@ Partial Public Class Promociones
     Protected WithEvents Txtnombreprom As Global.System.Web.UI.WebControls.TextBox
     
     '''<summary>
+    '''Control txtdescripcion.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents txtdescripcion As Global.System.Web.UI.WebControls.TextBox
+    
+    '''<summary>
     '''Control Txtfechainicio.
     '''</summary>
     '''<remarks>
@@ -57,15 +66,6 @@ Partial Public Class Promociones
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
     Protected WithEvents txtAplicadesde As Global.System.Web.UI.WebControls.TextBox
-    
-    '''<summary>
-    '''Control txtdescripcion.
-    '''</summary>
-    '''<remarks>
-    '''Campo generado automáticamente.
-    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-    '''</remarks>
-    Protected WithEvents txtdescripcion As Global.System.Web.UI.WebControls.TextBox
     
     '''<summary>
     '''Control btnIngresar.
