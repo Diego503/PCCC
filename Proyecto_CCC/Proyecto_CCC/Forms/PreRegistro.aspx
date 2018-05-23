@@ -3,8 +3,10 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 <div class="container-fluid">
-    <h1 class="text-center" style="color:black"> Pre-registro del Cliente </h1>
-    <h3 class="text-center"> Escoja una opción </h3>
+    <br />
+    <h5 class="text-center" style="color:black"> PRE-REGISTRO DEL CLIENTE </h5>
+    <br /> 
+    <h5 class="text-center"> Escoja una opción: </h5>
     <div class="row" style="overflow: hidden;">
         <div class="col-sm-6" style="overflow: hidden;"> 
             <div style="float:right; overflow: hidden;">
@@ -13,7 +15,7 @@
         </div>
         <div class="col-sm-6" style="overflow: hidden;">
             <div  style="float:left; overflow: hidden;">
-<asp:Button ID="Button2" CssClass=" btn btn-group btn-group-lg btn-success rounded" runat="server" Text="Solo Contrato" />
+          <asp:Button ID="Button2" CssClass=" btn btn-group btn-group-lg btn-success rounded" runat="server" Text="Solo Contrato" />
             </div>
            
         </div>

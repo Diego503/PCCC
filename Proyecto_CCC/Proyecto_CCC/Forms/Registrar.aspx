@@ -34,7 +34,7 @@
         <div class="row"> 
        <div class="col-lg-3"> <h6 class=" float-right" > Teléfono: </h6> </div>
         <div class="col-lg-6 float-left">  
-        <asp:TextBox ID="TxtTelefono" CssClass="border-success rounded form-control form-control-sm" PlaceHolder="2354-8545" TextMode="Number" onkeypress="return soloLetras(event)" MaxLength="9" runat="server"> </asp:TextBox>
+        <asp:TextBox ID="TxtTelefono" CssClass="border-success rounded form-control form-control-sm" PlaceHolder="2354-8545"  onkeypress="return soloLetras(event)" MaxLength="9" runat="server"> </asp:TextBox>
     </div></div></div>
 
       <div class="texto col-lg-12"> 
@@ -48,14 +48,14 @@
         <div class="row"> 
        <div class="col-lg-3"> <h6 class=" float-right" > NIT: </h6> </div>
         <div class="col-lg-6 float-left"> 
-        <asp:TextBox ID="TxtNIT" CssClass="border-success rounded form-control form-control-sm" PlaceHolder="192-101098-120-2" TextMode="Number" onkeypress="return soloLetras(event)" MaxLength="17" runat="server"> </asp:TextBox>
+        <asp:TextBox ID="TxtNIT" CssClass="border-success rounded form-control form-control-sm" PlaceHolder="192-101098-120-2"  onkeypress="return soloLetras(event)" MaxLength="17" runat="server"> </asp:TextBox>
     </div></div></div>
 
         <div class="texto col-lg-12"> 
         <div class="row"> 
        <div class="col-lg-3"> <h6 class=" float-right" > NRC: </h6> </div>
         <div class="col-lg-6 float-left"> 
-        <asp:TextBox ID="TxtRNC" CssClass="border-success rounded form-control form-control-sm" PlaceHolder="192-101098-120-2" TextMode="Number" onkeypress="return soloLetras(event)" MaxLength="17" runat="server"> </asp:TextBox>
+        <asp:TextBox ID="TxtRNC" CssClass="border-success rounded form-control form-control-sm" PlaceHolder="192-101098-120-2"  onkeypress="return soloLetras(event)" MaxLength="17" runat="server"> </asp:TextBox>
     </div></div></div>
 
                 </div>
@@ -83,7 +83,7 @@
         <div class="row"> 
        <div class="col-lg-3"> <h6 class=" float-right" > Teléfono: </h6> </div>
         <div class="col-lg-6 float-left"> 
-        <asp:TextBox ID="TxtTelefonoContacto" CssClass="border-success rounded form-control form-control-sm" PlaceHolder="2354-8545" TextMode="Number" onkeypress="return soloLetras(event)" MaxLength="9" runat="server"> </asp:TextBox>
+        <asp:TextBox ID="TxtTelefonoContacto" CssClass="border-success rounded form-control form-control-sm" PlaceHolder="2354-8545"  onkeypress="return soloLetras(event)" MaxLength="9" runat="server"> </asp:TextBox>
     </div></div></div>
 
             <div class="texto col-lg-12"> 
@@ -116,7 +116,7 @@
         <div class="row"> 
        <div class="col-lg-3"> <h6 class=" float-right" > Monto total: </h6> </div>
         <div class="col-lg-6 float-left">  
-        <asp:TextBox ID="TxtMonto" CssClass="border-success rounded form-control form-control-sm" PlaceHolder="$" TextMode="Number" onkeypress="return soloLetras(event)" MaxLength="6" runat="server" > </asp:TextBox>
+        <asp:TextBox ID="TxtMonto" CssClass="border-success rounded form-control form-control-sm" PlaceHolder="$"  onkeypress="return soloLetras(event)" MaxLength="6" runat="server" > </asp:TextBox>
     </div></div></div>
 
               <div class="texto col-lg-12"> 
@@ -144,8 +144,8 @@
         <div class="col-lg-6 float-left">  
         <asp:TextBox ID="TxTDescripcion" CssClass="border-success rounded form-control form-control-sm" TextMode="MultiLine"  PlaceHolder=" " onkeypress="return LetrasN(event)" MaxLength="100" runat="server"> </asp:TextBox>
     </div></div></div>
-
-        <div class="texto col-lg-12" style="margin-bottom: 4%; "> 
+        <br />
+        <div class="texto col-lg-12" style="margin-bottom: 1%; "> 
             <asp:Button ID="btnRegistrar" Width="155px" Height="125px" CssClass="btn-group-lg btn-success btn-lg" runat="server" Text="Registrar" />
         </div>
        </div>
