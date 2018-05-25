@@ -11,5 +11,23 @@ Option Strict On
 Option Explicit On
 
 
-Partial Public Class Agenda
+Partial Public Class Agenda1
+    
+    '''<summary>
+    '''Control Agenda.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents Agenda As Global.System.Web.UI.WebControls.Calendar
+    
+    '''<summary>
+    '''Control btnRegistrarVista.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents btnRegistrarVista As Global.System.Web.UI.WebControls.Button
 End Class

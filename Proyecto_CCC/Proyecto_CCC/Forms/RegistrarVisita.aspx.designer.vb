@@ -14,49 +14,40 @@ Option Explicit On
 Partial Public Class RegistrarVisita
     
     '''<summary>
-    '''Control TextBox2.
+    '''Control TxtFecha.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents TextBox2 As Global.System.Web.UI.WebControls.TextBox
+    Protected WithEvents TxtFecha As Global.System.Web.UI.WebControls.TextBox
     
     '''<summary>
-    '''Control TxtUsuario.
+    '''Control TxtHora.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents TxtUsuario As Global.System.Web.UI.WebControls.TextBox
+    Protected WithEvents TxtHora As Global.System.Web.UI.WebControls.TextBox
     
     '''<summary>
-    '''Control TextBox1.
+    '''Control TxtDescripcion.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents TextBox1 As Global.System.Web.UI.WebControls.TextBox
+    Protected WithEvents TxtDescripcion As Global.System.Web.UI.WebControls.TextBox
     
     '''<summary>
-    '''Control TxtContraseña.
+    '''Control TxtNomEncargado.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents TxtContraseña As Global.System.Web.UI.WebControls.TextBox
-    
-    '''<summary>
-    '''Control TextBox3.
-    '''</summary>
-    '''<remarks>
-    '''Campo generado automáticamente.
-    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-    '''</remarks>
-    Protected WithEvents TextBox3 As Global.System.Web.UI.WebControls.TextBox
+    Protected WithEvents TxtNomEncargado As Global.System.Web.UI.WebControls.TextBox
     
     '''<summary>
     '''Control btnIngresar.

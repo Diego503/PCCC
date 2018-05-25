@@ -83,6 +83,7 @@ body {
             width: 100%;
             background-color: black;
             overflow: auto;
+            border-right: solid black;
         }
 
 
@@ -146,7 +147,7 @@ input.invalid {
 }
 </style>
 </head>
-<body class="pantalla" style="background-color:#FAFAFA; font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-size: 14px">
+<body class="pantalla" style="background-color:#f1f1f1; font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-size: 14px">
 
       <br />
     <br />
@@ -166,6 +167,7 @@ input.invalid {
   <li><a href="PreRegistro.aspx"> Registrar Cliente </a></li>
   <li><a href="/Forms/ListaClientes.aspx">  Historial de Clientes  </a></li>
   <li><a href="Promociones.aspx"> Registrar Promociones </a></li>
+    <li><a href="Agenda.aspx"> Agenda </a></li>
   <li><a href="/Forms/log.aspx"> Cerrar Sesión </a></li>
 </ul>
             </div>
