@@ -137,6 +137,7 @@
     <Content Include="Content\bootstrap-reboot.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Forms\Acerda_de.aspx" />
     <Content Include="Forms\Agenda.aspx" />
     <Content Include="Forms\Contrato.aspx" />
     <Content Include="Forms\Home.aspx" />
@@ -149,6 +150,7 @@
     <Content Include="Forms\Registrar.aspx" />
     <Content Include="Forms\RegistrarVisita.aspx" />
     <Content Include="img\2.jpg" />
+    <Content Include="img\acce.png" />
     <Content Include="img\candado01.png" />
     <Content Include="img\Cliente.png" />
     <Content Include="img\Display.png" />
@@ -158,8 +160,10 @@
     <Content Include="img\Mantenimiento.png" />
     <Content Include="img\Muphis.jpg" />
     <Content Include="img\pantalla.png" />
+    <Content Include="img\pricipal.png" />
     <Content Include="img\toamna.jpg" />
     <Content Include="img\usuario01.png" />
+    <Content Include="img\VL.jpg" />
     <Content Include="scripts\ai.0.22.9-build00167.js" />
     <Content Include="scripts\ai.0.22.9-build00167.min.js" />
     <Content Include="Forms\Log.Master" />
@@ -208,6 +212,13 @@
     <Compile Include="Clases\Contrato.vb" />
     <Compile Include="Clases\DatosComunes.vb" />
     <Compile Include="Clases\Usuario.vb" />
+    <Compile Include="Forms\Acerda_de.aspx.designer.vb">
+      <DependentUpon>Acerda_de.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Acerda_de.aspx.vb">
+      <DependentUpon>Acerda_de.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
     <Compile Include="Forms\Agenda.aspx.designer.vb">
       <DependentUpon>Agenda.aspx</DependentUpon>
     </Compile>
@@ -241,7 +252,7 @@
     </Compile>
     <Compile Include="Forms\ListaClientes.aspx.vb">
       <DependentUpon>ListaClientes.aspx</DependentUpon>
-      <SubType>ASPXCodebehind</SubType>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Forms\log.aspx.designer.vb">
       <DependentUpon>log.aspx</DependentUpon>

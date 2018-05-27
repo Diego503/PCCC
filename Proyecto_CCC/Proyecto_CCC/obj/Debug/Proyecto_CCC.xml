@@ -132,6 +132,69 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
+<member name="F:Proyecto_CCC.ListaClientes._Panel1">
+<summary>
+Control Panel1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Proyecto_CCC.ListaClientes._Label2">
+<summary>
+Control Label2.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Proyecto_CCC.ListaClientes._txt_Buscar">
+<summary>
+Control txt_Buscar.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Proyecto_CCC.ListaClientes._btn_Buscar">
+<summary>
+Control btn_Buscar.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Proyecto_CCC.ListaClientes._Cmb_ListaClientes">
+<summary>
+Control Cmb_ListaClientes.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Proyecto_CCC.ListaClientes._Label1">
+<summary>
+Control Label1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Proyecto_CCC.ListaClientes._Label3">
+<summary>
+Control Label3.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
 <member name="F:Proyecto_CCC.ListaClientes._GridView1">
 <summary>
 Control GridView1.
@@ -474,45 +537,36 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
-<member name="F:Proyecto_CCC.RegistrarVisita._TextBox2">
+<member name="F:Proyecto_CCC.RegistrarVisita._TxtFecha">
 <summary>
-Control TextBox2.
+Control TxtFecha.
 </summary>
 <remarks>
 Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
-<member name="F:Proyecto_CCC.RegistrarVisita._TxtUsuario">
+<member name="F:Proyecto_CCC.RegistrarVisita._TxtHora">
 <summary>
-Control TxtUsuario.
+Control TxtHora.
 </summary>
 <remarks>
 Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
-<member name="F:Proyecto_CCC.RegistrarVisita._TextBox1">
+<member name="F:Proyecto_CCC.RegistrarVisita._TxtDescripcion">
 <summary>
-Control TextBox1.
+Control TxtDescripcion.
 </summary>
 <remarks>
 Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
-<member name="F:Proyecto_CCC.RegistrarVisita._TxtContraseña">
+<member name="F:Proyecto_CCC.RegistrarVisita._TxtNomEncargado">
 <summary>
-Control TxtContraseña.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Proyecto_CCC.RegistrarVisita._TextBox3">
-<summary>
-Control TextBox3.
+Control TxtNomEncargado.
 </summary>
 <remarks>
 Campo generado automáticamente.

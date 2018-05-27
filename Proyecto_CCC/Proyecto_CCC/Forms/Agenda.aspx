@@ -2,7 +2,8 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-   
+    <br />
+    <h5>  Agenda de Visitas </h5>
     <asp:Calendar ID="Agenda" runat="server" SelectedDayStyle-BorderStyle="Dashed" SelectedDayStyle-BorderColor="Aqua">
             <OtherMonthDayStyle ForeColor="#b0b0b0" />
             <DayStyle CssClass="myCalendarDay" ForeColor="#2d3338" />
