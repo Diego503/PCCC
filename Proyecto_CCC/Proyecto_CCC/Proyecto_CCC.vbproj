@@ -137,7 +137,7 @@
     <Content Include="Content\bootstrap-reboot.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
-    <Content Include="Forms\Acerda_de.aspx" />
+    <Content Include="Forms\AcercaDe.aspx" />
     <Content Include="Forms\Agenda.aspx" />
     <Content Include="Forms\Contrato.aspx" />
     <Content Include="Forms\Home.aspx" />
@@ -212,12 +212,12 @@
     <Compile Include="Clases\Contrato.vb" />
     <Compile Include="Clases\DatosComunes.vb" />
     <Compile Include="Clases\Usuario.vb" />
-    <Compile Include="Forms\Acerda_de.aspx.designer.vb">
-      <DependentUpon>Acerda_de.aspx</DependentUpon>
+    <Compile Include="Forms\AcercaDe.aspx.designer.vb">
+      <DependentUpon>AcercaDe.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Forms\Acerda_de.aspx.vb">
-      <DependentUpon>Acerda_de.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
+    <Compile Include="Forms\AcercaDe.aspx.vb">
+      <DependentUpon>AcercaDe.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="Forms\Agenda.aspx.designer.vb">
       <DependentUpon>Agenda.aspx</DependentUpon>

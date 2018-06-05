@@ -1,8 +1,7 @@
-﻿<%@ Page Title="" Language="vb" AutoEventWireup="false" MasterPageFile="~/Forms/Home.Master" CodeBehind="Acerda_de.aspx.vb" Inherits="Proyecto_CCC.Acerda_de" %>
+﻿<%@ Page Title="" Language="vb" AutoEventWireup="false" MasterPageFile="~/Forms/Home.Master" CodeBehind="AcercaDe.aspx.vb" Inherits="Proyecto_CCC.AcercaDe" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
-<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-        <div>
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server"> <div>
             <div class="jumbotron jumbotron-fluid">
               <div class="container">
                 <h3>ACERCA DE</h3>
@@ -12,14 +11,14 @@
             
             <div>
                 <h4 class="text-center">Desarrolladores:</h4>
-                <p class="text-center">&nbsp;</p>
+                <p class="text-center"></p>
             </div>
             
             <div class="container">
               <div class="row">
                 <div class="col-sm">
                   <div class="card" style="width: 12rem;">
-                      <img class="card-img-top" src="../img/acce.png" alt="">
+                      <img class="card-img-top" src="../img/acce.png" alt=""/>
                       <div class="card-body">
                           <h5>Acceso Digital</h5>
                           <ul>
@@ -32,7 +31,7 @@
                 </div>
                 <div class="col-sm">
                   <div class="card" style="width: 12rem;">
-                      <img class="card-img-top" src="../img/pricipal.png" alt="">
+                      <img class="card-img-top" src="../img/pricipal.png" alt=""/>
                       <div class="card-body">
                           <h5>AgilSoft</h5>
                         <ul>
@@ -44,7 +43,7 @@
                 </div>
                 <div class="col-sm">
                     <div class="card" style="width: 12rem;">
-                      <img class="card-img-top" src="../img/VL.jpg" alt="">
+                      <img class="card-img-top" src="../img/VL.jpg" alt=""/>
                       <div class="card-body">
                           <h5>VL "Desarrolladores de Software"</h5>
                         <ul>
@@ -67,6 +66,4 @@
             </div>
        </div>
         </div>
-    
-
 </asp:Content>

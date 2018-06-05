@@ -11,5 +11,5 @@ Option Strict On
 Option Explicit On
 
 
-Partial Public Class Acerda_de
+Partial Public Class AcercaDe
 End Class
