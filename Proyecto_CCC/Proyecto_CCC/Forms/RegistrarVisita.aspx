@@ -39,7 +39,7 @@
         <div class="row"> 
        <div class="col-lg-3"> <h6 class="text-center float-right" > Estado: </h6> </div>
         <div class="col-lg-6 float-left">  
-        <asp:DropDownList runat="server" CssClass="dropdown form-control border-success rounded"> <asp:ListItem Text="Pendiente">  </asp:ListItem> <asp:ListItem Text="Finalizada">  </asp:ListItem></asp:DropDownList>
+        <asp:DropDownList ID="cmbestado" runat="server" CssClass="dropdown form-control border-success rounded"> <asp:ListItem Text="Pendiente">  </asp:ListItem> <asp:ListItem Text="Finalizada">  </asp:ListItem></asp:DropDownList>
     </div></div></div>
 
 
@@ -47,7 +47,7 @@
         <div class="row"> 
        <div class="col-lg-3"> <h6 class="text-center float-right" > Contacto: </h6> </div>
         <div class="col-lg-6 float-left"> 
-        <asp:DropDownList runat="server" CssClass="dropdown form-control-sm form-control border-success rounded"> <asp:ListItem Text="Empresa1">  </asp:ListItem> <asp:ListItem Text="Empresa2">  </asp:ListItem></asp:DropDownList>
+        <asp:DropDownList ID="cmbcontacto" runat="server" CssClass="dropdown form-control-sm form-control border-success rounded"> <asp:ListItem Text="Empresa1">  </asp:ListItem> <asp:ListItem Text="Empresa2">  </asp:ListItem></asp:DropDownList>
     </div></div></div>
 
         <div class="col-lg-4" style ="margin-left: 15%; margin-bottom:-9%; align-content:space-around; text-align:left; ">  

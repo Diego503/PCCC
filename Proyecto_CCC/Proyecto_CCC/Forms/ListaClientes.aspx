@@ -29,20 +29,15 @@
             <asp:ListItem> Activos </asp:ListItem>
                  <asp:ListItem> Inactivos </asp:ListItem>
              </asp:DropDownList>
-                    <asp:Label ID="Label1" runat="server" Text="Nº de clientes"></asp:Label>
+                       <br />
+                    <asp:Label ID="cantclientes" runat="server" Text="Nº de clientes"></asp:Label>
 
                        <br />
                    </asp:Panel>
-                    
-                  
-                    
-                   
-                
-                    
                 <br />
                 <br />
                 
-                <asp:GridView ID="GridView1" CssClass=" border-success table table-hover table-responsive-sm  " runat="server"> </asp:GridView>
+                <asp:GridView ID="listaclientes" CssClass=" border-success table table-hover table-responsive-sm  " runat="server"> </asp:GridView>
              
             </div>
         </div>

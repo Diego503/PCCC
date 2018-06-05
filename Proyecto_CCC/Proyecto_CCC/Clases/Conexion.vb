@@ -3,7 +3,7 @@ Imports MySql.Data.MySqlClient
 Public Module Conexion
 
     'Public cadena As String = "Server=sql3.freemysqlhosting.net; Database=ql3221722; Uid=ql3221722; Pwd=j2mUFVbZM7;"
-    Public cadena As String = "Server=localhost; Database=sql3221722; Uid=root; Pwd=zepedabueso; SslMode=none"
+    Public cadena As String = "Server=localhost; Database=sql3221722; Uid=root; Pwd=root; SslMode=none"
     Public Conexion As MySqlConnection
     Public cmd As MySqlCommand
 
@@ -45,7 +45,7 @@ Public Module Conexion
             Desconectar()
             Return Datos
         Catch ex As Exception
-            'MsgBox(ex.Message.ToString)
+            MsgBox(ex.Message.ToString)
             Desconectar()
             Return Datos
         End Try
@@ -70,11 +70,11 @@ Public Module Conexion
         End Try
     End Function
 
-    Public Function GetID(nombre As String) As Integer
+    Public Function GetID(nombre As String, tabla As String, id As String) As Integer
         Try
             Dim i As Integer
             Conectar()
-            cmd = New MySqlCommand("SELECT idCliente FROM sql3221722.cliente where cliente.nombre = '" & nombre & "';", Conexion)
+            cmd = New MySqlCommand("SELECT " & id & " FROM " & tabla & " where " & tabla & ".nombre = '" & nombre & "';", Conexion)
             Dim s As MySqlDataReader = cmd.ExecuteReader()
             While s.Read()
                 i = s.GetValue(0)
