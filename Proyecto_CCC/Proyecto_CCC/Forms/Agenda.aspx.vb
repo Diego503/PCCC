@@ -8,10 +8,11 @@ Public Class Agenda1
         Agenda.Caption = "Agenda de visitas"
         Agenda.FirstDayOfWeek = WebControls.FirstDayOfWeek.Sunday
         Agenda.ShowGridLines = True
-        Agenda.DayStyle.HorizontalAlign = HorizontalAlign.Left
-        Agenda.DayStyle.VerticalAlign = VerticalAlign.Top
-        Agenda.DayStyle.Width = New Unit(85)
-        Agenda.DayStyle.Height = New Unit(60)
+        Agenda.DayStyle.HorizontalAlign = HorizontalAlign.Center
+        Agenda.DayStyle.VerticalAlign = VerticalAlign.Middle
+        Agenda.DayStyle.Width = New Unit(100)
+        Agenda.DayStyle.Height = New Unit(75)
+
         Agenda.OtherMonthDayStyle.BackColor = Drawing.Color.Cornsilk
     End Sub
 
@@ -19,9 +20,9 @@ Public Class Agenda1
         For Each row As DataRow In Fechas.Rows
             If (e.Day.Date.Equals(row("fecha_visita"))) Then
                 e.Cell.BackColor = Drawing.Color.AntiqueWhite
-                e.Cell.ToolTip = row("hora_visita") + ClientIDSeparator === row("descripcion")
+                e.Cell.ToolTip = "Descripcion de el evento:" & row("descripcion")
                 Dim lit As New Literal()
-                lit.Text = "</br> Estado: " & row("estado_visita") & "</br>" & row("encargado_visita")
+                lit.Text = "</br> </hr> Estado: " & row("estado_visita").ToString & "</br>  </hr>" & "Encargado: " & row("encargado_visita") & "</br>  </hr>" & "Hora:" & row("hora_visita").ToString
                 e.Cell.Controls.Add(lit)
                 Dim lbl As New Label()
                 lbl.Font.Size = New FontUnit(FontSize.Small)

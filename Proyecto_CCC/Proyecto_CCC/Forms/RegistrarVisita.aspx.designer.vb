@@ -50,6 +50,24 @@ Partial Public Class RegistrarVisita
     Protected WithEvents TxtNomEncargado As Global.System.Web.UI.WebControls.TextBox
     
     '''<summary>
+    '''Control cmbestado.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents cmbestado As Global.System.Web.UI.WebControls.DropDownList
+    
+    '''<summary>
+    '''Control cmbcontacto.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents cmbcontacto As Global.System.Web.UI.WebControls.DropDownList
+    
+    '''<summary>
     '''Control btnIngresar.
     '''</summary>
     '''<remarks>

@@ -181,22 +181,19 @@ input.invalid {
   <li><a href="Promociones.aspx"> Registrar Promociones </a></li>
     <li><a href="Agenda.aspx"> Agenda </a></li>
   <li><a href="ListaClientes.aspx"> Lista de Clientes </a></li>
-  <li><a href="Acerda_de.aspx"> Acerca de </a></li>
+  <li><a href="AcercaDe.aspx"> Acerca de </a></li>
   <li><a href="/Forms/log.aspx"> Cerrar Sesión </a></li>
 </ul>
             </div>
 
         </div>
-
-
-        <div class="auto-style1" >
+        <div class="col-lg-7">
         <form id="form1" runat="server">
         <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server"  >
 
         </asp:ContentPlaceHolder>
         </form>
-            </div>
-
+           </div>
                             </div>
         </div>
     </div>
