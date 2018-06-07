@@ -2,9 +2,9 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-
-  <h1 class="btn-group-lg btn-success text-center  rounded" style="padding:1%"> REGISTRO DE CONTRATO</h1>
-
+      
+ 
+     <h5 style="padding:1%">  REGISTRO DE CONTRATO  </h5>
      <div class="row">
     <div class="col-lg-7">
          <div class="texto col-lg-12 border-success rounded border-bottom-0 ">  
@@ -44,7 +44,7 @@
          <h6>  Descripción: </h6>
         <asp:TextBox ID="TxTDescripcion" CssClass="border-success rounded form-control form-control-sm" PlaceHolder=" " onkeypress="return LetrasN(event)" MaxLength="100" runat="server"> </asp:TextBox>
     </div>
-
+        <br />
         <div class="texto col-lg-12"  style="margin-bottom: 4%; "> 
         <asp:Button ID="btnIngresar" CssClass="btn-group-lg btn-success btn-lg" runat="server" Text="Registrar" />
     </div>
