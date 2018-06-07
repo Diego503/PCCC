@@ -17,7 +17,7 @@
         Dim FechaInicio As Date = DateValue(TxtFechaInicio.Text)
         Dim FechaFin As Date = DateValue(TxtFechaFin.Text)
         Dim i As Double = (FechaFin - FechaInicio).TotalDays
-        Consulta("INSERT INTO `sql3221722`.`contrato` (`monto`, `tipo_facturacion`, `duracion`, `fecha_inicio`, `fecha_final`, `dia_pago`, `descripcion`, `cliente_idcliente`) VALUES ('" & TxtMonto.Text & "', '" & cmbtipodefacturacion.SelectedItem.Text & "', '" & i.ToString & "', '" & TxtFechaInicio.Text & "', '" & TxtFechaFin.Text & "', '" & cmbdiapago.SelectedItem.Text & "', '" & TxTDescripcion.Text & "', '" & GetID(CmbCliente.SelectedItem.Text, "sql3221722.cliente", "idCliente") & "');")
+        Consulta("INSERT INTO `sql3221722`.`Contratos` (`monto`, `tipo_facturacion`, `duracion`, `fecha_inicio`, `fecha_final`, `dia_pago`, `descripcion`, `cliente_idcliente`) VALUES ('" & TxtMonto.Text & "', '" & cmbtipodefacturacion.SelectedItem.Text & "', '" & i.ToString & "', '" & TxtFechaInicio.Text & "', '" & TxtFechaFin.Text & "', '" & cmbdiapago.SelectedItem.Text & "', '" & TxTDescripcion.Text & "', '" & GetID(CmbCliente.SelectedItem.Text, "sql3221722.cliente", "idCliente") & "');")
         MsgBox("Contrato Registrado")
     End Sub
 End Class

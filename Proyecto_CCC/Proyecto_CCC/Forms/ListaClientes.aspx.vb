@@ -2,15 +2,15 @@
     Inherits System.Web.UI.Page
     Private tabla As New DataTable()
     Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
-        GridView1.DataSource = Consultar("select cliente.nombre as Nombre, cliente.direccion as Dirección, cliente.telefono as Teléfono, cliente.correo as Correo, contacto.nombre as Empresa from cliente, contacto where cliente_idcliente = idCliente;")
-        GridView1.DataBind()
+        listaclientes.DataSource = Consultar("select cliente.nombre as Nombre, cliente.direccion as Dirección, cliente.telefono as Teléfono, cliente.correo as Correo, contacto.nombre as Empresa from cliente, contacto where cliente_idcliente = idCliente;")
+        listaclientes.DataBind()
     End Sub
 
     Private Sub ActualizarTabla(query As String, i As Integer)
         tabla = Consultar(query)
         If tabla.Rows.Count > 0 Then
-            ListaClientes.DataSource = tabla
-            ListaClientes.DataBind()
+            listaclientes.DataSource = tabla
+            listaclientes.DataBind()
             cantclientes.Text = "cantidad de clientes: " & tabla.Rows.Count.ToString
         ElseIf i = 0
             MsgBox("No hay clientes " + Cmb_ListaClientes.SelectedItem.Text, MsgBoxStyle.Information, "")
