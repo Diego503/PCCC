@@ -69,6 +69,15 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
+<member name="F:Proyecto_CCC.Contrato1._cmbpromociones">
+<summary>
+Control cmbpromociones.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
 <member name="F:Proyecto_CCC.Contrato1._cmbdiapago">
 <summary>
 Control cmbdiapago.
@@ -573,6 +582,15 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
+<member name="F:Proyecto_CCC.Registrar._cmbpromociones">
+<summary>
+Control cmbpromociones.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
 <member name="F:Proyecto_CCC.Registrar._cmbdiapago">
 <summary>
 Control cmbdiapago.
@@ -594,6 +612,33 @@ Para modificarlo, mueva la declaración del campo del archivo del diseñador al 
 <member name="F:Proyecto_CCC.Registrar._btnRegistrar">
 <summary>
 Control btnRegistrar.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Proyecto_CCC.Registrar._cmbtipomedio">
+<summary>
+Control cmbtipomedio.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Proyecto_CCC.Registrar._cmbUbicacion">
+<summary>
+Control cmbUbicacion.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Proyecto_CCC.Registrar._ListBox1">
+<summary>
+Control ListBox1.
 </summary>
 <remarks>
 Campo generado automáticamente.

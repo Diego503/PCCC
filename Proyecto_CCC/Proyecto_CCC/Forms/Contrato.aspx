@@ -41,7 +41,14 @@
                  <asp:ListItem> Comprobante </asp:ListItem>
              </asp:DropDownList>
     </div></div></div>
-
+        <div class="texto col-lg-12"> 
+        <div class="row"> 
+       <div class="col-lg-3"> <h6 class=" float-right" > promocion: </h6> </div>
+        <div class="col-lg-2 float-left">  
+         <asp:DropDownList CssClass="dropdown form-control-sm border-success" ID="cmbpromociones" runat="server">
+             <asp:ListItem> ninguna </asp:ListItem>
+         </asp:DropDownList>
+    </div></div></div>
                 <div class="texto col-lg-12"> 
         <div class="row"> 
                         <div class="col-lg-1"> </div>

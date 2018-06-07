@@ -17,7 +17,7 @@
     End Sub
 
     Protected Sub btnIngresar_Click(sender As Object, e As EventArgs) Handles btnIngresar.Click
-        Consulta("INSERT INTO `sql3221722`.`agenda` (`fecha_visita`, `hora_visita`, `encargado_visita`, `estado_visita`, `descripcion`, `contacto_idcontacto`) VALUES ('" & TxtFecha.Text & "', '" & TxtHora.Text & "', '" & TxtNomEncargado.Text & "', '" & cmbestado.SelectedItem.Text & "', '" & TxtDescripcion.Text & "', '" & GetID(cmbcontacto.SelectedItem.Text, "sql3221722.contacto", "idcontacto") & "');")
+        Consulta("INSERT INTO `sql3221722`.`agenda` (`fecha_visita`, `hora_visita`, `encargado_visita`, `estado_visita`, `descripcion`, `contacto_idcontacto`) VALUES ('" & TxtFecha.Text & "', '" & TxtHora.Text & "', '" & TxtNomEncargado.Text & "', '" & cmbestado.SelectedItem.Text & "', '" & TxtDescripcion.Text & "', '" & GetID(cmbcontacto.SelectedItem.Text, "sql3221722.contacto", "idcontacto", "nombre") & "');")
         MsgBox("Contrato Registrado")
     End Sub
 End Class

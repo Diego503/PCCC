@@ -10,6 +10,7 @@
     <span  class="step"></span>
     <span class="step"></span>
     <span class="step"></span>
+     <span class="step"></span>
   </div>
 
   <!-- One "tab" for each step in the form: -->
@@ -116,7 +117,7 @@
         <div class="row"> 
        <div class="col-lg-3"> <h6 class=" float-right" > Monto total: </h6> </div>
         <div class="col-lg-6 float-left">  
-        <asp:TextBox ID="TxtMonto" CssClass="border-success rounded form-control form-control-sm" PlaceHolder="$"  onkeypress="return soloLetras(event)" MaxLength="6" runat="server" > </asp:TextBox>
+        <asp:TextBox ID="TxtMonto" CssClass="border-success rounded form-control form-control-sm" PlaceHolder="$"  onkeypress="return soloLetras(event)"  MaxLength="6" runat="server" > </asp:TextBox>
     </div></div></div>
 
               <div class="texto col-lg-12"> 
@@ -128,7 +129,14 @@
                  <asp:ListItem> Comprobante </asp:ListItem>
              </asp:DropDownList>
     </div></div></div>
-
+        <div class="texto col-lg-12"> 
+        <div class="row"> 
+       <div class="col-lg-3"> <h6 class=" float-right" > Promocion: </h6> </div>
+        <div class="col-lg-2 float-left">  
+         <asp:DropDownList CssClass="dropdown form-control-sm border-success" ID="cmbpromociones" runat="server">
+             <asp:ListItem> ninguna </asp:ListItem>
+         </asp:DropDownList>
+    </div></div></div>
                 <div class="texto col-lg-12"> 
         <div class="row"> 
                         <div class="col-lg-1"> </div>
@@ -151,6 +159,35 @@
             <asp:Button ID="btnRegistrar"  CssClass="btn-group-lg btn-success btn-lg" runat="server" Text="Registrar" />
         </div>
        </div>
+      </div>
+       <div class="tab"> 
+        <h5 class="text-center"> 4.- Seleccione un medio   </h5>
+           <div class="row">
+       <div class="texto col-lg-12"> 
+        <div class="row"> 
+        <div class="col-lg-1"> </div>
+       <div class="col-lg-2"> <h6 class=" float-right"> Tipo de medio: </h6> </div>
+        <div class="col-lg-2 float-left">  
+        <asp:DropDownList CssClass="dropdown form-control-sm border-success" ID="cmbtipomedio" runat="server">
+            <asp:ListItem> MUPY </asp:ListItem>
+           <asp:ListItem> PANTALLA </asp:ListItem>
+             </asp:DropDownList>
+             </div> </div> </div>
+
+       <div class="texto col-lg-12"> 
+        <div class="row"> 
+        <div class="col-lg-1"> </div>
+       <div class="col-lg-2"> <h6 class=" float-right"> Seleccion la ubicacion: </h6> </div>
+        <div class="col-lg-2 float-left">  
+        <asp:DropDownList CssClass="dropdown form-control-sm border-success" ID="cmbUbicacion" runat="server">
+             </asp:DropDownList>
+             </div> </div> </div>
+           </div>
+           <asp:ListBox ID="ltladosseleccionados" SelectionMode="Multiple" runat="server">
+               <asp:ListItem> sd</asp:ListItem>
+               <asp:ListItem> sd</asp:ListItem>
+               <asp:ListItem> sd</asp:ListItem>
+           </asp:ListBox>
   </div>
         
 
@@ -162,8 +199,8 @@
   </div>
 
 </div>
-
     <script>
+
     function soloLetras(e){
        key = e.keyCode || e.which;
        tecla = String.fromCharCode(key).toLowerCase();
@@ -183,17 +220,18 @@
             return false;
         }
     }
-
+    var haspoint = false;
     function LetrasN(e) {
         key = e.keyCode || e.which;
         tecla = String.fromCharCode(key).toString();
         letras = " áéíóúabcdefghijklmnñopqrstuvwxyzÁÉÍÓÚABCDEFGHIJKLMNÑOPQRSTUVWXYZ,";
         especiales = [8, 37, 39, 46, 6]; 
-
         tecla_especial = false
+       aler(document.getElementById("TxtMonto").textContent.toString)
         for (var i in especiales) {
             if (key == especiales[i]) {
                 tecla_especial = true;
+               
                 break;
             }
         }

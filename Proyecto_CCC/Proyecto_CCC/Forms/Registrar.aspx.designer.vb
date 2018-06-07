@@ -140,6 +140,15 @@ Partial Public Class Registrar
     Protected WithEvents cmbtipodefacturacion As Global.System.Web.UI.WebControls.DropDownList
     
     '''<summary>
+    '''Control cmbpromociones.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents cmbpromociones As Global.System.Web.UI.WebControls.DropDownList
+    
+    '''<summary>
     '''Control cmbdiapago.
     '''</summary>
     '''<remarks>
@@ -165,4 +174,31 @@ Partial Public Class Registrar
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
     Protected WithEvents btnRegistrar As Global.System.Web.UI.WebControls.Button
+    
+    '''<summary>
+    '''Control cmbtipomedio.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents cmbtipomedio As Global.System.Web.UI.WebControls.DropDownList
+    
+    '''<summary>
+    '''Control cmbUbicacion.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents cmbUbicacion As Global.System.Web.UI.WebControls.DropDownList
+    
+    '''<summary>
+    '''Control ltladosseleccionados.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents ltladosseleccionados As Global.System.Web.UI.WebControls.ListBox
 End Class
