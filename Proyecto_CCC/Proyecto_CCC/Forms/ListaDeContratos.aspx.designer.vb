@@ -11,86 +11,68 @@ Option Strict On
 Option Explicit On
 
 
-Partial Public Class Promociones
+Partial Public Class ListaDeContratos
     
     '''<summary>
-    '''Control Txtnombreprom.
+    '''Control Panel1.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents Txtnombreprom As Global.System.Web.UI.WebControls.TextBox
+    Protected WithEvents Panel1 As Global.System.Web.UI.WebControls.Panel
     
     '''<summary>
-    '''Control txtdescripcion.
+    '''Control Label2.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents txtdescripcion As Global.System.Web.UI.WebControls.TextBox
+    Protected WithEvents Label2 As Global.System.Web.UI.WebControls.Label
     
     '''<summary>
-    '''Control TextBox1.
+    '''Control txt_Buscar.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents TextBox1 As Global.System.Web.UI.WebControls.TextBox
+    Protected WithEvents txt_Buscar As Global.System.Web.UI.WebControls.TextBox
     
     '''<summary>
-    '''Control Txtfechainicio.
+    '''Control btn_Buscar.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents Txtfechainicio As Global.System.Web.UI.WebControls.TextBox
+    Protected WithEvents btn_Buscar As Global.System.Web.UI.WebControls.Button
     
     '''<summary>
-    '''Control Txtfechafin.
+    '''Control Cmb_ListaClientes.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents Txtfechafin As Global.System.Web.UI.WebControls.TextBox
+    Protected WithEvents Cmb_ListaClientes As Global.System.Web.UI.WebControls.DropDownList
     
     '''<summary>
-    '''Control TxtDescuento.
+    '''Control cantclientes.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents TxtDescuento As Global.System.Web.UI.WebControls.TextBox
+    Protected WithEvents cantclientes As Global.System.Web.UI.WebControls.Label
     
     '''<summary>
-    '''Control txtAplicadesde.
+    '''Control listaclientes.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents txtAplicadesde As Global.System.Web.UI.WebControls.TextBox
-    
-    '''<summary>
-    '''Control btnIngresar.
-    '''</summary>
-    '''<remarks>
-    '''Campo generado automáticamente.
-    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-    '''</remarks>
-    Protected WithEvents btnIngresar As Global.System.Web.UI.WebControls.Button
-    
-    '''<summary>
-    '''Control btnCancelar.
-    '''</summary>
-    '''<remarks>
-    '''Campo generado automáticamente.
-    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-    '''</remarks>
-    Protected WithEvents btnCancelar As Global.System.Web.UI.WebControls.Button
+    Protected WithEvents listaclientes As Global.System.Web.UI.WebControls.GridView
 End Class

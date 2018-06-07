@@ -70,11 +70,11 @@ Public Module Conexion
         End Try
     End Function
 
-    Public Function GetID(nombre As String) As Integer
+    Public Function GetID(nombre As String, tabla As String, id As String) As Integer
         Try
             Dim i As Integer
             Conectar()
-            cmd = New MySqlCommand("SELECT idCliente FROM sql3221722.cliente where cliente.nombre = '" & nombre & "';", Conexion)
+            cmd = New MySqlCommand("SELECT " & id & " FROM " & tabla & " where " & tabla & ".nombre = '" & nombre & "';", Conexion)
             Dim s As MySqlDataReader = cmd.ExecuteReader()
             While s.Read()
                 i = s.GetValue(0)

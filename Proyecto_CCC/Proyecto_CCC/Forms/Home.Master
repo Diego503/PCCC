@@ -178,9 +178,9 @@ input.invalid {
   <li><a class="active" href="/Forms/Principal.aspx">  Volver al menu </a></li>
   <li><a href="PreRegistro.aspx"> Registrar Cliente </a></li>
   <li><a href="/Forms/ListaClientes.aspx">  Historial de Clientes  </a></li>
+  <li><a href="/Forms/ListaClientes.aspx">  Historial de Contratos  </a></li>
   <li><a href="Promociones.aspx"> Registrar Promociones </a></li>
-    <li><a href="Agenda.aspx"> Agenda </a></li>
-  <li><a href="ListaClientes.aspx"> Lista de Clientes </a></li>
+  <li><a href="Agenda.aspx"> Agenda </a></li>
   <li><a href="AcercaDe.aspx"> Acerca de </a></li>
   <li><a href="/Forms/log.aspx"> Cerrar Sesión </a></li>
 </ul>

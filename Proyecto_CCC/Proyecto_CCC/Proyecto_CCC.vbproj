@@ -142,6 +142,7 @@
     <Content Include="Forms\Contrato.aspx" />
     <Content Include="Forms\Home.aspx" />
     <Content Include="Forms\ListaClientes.aspx" />
+    <Content Include="Forms\ListaDeContratos.aspx" />
     <Content Include="Forms\log.aspx" />
     <Content Include="Forms\Login.aspx" />
     <Content Include="Forms\PreRegistro.aspx" />
@@ -253,6 +254,13 @@
     <Compile Include="Forms\ListaClientes.aspx.vb">
       <DependentUpon>ListaClientes.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Forms\ListaDeContratos.aspx.designer.vb">
+      <DependentUpon>ListaDeContratos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ListaDeContratos.aspx.vb">
+      <DependentUpon>ListaDeContratos.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="Forms\log.aspx.designer.vb">
       <DependentUpon>log.aspx</DependentUpon>

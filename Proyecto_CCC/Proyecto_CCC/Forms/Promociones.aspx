@@ -21,11 +21,12 @@
         <div class="col-lg-6 float-left">
         <asp:TextBox ID="txtdescripcion" TextMode="MultiLine" CssClass="border-success rounded form-control form-control-sm" PlaceHolder="Promoción navideña, etc." MaxLength="300" runat="server"> </asp:TextBox></div></div>
     </div>
-
+        <asp:TextBox ID="TextBox1" CssClass="border-success rounded form-control form-control-sm " PlaceHolder="DD/MM/AA " TextMode="Date" runat="server" Visible="false"></asp:TextBox>
     <div class="texto col-lg-12 border-success rounded border-bottom-0" style="margin-top: 2%;  "> 
         <div class="row"> 
        <div class="col-lg-3"> <h6 class="text-center float-right" >  Fecha de inicio: </h6> </div>
-        <div class="col-lg-6 float-left"> <asp:TextBox ID="Txtfechainicio" CssClass="border-success rounded form-control form-control-sm" PlaceHolder="DD/MM/AA" TextMode="Date" runat="server"></asp:TextBox></div></div>
+        <div class="col-lg-6 float-left"> 
+        <asp:TextBox ID="Txtfechainicio" CssClass="border-success rounded form-control form-control-sm " PlaceHolder="DD/MM/AA " TextMode="Date" runat="server"></asp:TextBox></div></div>
     </div>
         <br />
         <div class="texto col-lg-12 border-success rounded border-bottom-0">  

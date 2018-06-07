@@ -1,12 +1,28 @@
 ﻿Public Class ListaClientes
     Inherits System.Web.UI.Page
-
+    Private tabla As New DataTable()
     Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
-        GridView1.DataSource = Consultar("select cliente.nombre as Nombre, cliente.direccion as Dirección, cliente.telefono as Teléfono, cliente.correo as Correo, contacto.nombre as Empresa from cliente, contacto where cliente_idcliente = idCliente;")
-        GridView1.DataBind()
+
     End Sub
 
+    Private Sub ActualizarTabla(query As String, i As Integer)
+        tabla = Consultar(query)
+        If tabla.Rows.Count > 0 Then
+            listaclientes.DataSource = tabla
+            listaclientes.DataBind()
+            cantclientes.Text = "cantidad de clientes: " & tabla.Rows.Count.ToString
+        ElseIf i = 0
+            MsgBox("No hay clientes " + Cmb_ListaClientes.SelectedItem.Text, MsgBoxStyle.Information, "")
+        ElseIf i = 1
+            MsgBox("No existe el cliente: " + txt_Buscar.Text.ToUpper, MsgBoxStyle.Information, "")
+        End If
+    End Sub
 
+    Protected Sub Cmb_ListaClientes_SelectedIndexChanged(sender As Object, e As EventArgs) Handles Cmb_ListaClientes.SelectedIndexChanged
+        ActualizarTabla("select cliente.nombre as Nombre, cliente.direccion as Dirección, cliente.telefono as Teléfono, cliente.correo as Correo, contacto.nombre as Empresa from cliente inner join contacto on contacto.cliente_idcliente = idCliente inner join contratos on cliente.idCliente = contratos.cliente_idCliente where contratos.estado = '" & Cmb_ListaClientes.SelectedItem.Text & "'", 0)
+    End Sub
 
-
+    Protected Sub btn_Buscar_Click(sender As Object, e As EventArgs) Handles btn_Buscar.Click
+        ActualizarTabla("select cliente.nombre as Nombre, cliente.direccion as Dirección, cliente.telefono as Teléfono, cliente.correo as Correo, contacto.nombre as Empresa from cliente inner join contacto on contacto.cliente_idcliente = idCliente inner join contratos on cliente.idCliente = contratos.cliente_idCliente where contratos.estado = '" & Cmb_ListaClientes.SelectedItem.Text & "' and cliente.nombre = '" & txt_Buscar.Text.ToUpper & "'", 1)
+    End Sub
 End Class

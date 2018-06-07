@@ -1,9 +1,8 @@
-﻿<%@ Page Title="" Language="vb" AutoEventWireup="false" MasterPageFile="~/Forms/Home.Master" CodeBehind="ListaClientes.aspx.vb" Inherits="Proyecto_CCC.ListaClientes" %>
+﻿<%@ Page Title="" Language="vb" AutoEventWireup="false" MasterPageFile="~/Forms/Home.Master" CodeBehind="ListaDeContratos.aspx.vb" Inherits="Proyecto_CCC.ListaDeContratos" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
-
-    </asp:Content>
+</asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    <div class=" container-fluid align-items-center" > 
+     <div class=" container-fluid align-items-center" > 
         <div class="row">
             <div class="col-lg-12 ">
 
@@ -14,7 +13,7 @@
                        <table cellspacing="1">
                            <tr>
                                <td> <asp:Label ID="Label2" runat="server" Text="Nombre:"></asp:Label></td>
-                               <td><asp:TextBox ID="txt_Buscar" Width="300px" CssClass="border-success rounded form-control form-control-sm" PlaceHolder="Juan Perez"  onkeypress="return LetrasN(event)" MaxLength="75"  runat="server"></asp:TextBox></td>
+                               <td><asp:TextBox ID="txt_Buscar" Width="300px" CssClass="border-success rounded form-control form-control-sm" PlaceHolder="Juan Perez"  onkeypress="return LetrasN(event)" MaxLength="20"  runat="server"></asp:TextBox></td>
                                <td><asp:Button ID="btn_Buscar"  CssClass="btn-group-sm btn-success btn-sm" Width="75px" Height="35px" runat="server" Text="Buscar" /></td>
                            </tr>
                            <tr>
@@ -27,7 +26,7 @@
                  <asp:ListItem> Inactivos </asp:ListItem>
              </asp:DropDownList>
                        <br />
-                    <asp:Label ID="cantclientes" runat="server" Text="Nº de clientes"></asp:Label>
+                    <asp:Label ID="cantclientes" runat="server" Text="Nº de contratos"></asp:Label>
 
                        <br />
                    </asp:Panel>
