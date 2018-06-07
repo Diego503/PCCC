@@ -145,8 +145,10 @@
         <asp:TextBox ID="TxTDescripcion" CssClass="border-success rounded form-control form-control-sm" TextMode="MultiLine"  PlaceHolder=" " onkeypress="return LetrasN(event)" MaxLength="100" runat="server"> </asp:TextBox>
     </div></div></div>
         <br />
-        <div class="texto col-lg-12" style="margin-bottom: 1%; "> 
-            <asp:Button ID="btnRegistrar" Width="155px" Height="125px" CssClass="btn-group-lg btn-success btn-lg" runat="server" Text="Registrar" />
+        <br />
+        <br />
+        <div class="texto col-lg-12" style="margin-bottom: 10%; "> 
+            <asp:Button ID="btnRegistrar"  CssClass="btn-group-lg btn-success btn-lg" runat="server" Text="Registrar" />
         </div>
        </div>
   </div>

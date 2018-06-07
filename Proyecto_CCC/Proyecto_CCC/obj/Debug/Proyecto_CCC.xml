@@ -177,81 +177,27 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
-<member name="F:Proyecto_CCC.ListaClientes._cantclientes">
+<member name="F:Proyecto_CCC.ListaClientes._Label1">
 <summary>
-Control cantclientes.
+Control Label1.
 </summary>
 <remarks>
 Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
-<member name="F:Proyecto_CCC.ListaClientes._listaclientes">
+<member name="F:Proyecto_CCC.ListaClientes._Label3">
 <summary>
-Control listaclientes.
+Control Label3.
 </summary>
 <remarks>
 Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
-<member name="F:Proyecto_CCC.ListaDeContratos._Panel1">
+<member name="F:Proyecto_CCC.ListaClientes._GridView1">
 <summary>
-Control Panel1.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Proyecto_CCC.ListaDeContratos._Label2">
-<summary>
-Control Label2.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Proyecto_CCC.ListaDeContratos._txt_Buscar">
-<summary>
-Control txt_Buscar.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Proyecto_CCC.ListaDeContratos._btn_Buscar">
-<summary>
-Control btn_Buscar.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Proyecto_CCC.ListaDeContratos._Cmb_ListaClientes">
-<summary>
-Control Cmb_ListaClientes.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Proyecto_CCC.ListaDeContratos._cantclientes">
-<summary>
-Control cantclientes.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Proyecto_CCC.ListaDeContratos._listaclientes">
-<summary>
-Control listaclientes.
+Control GridView1.
 </summary>
 <remarks>
 Campo generado automáticamente.

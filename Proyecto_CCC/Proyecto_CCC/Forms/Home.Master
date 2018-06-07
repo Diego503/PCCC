@@ -173,15 +173,16 @@ input.invalid {
         <div class="col-lg-4">
 
             <div class="menu text-xl-center">
-                <ul>
+              <ul>
   <li class="text-center"  style=" color:white;font-size:32px; font-weight:bold; display:block; background-color:black;">  ILEDVIEW   </li>
   <li><a class="active" href="/Forms/Principal.aspx">  Volver al menu </a></li>
   <li><a href="PreRegistro.aspx"> Registrar Cliente </a></li>
   <li><a href="/Forms/ListaClientes.aspx">  Historial de Clientes  </a></li>
   <li><a href="/Forms/ListaClientes.aspx">  Historial de Contratos  </a></li>
   <li><a href="Promociones.aspx"> Registrar Promociones </a></li>
-  <li><a href="Agenda.aspx"> Agenda </a></li>
-  <li><a href="AcercaDe.aspx"> Acerca de </a></li>
+    <li><a href="Agenda.aspx"> Agenda </a></li>
+  <li><a href="ListaClientes.aspx"> Lista de Clientes </a></li>
+  <li><a href="Acerda_de.aspx"> Acerca de </a></li>
   <li><a href="/Forms/log.aspx"> Cerrar Sesión </a></li>
 </ul>
             </div>
@@ -189,11 +190,11 @@ input.invalid {
         </div>
         <div class="col-lg-7">
         <form id="form1" runat="server">
-        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server"  >
-
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server"  >
+        
         </asp:ContentPlaceHolder>
         </form>
-           </div>
+            </div>
                             </div>
         </div>
     </div>
