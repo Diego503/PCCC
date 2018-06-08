@@ -12,6 +12,7 @@
        <div class="col-lg-3"> <h6 class="text-center float-right" > Fecha de visita: </h6> </div>
         <div class="col-lg-6 float-left"> 
         <asp:TextBox ID="TxtFecha" CssClass="border-success rounded form-control form-control-sm" PlaceHolder="DD/MM/AA" TextMode="Date" runat="server"></asp:TextBox>
+            <asp:CompareValidator ID="cvFechaV" runat="server" Display="Dynamic" ControlToValidate="TxtFecha" ErrorMessage="Fecha incorrecta, debe ser la fecha actual" Type="Date" Operator="Equal" ForeColor="Red"></asp:CompareValidator>
     </div></div></div>
 
         <div class="texto col-lg-12 border-success rounded border-bottom-0">  

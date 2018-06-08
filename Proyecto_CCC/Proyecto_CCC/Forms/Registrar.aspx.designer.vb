@@ -32,6 +32,15 @@ Partial Public Class Registrar
     Protected WithEvents TxtCorreo As Global.System.Web.UI.WebControls.TextBox
     
     '''<summary>
+    '''Control revCorreo.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents revCorreo As Global.System.Web.UI.WebControls.RegularExpressionValidator
+    
+    '''<summary>
     '''Control TxtTelefono.
     '''</summary>
     '''<remarks>
@@ -86,6 +95,15 @@ Partial Public Class Registrar
     Protected WithEvents TxtCorreoContacto As Global.System.Web.UI.WebControls.TextBox
     
     '''<summary>
+    '''Control revCorreoC.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents revCorreoC As Global.System.Web.UI.WebControls.RegularExpressionValidator
+    
+    '''<summary>
     '''Control TxtTelefonoContacto.
     '''</summary>
     '''<remarks>
@@ -113,6 +131,15 @@ Partial Public Class Registrar
     Protected WithEvents Txtfechainicio As Global.System.Web.UI.WebControls.TextBox
     
     '''<summary>
+    '''Control cvFechaI.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents cvFechaI As Global.System.Web.UI.WebControls.CompareValidator
+    
+    '''<summary>
     '''Control txtfechafin.
     '''</summary>
     '''<remarks>
@@ -122,6 +149,15 @@ Partial Public Class Registrar
     Protected WithEvents txtfechafin As Global.System.Web.UI.WebControls.TextBox
     
     '''<summary>
+    '''Control cvFechaF.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents cvFechaF As Global.System.Web.UI.WebControls.CompareValidator
+    
+    '''<summary>
     '''Control txtmonto.
     '''</summary>
     '''<remarks>
@@ -129,6 +165,15 @@ Partial Public Class Registrar
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
     Protected WithEvents txtmonto As Global.System.Web.UI.WebControls.TextBox
+    
+    '''<summary>
+    '''Control rgvMontoCliente.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents rgvMontoCliente As Global.System.Web.UI.WebControls.RangeValidator
     
     '''<summary>
     '''Control cmbtipodefacturacion.

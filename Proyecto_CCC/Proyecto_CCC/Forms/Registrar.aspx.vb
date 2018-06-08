@@ -19,6 +19,21 @@
         Next
         cmbUbicacion.SelectedIndex = index
         cmbpromociones.SelectedIndex = indexp
+
+        If Not Page.IsPostBack Then
+
+            cvFechaI.ValueToCompare = Today
+
+
+        End If
+
+        If Not Page.IsPostBack Then
+
+            cvFechaF.ValueToCompare = Today
+
+
+        End If
+
     End Sub
     Private Sub InsertarLados(lado As String, idmedio As String)
         Consulta("INSERT INTO `sql3221722`.`lados` (`posicion`, `lados_usados`, `vencimiento`, `Mupy_idMupy`) VALUES ('" & lado & "', '1', '" & txtfechafin.Text & "', '" & idmedio & "')")
