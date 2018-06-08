@@ -20,7 +20,7 @@
        <div class="col-lg-3"> <h6 class=" float-right" > Nombre del negocio: </h6> </div>
         <div class="col-lg-6 float-left"> 
         <asp:TextBox ID="TxtNombreNegocio" CssClass="border-success rounded form-control form-control-sm" PlaceHolder="Ecolab S.A de C.V" onkeypress="return LetrasN(event)" onKeyUp="this.value = this.value.toUpperCase()" MaxLength="50" runat="server"></asp:TextBox>
-    </div> </div> </div>
+    </div> </div> </div>`
 
        <div class="texto col-lg-12"> 
         <div class="row"> 
