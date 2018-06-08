@@ -24,6 +24,8 @@
     End Sub
 
     Protected Sub btn_Buscar_Click(sender As Object, e As EventArgs) Handles btn_Buscar.Click
-        ActualizarTabla("select cliente.nombre as Nombre, cliente.direccion as Dirección, cliente.telefono as Teléfono, cliente.correo as Correo, contacto.nombre as Empresa from cliente inner join contacto on contacto.cliente_idcliente = idCliente inner join contratos on cliente.idCliente = contratos.cliente_idCliente where contratos.estado = '" & Cmb_ListaClientes.SelectedItem.Text & "' and cliente.nombre = '" & txt_Buscar.Text.ToUpper & "'", 1)
+        'ActualizarTabla("select cliente.nombre as Nombre, cliente.direccion as Dirección, cliente.telefono as Teléfono, cliente.correo as Correo, contacto.nombre as Empresa from cliente inner join contacto on contacto.cliente_idcliente = idCliente inner join contratos on cliente.idCliente = contratos.cliente_idCliente where contratos.estado = '" & Cmb_ListaClientes.SelectedItem.Text & "' and cliente.nombre = '" & txt_Buscar.Text.ToUpper & "'", 1)
+        ActualizarTabla("select cliente.nombre as Nombre, cliente.direccion as Dirección, cliente.telefono as Teléfono, cliente.correo as Correo, contacto.nombre as Empresa from cliente inner join contacto on contacto.cliente_idcliente = idCliente inner join contratos on cliente.idCliente = contratos.cliente_idCliente where cliente.nombre LIKE'" & txt_Buscar.Text.ToUpper & "%'", 1)
+
     End Sub
 End Class

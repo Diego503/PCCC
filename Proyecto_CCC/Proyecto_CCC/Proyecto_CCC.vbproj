@@ -27,6 +27,7 @@
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
     <TypeScriptToolsVersion>1.8</TypeScriptToolsVersion>
+    <Use64BitIISExpress />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -142,6 +143,7 @@
     <Content Include="Forms\Contrato.aspx" />
     <Content Include="Forms\Home.aspx" />
     <Content Include="Forms\ListaClientes.aspx" />
+    <Content Include="Forms\ListaContratos.aspx" />
     <Content Include="Forms\ListaDeContratos.aspx" />
     <Content Include="Forms\log.aspx" />
     <Content Include="Forms\Login.aspx" />
@@ -254,6 +256,13 @@
     <Compile Include="Forms\ListaClientes.aspx.vb">
       <DependentUpon>ListaClientes.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Forms\ListaContratos.aspx.designer.vb">
+      <DependentUpon>ListaContratos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ListaContratos.aspx.vb">
+      <DependentUpon>ListaContratos.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="Forms\ListaDeContratos.aspx.designer.vb">
       <DependentUpon>ListaDeContratos.aspx</DependentUpon>

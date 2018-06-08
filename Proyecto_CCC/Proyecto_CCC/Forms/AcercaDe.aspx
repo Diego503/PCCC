@@ -16,8 +16,8 @@
             
             <div class="container">
               <div class="row">
-                <div class="col-sm">
-                  <div class="card" style="width: 12rem;">
+                <div class="col">
+                  <div class="card" style="width: 31rem;">
                       <img class="card-img-top" src="../img/acce.png" alt=""/>
                       <div class="card-body">
                           <h5>Acceso Digital</h5>
@@ -29,26 +29,31 @@
                       </div>
                     </div>
                 </div>
-                <div class="col-sm">
-                  <div class="card" style="width: 12rem;">
+                </div>
+                <div class="row">
+                <div class="col">
+                  <div class="card" style="width: 31rem;">
                       <img class="card-img-top" src="../img/pricipal.png" alt=""/>
                       <div class="card-body">
                           <h5>AgilSoft</h5>
                         <ul>
-                              <li>Alexis Escobar</li>
-                              <li>Elish Duran</li>
+                              <li>Miguel Alexis Monge Escobar</li>
+                              <li>Ronal Elish Duran Ramirez</li>
                           </ul>
                       </div>
                     </div>
                 </div>
-                <div class="col-sm">
-                    <div class="card" style="width: 12rem;">
-                      <img class="card-img-top" src="../img/VL.jpg" alt=""/>
+                    </div>
+                <div class="row">
+                <div class="col">
+                    <div class="card" style="width: 31rem;">
+                            <img class="card-img-top" src="../img/VL.jpg" alt=""/>
+                        
                       <div class="card-body">
                           <h5>VL "Desarrolladores de Software"</h5>
                         <ul>
-                              <li>Arnold Lainez</li>
-                              <li>Manuel Villeda</li>
+                              <li>Luis Arnoldo Lainez Rivas</li>
+                              <li>Manuel Ernesto Villeda Gutierrez</li>
                           </ul>
                       </div>
                     </div>
