@@ -195,3 +195,5 @@ C:\Users\Arnold Lainez\Source\Repos\PCCC\Proyecto_CCC\Proyecto_CCC\bin\Microsoft
 C:\Users\Arnold Lainez\Source\Repos\PCCC\Proyecto_CCC\Proyecto_CCC\bin\Microsoft.ApplicationInsights.xml
 C:\Users\Arnold Lainez\Source\Repos\PCCC\Proyecto_CCC\Proyecto_CCC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
 C:\Users\Arnold Lainez\Source\Repos\PCCC\Proyecto_CCC\Proyecto_CCC\bin\MySql.Data.xml
+C:\Users\PRADO\Source\Repos\PCCC\Proyecto_CCC\Proyecto_CCC\bin\MySql.Data.dll
+C:\Users\PRADO\Source\Repos\PCCC\Proyecto_CCC\Proyecto_CCC\bin\Google.Protobuf.dll

@@ -2,8 +2,8 @@
 Imports MySql.Data.MySqlClient
 Public Module Conexion
 
-    'Public cadena As String = "Server=sql3.freemysqlhosting.net; Database=ql3221722; Uid=ql3221722; Pwd=j2mUFVbZM7;"
-    Public cadena As String = "Server=localhost; Database=sql3221722; Uid=root; Pwd=root; SslMode=none"
+    Public cadena As String = "Server=sql3.freemysqlhosting.net; Database=sql3221722; Uid=sql3221722; Pwd=j2mUFVbZM7; SslMode=none;"
+    'Public cadena As String = "Server=localhost; Database=sql3221722; Uid=root; Pwd=root; SslMode=none;"
     Public Conexion As MySqlConnection
     Public cmd As MySqlCommand
 
@@ -65,27 +65,26 @@ Public Module Conexion
             Desconectar()
             Return i
         Catch ex As Exception
-            'MsgBox(ex.Message.ToString)
+            MsgBox(ex.Message.ToString)
             Return 0
         End Try
     End Function
 
-    Public Function GetID(valor As String, tabla As String, id As String, campo As String) As Integer
+    Public Function GetID(valor As String, tabla As String, id As String, campo As String) As String
         Try
-            Dim i As Integer
+            Dim i As String = ""
             Conectar()
             cmd = New MySqlCommand("SELECT " & id & " FROM " & tabla & " where " & tabla & "." & campo & " = '" & valor & "';", Conexion)
             Dim s As MySqlDataReader = cmd.ExecuteReader()
             While s.Read()
-                i = s.GetValue(0)
+                i = s.GetString(0)
                 Exit While
             End While
-
             Desconectar()
             Return i
         Catch ex As Exception
-            'MsgBox(ex.Message.ToString)
-            Return 0
+            MsgBox(ex.Message.ToString)
+            Return "0"
         End Try
     End Function
 
@@ -93,7 +92,7 @@ Public Module Conexion
         Try
             Conexion.Close()
         Catch ex As Exception
-            'MsgBox(ex.Message.ToString)
+            MsgBox(ex.Message.ToString)
         End Try
     End Sub
 End Module

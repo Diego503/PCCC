@@ -24,36 +24,36 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
-<member name="F:Proyecto_CCC.Contrato1._CmbCliente">
+<member name="F:Proyecto_CCC.Contrato1._cmbCliente">
 <summary>
-Control CmbCliente.
+Control cmbCliente.
 </summary>
 <remarks>
 Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
-<member name="F:Proyecto_CCC.Contrato1._TxtFechaInicio">
+<member name="F:Proyecto_CCC.Contrato1._Txtfechainicio">
 <summary>
-Control TxtFechaInicio.
+Control Txtfechainicio.
 </summary>
 <remarks>
 Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
-<member name="F:Proyecto_CCC.Contrato1._TxtFechaFin">
+<member name="F:Proyecto_CCC.Contrato1._txtfechafin">
 <summary>
-Control TxtFechaFin.
+Control txtfechafin.
 </summary>
 <remarks>
 Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
-<member name="F:Proyecto_CCC.Contrato1._TxtMonto">
+<member name="F:Proyecto_CCC.Contrato1._txtmonto">
 <summary>
-Control TxtMonto.
+Control txtmonto.
 </summary>
 <remarks>
 Campo generado automáticamente.
@@ -87,9 +87,72 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
-<member name="F:Proyecto_CCC.Contrato1._TxTDescripcion">
+<member name="F:Proyecto_CCC.Contrato1._TxtDescripcion">
 <summary>
-Control TxTDescripcion.
+Control TxtDescripcion.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Proyecto_CCC.Contrato1._cmbtipomedio">
+<summary>
+Control cmbtipomedio.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Proyecto_CCC.Contrato1._cmbUbicacion">
+<summary>
+Control cmbUbicacion.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Proyecto_CCC.Contrato1._RegistroDePantalla">
+<summary>
+Control RegistroDePantalla.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Proyecto_CCC.Contrato1._TxtRepeticiones">
+<summary>
+Control TxtRepeticiones.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Proyecto_CCC.Contrato1._TxtDuracion">
+<summary>
+Control TxtDuracion.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Proyecto_CCC.Contrato1._RegistroDeMupys">
+<summary>
+Control RegistroDeMupys.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Proyecto_CCC.Contrato1._CheckBoxList1">
+<summary>
+Control CheckBoxList1.
 </summary>
 <remarks>
 Campo generado automáticamente.
@@ -99,6 +162,15 @@ Para modificarlo, mueva la declaración del campo del archivo del diseñador al 
 <member name="F:Proyecto_CCC.Contrato1._btnIngresar">
 <summary>
 Control btnIngresar.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Proyecto_CCC.Contrato1._btnCancelar">
+<summary>
+Control btnCancelar.
 </summary>
 <remarks>
 Campo generado automáticamente.
@@ -546,27 +618,27 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
-<member name="F:Proyecto_CCC.Registrar._TxtFechaInicio">
+<member name="F:Proyecto_CCC.Registrar._Txtfechainicio">
 <summary>
-Control TxtFechaInicio.
+Control Txtfechainicio.
 </summary>
 <remarks>
 Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
-<member name="F:Proyecto_CCC.Registrar._TxtFechaFin">
+<member name="F:Proyecto_CCC.Registrar._txtfechafin">
 <summary>
-Control TxtFechaFin.
+Control txtfechafin.
 </summary>
 <remarks>
 Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
-<member name="F:Proyecto_CCC.Registrar._TxtMonto">
+<member name="F:Proyecto_CCC.Registrar._txtmonto">
 <summary>
-Control TxtMonto.
+Control txtmonto.
 </summary>
 <remarks>
 Campo generado automáticamente.
@@ -600,18 +672,9 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
-<member name="F:Proyecto_CCC.Registrar._TxTDescripcion">
+<member name="F:Proyecto_CCC.Registrar._TxtDescripcion">
 <summary>
-Control TxTDescripcion.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Proyecto_CCC.Registrar._btnRegistrar">
-<summary>
-Control btnRegistrar.
+Control TxtDescripcion.
 </summary>
 <remarks>
 Campo generado automáticamente.
@@ -636,9 +699,63 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
-<member name="F:Proyecto_CCC.Registrar._ListBox1">
+<member name="F:Proyecto_CCC.Registrar._RegistroDePantalla">
 <summary>
-Control ListBox1.
+Control RegistroDePantalla.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Proyecto_CCC.Registrar._TxtRepeticiones">
+<summary>
+Control TxtRepeticiones.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Proyecto_CCC.Registrar._TxtDuracion">
+<summary>
+Control TxtDuracion.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Proyecto_CCC.Registrar._RegistroDeMupys">
+<summary>
+Control RegistroDeMupys.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Proyecto_CCC.Registrar._CheckBoxList1">
+<summary>
+Control CheckBoxList1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Proyecto_CCC.Registrar._btnIngresar">
+<summary>
+Control btnIngresar.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Proyecto_CCC.Registrar._btnCancelar">
+<summary>
+Control btnCancelar.
 </summary>
 <remarks>
 Campo generado automáticamente.

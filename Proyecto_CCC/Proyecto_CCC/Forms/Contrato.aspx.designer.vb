@@ -14,40 +14,40 @@ Option Explicit On
 Partial Public Class Contrato1
     
     '''<summary>
-    '''Control CmbCliente.
+    '''Control cmbCliente.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents CmbCliente As Global.System.Web.UI.WebControls.DropDownList
+    Protected WithEvents cmbCliente As Global.System.Web.UI.WebControls.DropDownList
     
     '''<summary>
-    '''Control TxtFechaInicio.
+    '''Control Txtfechainicio.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents TxtFechaInicio As Global.System.Web.UI.WebControls.TextBox
+    Protected WithEvents Txtfechainicio As Global.System.Web.UI.WebControls.TextBox
     
     '''<summary>
-    '''Control TxtFechaFin.
+    '''Control txtfechafin.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents TxtFechaFin As Global.System.Web.UI.WebControls.TextBox
+    Protected WithEvents txtfechafin As Global.System.Web.UI.WebControls.TextBox
     
     '''<summary>
-    '''Control TxtMonto.
+    '''Control txtmonto.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents TxtMonto As Global.System.Web.UI.WebControls.TextBox
+    Protected WithEvents txtmonto As Global.System.Web.UI.WebControls.TextBox
     
     '''<summary>
     '''Control cmbtipodefacturacion.
@@ -77,13 +77,76 @@ Partial Public Class Contrato1
     Protected WithEvents cmbdiapago As Global.System.Web.UI.WebControls.DropDownList
     
     '''<summary>
-    '''Control TxTDescripcion.
+    '''Control TxtDescripcion.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents TxTDescripcion As Global.System.Web.UI.WebControls.TextBox
+    Protected WithEvents TxtDescripcion As Global.System.Web.UI.WebControls.TextBox
+    
+    '''<summary>
+    '''Control cmbtipomedio.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents cmbtipomedio As Global.System.Web.UI.WebControls.DropDownList
+    
+    '''<summary>
+    '''Control cmbUbicacion.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents cmbUbicacion As Global.System.Web.UI.WebControls.DropDownList
+    
+    '''<summary>
+    '''Control RegistroDePantalla.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents RegistroDePantalla As Global.System.Web.UI.WebControls.Panel
+    
+    '''<summary>
+    '''Control TxtRepeticiones.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents TxtRepeticiones As Global.System.Web.UI.WebControls.TextBox
+    
+    '''<summary>
+    '''Control TxtDuracion.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents TxtDuracion As Global.System.Web.UI.WebControls.TextBox
+    
+    '''<summary>
+    '''Control RegistroDeMupys.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents RegistroDeMupys As Global.System.Web.UI.WebControls.Panel
+    
+    '''<summary>
+    '''Control CheckBoxList1.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents CheckBoxList1 As Global.System.Web.UI.WebControls.CheckBoxList
     
     '''<summary>
     '''Control btnIngresar.
@@ -93,4 +156,13 @@ Partial Public Class Contrato1
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
     Protected WithEvents btnIngresar As Global.System.Web.UI.WebControls.Button
+    
+    '''<summary>
+    '''Control btnCancelar.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents btnCancelar As Global.System.Web.UI.WebControls.Button
 End Class
