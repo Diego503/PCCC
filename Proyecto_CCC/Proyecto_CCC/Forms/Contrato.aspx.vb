@@ -20,6 +20,7 @@
             cmbpromociones.Items.Add(item("nombre"))
         Next
         cmbUbicacion.Items.Clear()
+        cmbUbicacion.Items.Add("Selecione la ubicacion")
         For Each item As DataRow In Consultar("SELECT * FROM sql3221722.medio where medio.tipo = '" & cmbtipomedio.SelectedItem.Text & "';").Rows
             cmbUbicacion.Items.Add(item("ubicacion"))
         Next
@@ -51,7 +52,7 @@
             If (RegistroDeMupys.Visible = True) Then
                 For Each val As ListItem In CheckBoxList1.Items
                     If (val.Selected = True) Then
-                        InsertarLados(val.Text, idmedio)
+                        InsertarLados(val.Text, idmupi)
                     End If
                 Next
             ElseIf (RegistroDePantalla.Visible = True) Then

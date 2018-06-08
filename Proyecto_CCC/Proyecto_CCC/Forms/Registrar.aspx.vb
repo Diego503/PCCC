@@ -63,11 +63,6 @@
                     idmupi = item("idMupy")
                     idmedio = item("idMedio")
                 Next
-
-
-
-
-
             ElseIf (RegistroDePantalla.Visible = True) Then
                 For Each item As DataRow In Consultar("SELECT * FROM sql3221722.pantalla inner join medio on medio.idMedio = pantalla.medio_idMedio where medio.ubicacion = '" & cmbUbicacion.SelectedItem.Text.Trim & "';").Rows
                     idpantalla = item("idpantalla")
@@ -80,7 +75,7 @@
             If (RegistroDeMupys.Visible = True) Then
                 For Each val As ListItem In CheckBoxList1.Items
                     If (val.Selected = True) Then
-                        InsertarLados(val.Text, idmedio)
+                        InsertarLados(val.Text, idmupi)
                     End If
                 Next
             ElseIf (RegistroDePantalla.Visible = True) Then
