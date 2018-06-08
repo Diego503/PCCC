@@ -2,7 +2,7 @@
     Inherits System.Web.UI.Page
     Private tabla As New DataTable()
     Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
-        listacontratos.DataSource = Consultar("select cliente.nombre as Cliente, contratos.fechaInicio as 'Inicio de Contrato', contratos.fechaFin as 'Finalizacion de Contrato', contratos.dia_pago as 'Día de pago' , contratos.precio as Precio, contratos.duracion as 'Duración' from cliente, contratos where cliente_idCliente = idCliente;")
+        listacontratos.DataSource = Consultar("select cliente.nombre as Cliente, Contratos.fechaInicio as 'Inicio de Contrato', Contratos.fechaFin as 'Finalizacion de Contrato', Contratos.dia_pago as 'Día de pago' , Contratos.precio as Precio, Contratos.duracion as 'Duración' from cliente, Contratos where cliente_idCliente = idCliente;")
         listacontratos.DataBind()
     End Sub
     Private Sub ActualizarTabla(query As String, i As Integer)
@@ -21,6 +21,6 @@
 
     Protected Sub btn_Buscar_Click(sender As Object, e As EventArgs) Handles btn_Buscar.Click
 
-        ActualizarTabla("select cliente.nombre as Cliente, contratos.fechaInicio as 'Inicio de Contrato', contratos.fechaFin as 'Finalizacion de Contrato', contratos.dia_pago as 'Día de pago' , contratos.precio as Precio, contratos.duracion as 'Duración' from cliente  inner join contratos on cliente.idCliente = contratos.cliente_idCliente where cliente.nombre  LIKE'" & txt_Buscar.Text.ToUpper & "%'", 1)
+        ActualizarTabla("select cliente.nombre as Cliente, Contratos.fechaInicio as 'Inicio de Contrato', Contratos.fechaFin as 'Finalizacion de Contrato', Contratos.dia_pago as 'Día de pago' , Contratos.precio as Precio, Contratos.duracion as 'Duración' from cliente  inner join Contratos on cliente.idCliente = Contratos.cliente_idCliente where cliente.nombre  LIKE'" & txt_Buscar.Text.ToUpper & "%'", 1)
     End Sub
 End Class

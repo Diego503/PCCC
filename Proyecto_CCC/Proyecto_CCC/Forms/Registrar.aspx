@@ -99,7 +99,7 @@
   </div>
 
     <div class="tab"> 
-    <h5 class="text-center"> 1.- INGRESE LOS DATOS DEL CONTRATO   </h5>
+    <h5 class="text-center"> 3.- INGRESE LOS DATOS DEL CONTRATO   </h5>
     <div class="row">
   <div class="texto col-lg-12"> 
         <div class="row"> 
@@ -163,7 +163,7 @@
        </div>
       </div>
        <div class="tab"> 
-        <h5 class="text-center"> 2.- Seleccione un medio   </h5>
+        <h5 class="text-center"> 4.- Seleccione un medio   </h5>
            <div class="row">
        <div class="texto col-lg-12"> 
         <div class="row"> 
