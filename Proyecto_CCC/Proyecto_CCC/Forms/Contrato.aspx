@@ -88,6 +88,7 @@
        <div class="col-lg-2"> <h6 class=" float-right"> Tipo de medio: </h6> </div>
         <div class="col-lg-2 float-left">  
         <asp:DropDownList CssClass="dropdown form-control-sm border-success" ID="cmbtipomedio" runat="server" AutoPostBack="True">
+            <asp:ListItem>Selecione un medio</asp:ListItem>
             <asp:ListItem>mupi</asp:ListItem>
            <asp:ListItem>pantalla</asp:ListItem>
             <asp:ListItem>acroly</asp:ListItem>

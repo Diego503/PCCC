@@ -1,6 +1,6 @@
 ﻿Module Usuario
     Public ID As Integer
-    Public IDS As Integer
+    Public IDS As Integer = 1
     Public Nombre As String
     Public Estado As Boolean
     Public Tipo As String
