@@ -20,11 +20,13 @@
                  <asp:ListItem> Empresa de Ejemplo 1 </asp:ListItem>
              </asp:DropDownList>
              </div>
+            <br />
   <div class="texto col-lg-12"> 
         <div class="row"> 
        <div class="col-lg-3"> <h6 class=" float-right" > Fecha de inicio: </h6> </div>
         <div class="col-lg-6 float-left">  
         <asp:TextBox ID="Txtfechainicio"  CssClass="border-success rounded form-control form-control-sm" PlaceHolder="Dia" TextMode="Date"  runat="server"></asp:TextBox>
+            <asp:CompareValidator ID="cvFechaI" runat="server" Display="Dynamic" ControlToValidate="TxtFechaInicio" ErrorMessage="Fecha incorrecta, debe ser la fecha actual." Type="Date" Operator="Equal" ForeColor="Red"></asp:CompareValidator>
     </div></div></div>
 
           <div class="texto col-lg-12"> 
@@ -32,13 +34,15 @@
        <div class="col-lg-3"> <h6 class=" float-right" > Fecha de finalización: </h6> </div>
         <div class="col-lg-6 float-left">  
         <asp:TextBox ID="txtfechafin" CssClass="border-success rounded form-control form-control-sm" PlaceHolder="DD/MM/AA" TextMode="Date" runat="server"></asp:TextBox>
+            <asp:CompareValidator ID="cvFecha" runat="server" Display="Dynamic" ControlToValidate="TxtFechaFin" ErrorMessage="Fecha incorrecta, debe ser despues de la fecha actual." Type="Date" Operator="GreaterThanEqual" ForeColor="Red"></asp:CompareValidator>
     </div></div></div>
 
           <div class="texto col-lg-12"> 
         <div class="row"> 
        <div class="col-lg-3"> <h6 class=" float-right" > Monto total: </h6> </div>
         <div class="col-lg-6 float-left">  
-        <asp:TextBox ID="txtmonto" CssClass="border-success rounded form-control form-control-sm" PlaceHolder="$"  onkeypress="return soloLetras(event)"  MaxLength="6" runat="server" > </asp:TextBox>
+        <asp:TextBox ID="txtmonto" CssClass="border-success rounded form-control form-control-sm" PlaceHolder="$"  onkeypress="return soloLetras(event)"  MaxLength="5" runat="server" > </asp:TextBox>
+            <asp:RangeValidator ID="rgvMonto" runat="server" Display="Dynamic" ControlToValidate="TxtMonto" ErrorMessage="Monto fuera de rango" Type="Double" MaximumValue="10000" MinimumValue="50" ForeColor="Red" ></asp:RangeValidator>
     </div></div></div>
 
               <div class="texto col-lg-12"> 
@@ -52,7 +56,7 @@
     </div></div></div>
         <div class="texto col-lg-12"> 
         <div class="row"> 
-       <div class="col-lg-3"> <h6 class=" float-right" > Promocion: </h6> </div>
+       <div class="col-lg-3"> <h6 class=" float-right" > Promoción: </h6> </div>
         <div class="col-lg-2 float-left">  
          <asp:DropDownList CssClass="dropdown form-control-sm border-success" ID="cmbpromociones" runat="server">
              <asp:ListItem> Ninguna </asp:ListItem>
@@ -71,7 +75,7 @@
         <div class="row"> 
        <div class="col-lg-3"> <h6 class=" float-right" > Descripción: </h6> </div>
         <div class="col-lg-6 float-left">  
-        <asp:TextBox ID="TxtDescripcion" CssClass="border-success rounded form-control form-control-sm" TextMode="MultiLine"  PlaceHolder=" " onkeypress="return LetrasN(event)" MaxLength="100" runat="server"> </asp:TextBox>
+        <asp:TextBox ID="TxtDescripcion" CssClass="border-success rounded form-control form-control-sm" TextMode="MultiLine"  PlaceHolder=" " onkeypress="return LetrasN(event)" MaxLength="50" runat="server"> </asp:TextBox>
     </div></div></div>
         <br />
         <br />
@@ -88,15 +92,15 @@
        <div class="col-lg-2"> <h6 class=" float-right"> Tipo de medio: </h6> </div>
         <div class="col-lg-2 float-left">  
         <asp:DropDownList CssClass="dropdown form-control-sm border-success" ID="cmbtipomedio" runat="server" AutoPostBack="True">
-            <asp:ListItem>mupi</asp:ListItem>
-           <asp:ListItem>pantalla</asp:ListItem>
-            <asp:ListItem>acroly</asp:ListItem>
+            <asp:ListItem>Mupy</asp:ListItem>
+           <asp:ListItem>Pantalla</asp:ListItem>
+            <asp:ListItem>Acroly</asp:ListItem>
              </asp:DropDownList>
              </div> </div> </div>        
         <div class="texto col-lg-12"> 
         <div class="row"> 
         <div class="col-lg-1"> </div>
-        <div class="col-lg-2"> <h6 class=" float-right"> Seleccion la ubicacion: </h6> </div>
+        <div class="col-lg-2"> <h6 class=" float-right"> Seleccione la ubicación: </h6> </div>
         <div class="col-lg-2 float-left">  
         <asp:DropDownList CssClass="dropdown form-control-sm border-success" ID="cmbUbicacion" runat="server" AutoPostBack="True">
              </asp:DropDownList>
@@ -116,7 +120,7 @@
         <div class="texto col-lg-12"> 
         <div class="row"> 
         <div class="col-lg-2"> </div>
-       <div class="col-lg-3"> <h6 class=" float-right" > Duracion: </h6> </div>
+       <div class="col-lg-3"> <h6 class=" float-right" > Duración: </h6> </div>
         <div class="col-lg-3 float-left">  
         <asp:TextBox ID="TxtDuracion" CssClass="border-success rounded form-control form-control-sm"  PlaceHolder="0" onkeypress="return soloLetras(event)" MaxLength="3" runat="server"> </asp:TextBox>
     </div></div></div>
