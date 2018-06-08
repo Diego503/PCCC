@@ -63,6 +63,8 @@
                     idmupi = item("idMupy")
                     idmedio = item("idMedio")
                 Next
+
+
             ElseIf (RegistroDePantalla.Visible = True) Then
                 For Each item As DataRow In Consultar("SELECT * FROM sql3221722.pantalla inner join medio on medio.idMedio = pantalla.medio_idMedio where medio.ubicacion = '" & cmbUbicacion.SelectedItem.Text.Trim & "';").Rows
                     idpantalla = item("idpantalla")
