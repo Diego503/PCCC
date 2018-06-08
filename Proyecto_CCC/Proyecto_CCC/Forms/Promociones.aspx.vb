@@ -2,6 +2,18 @@
     Inherits System.Web.UI.Page
 
     Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
+        If Not Page.IsPostBack Then
+
+            cvFechaPromo.ValueToCompare = Today
+
+
+        End If
+        If Not Page.IsPostBack Then
+
+            cvFechaP.ValueToCompare = Today
+
+
+        End If
 
     End Sub
 

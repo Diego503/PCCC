@@ -14,6 +14,14 @@
             cmbcontacto.Items.Add(i("nombre"))
         Next
 
+        If Not Page.IsPostBack Then
+
+            cvFechaV.ValueToCompare = Today
+
+
+        End If
+
+
     End Sub
 
     Protected Sub btnIngresar_Click(sender As Object, e As EventArgs) Handles btnIngresar.Click

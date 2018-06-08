@@ -27,6 +27,7 @@
        <div class="col-lg-3"> <h6 class="text-center float-right" >  Fecha de inicio: </h6> </div>
         <div class="col-lg-6 float-left"> 
         <asp:TextBox ID="Txtfechainicio" CssClass="border-success rounded form-control form-control-sm " PlaceHolder="DD/MM/AA " TextMode="Date" runat="server"></asp:TextBox></div></div>
+        <asp:CompareValidator ID="cvFechaPromo" runat="server" Display="Dynamic" ControlToValidate="Txtfechainicio" ErrorMessage="Fecha incorrecta, debe ser la fecha actual" Type="Date" Operator="Equal" ForeColor="Red" ></asp:CompareValidator>
     </div>
         <br />
         <div class="texto col-lg-12 border-success rounded border-bottom-0">  
@@ -34,6 +35,7 @@
        <div class="col-lg-3"> <h6 class="text-center float-right" >  Fecha de finalización: </h6> </div>
         <div class="col-lg-6 float-left">
         <asp:TextBox ID="Txtfechafin" CssClass="border-success rounded form-control form-control-sm " PlaceHolder="DD/MM/AA " TextMode="Date" runat="server"></asp:TextBox></div></div>
+            <asp:CompareValidator ID="cvFechaP" runat="server" Display="Dynamic" ControlToValidate="Txtfechafin" ErrorMessage="Fecha incorrecta, debe ser despues de la fecha actual" Type="Date" Operator="GreaterThanEqual" ForeColor="Red"></asp:CompareValidator>
     </div>
         <br />
      <div class="texto col-lg-12"> 
