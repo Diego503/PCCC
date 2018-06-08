@@ -25,6 +25,7 @@
        <div class="col-lg-3"> <h6 class=" float-right" > Fecha de inicio: </h6> </div>
         <div class="col-lg-6 float-left">  
         <asp:TextBox ID="Txtfechainicio"  CssClass="border-success rounded form-control form-control-sm" PlaceHolder="Dia" TextMode="Date"  runat="server"></asp:TextBox>
+            
     </div></div></div>
 
           <div class="texto col-lg-12"> 

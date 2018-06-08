@@ -12,8 +12,6 @@
     <span class="step"></span>
     <span class="step"></span>
   </div>
-
-  <!-- One "tab" for each step in the form: -->
   <div class="tab"> 
    <h5 class="text-center">  1.- INGRESE LOS DATOS DEL CLIENTE   </h5>
   <div class="row">

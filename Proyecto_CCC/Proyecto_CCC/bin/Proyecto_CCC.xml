@@ -42,6 +42,15 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
+<member name="F:Proyecto_CCC.Contrato1._cvFechaI">
+<summary>
+Control cvFechaI.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
 <member name="F:Proyecto_CCC.Contrato1._txtfechafin">
 <summary>
 Control txtfechafin.
@@ -51,9 +60,27 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
+<member name="F:Proyecto_CCC.Contrato1._cvFecha">
+<summary>
+Control cvFecha.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
 <member name="F:Proyecto_CCC.Contrato1._txtmonto">
 <summary>
 Control txtmonto.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Proyecto_CCC.Contrato1._rgvMonto">
+<summary>
+Control rgvMonto.
 </summary>
 <remarks>
 Campo generado automáticamente.
@@ -546,9 +573,27 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
+<member name="F:Proyecto_CCC.Promociones._cvFechaPromo">
+<summary>
+Control cvFechaPromo.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
 <member name="F:Proyecto_CCC.Promociones._Txtfechafin">
 <summary>
 Control Txtfechafin.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Proyecto_CCC.Promociones._cvFechaP">
+<summary>
+Control cvFechaP.
 </summary>
 <remarks>
 Campo generado automáticamente.
@@ -609,6 +654,15 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
+<member name="F:Proyecto_CCC.Registrar._revCorreo">
+<summary>
+Control revCorreo.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
 <member name="F:Proyecto_CCC.Registrar._TxtTelefono">
 <summary>
 Control TxtTelefono.
@@ -663,6 +717,15 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
+<member name="F:Proyecto_CCC.Registrar._revCorreoC">
+<summary>
+Control revCorreoC.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
 <member name="F:Proyecto_CCC.Registrar._TxtTelefonoContacto">
 <summary>
 Control TxtTelefonoContacto.
@@ -690,6 +753,15 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
+<member name="F:Proyecto_CCC.Registrar._cvFechaI">
+<summary>
+Control cvFechaI.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
 <member name="F:Proyecto_CCC.Registrar._txtfechafin">
 <summary>
 Control txtfechafin.
@@ -699,9 +771,27 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
+<member name="F:Proyecto_CCC.Registrar._cvFechaF">
+<summary>
+Control cvFechaF.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
 <member name="F:Proyecto_CCC.Registrar._txtmonto">
 <summary>
 Control txtmonto.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Proyecto_CCC.Registrar._rgvMontoCliente">
+<summary>
+Control rgvMontoCliente.
 </summary>
 <remarks>
 Campo generado automáticamente.
@@ -828,6 +918,15 @@ Para modificarlo, mueva la declaración del campo del archivo del diseñador al 
 <member name="F:Proyecto_CCC.RegistrarVisita._TxtFecha">
 <summary>
 Control TxtFecha.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Proyecto_CCC.RegistrarVisita._cvFechaV">
+<summary>
+Control cvFechaV.
 </summary>
 <remarks>
 Campo generado automáticamente.
