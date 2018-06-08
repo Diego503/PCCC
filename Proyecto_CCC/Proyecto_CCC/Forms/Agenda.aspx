@@ -15,5 +15,5 @@
             <NextPrevStyle CssClass="myCalendarNextPrev" />
             <TitleStyle CssClass="myCalendarTitle" />
         </asp:Calendar>
-    <asp:Button CssClass="btn btn-success btn-lg" ID="btnRegistrarVista" runat="server" Text="Registrar nuevo evento" />
+    <asp:Button CssClass="btn btn-success btn-sm" ID="btnRegistrarVista" runat="server" Text="Registrar nuevo evento" />
 </asp:Content>

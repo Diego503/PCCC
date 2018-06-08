@@ -49,14 +49,23 @@
         <div class="col-lg-6 float-left"> 
         <asp:DropDownList ID="cmbcontacto" runat="server" CssClass="dropdown form-control-sm form-control border-success rounded"> <asp:ListItem Text="Empresa1">  </asp:ListItem> <asp:ListItem Text="Empresa2">  </asp:ListItem></asp:DropDownList>
     </div></div></div>
+        <br />
 
-        <div class="col-lg-4" style ="margin-left: 15%; margin-bottom:-9%; align-content:space-around; text-align:left; ">  
-            <asp:Button ID="btnIngresar" CssClass="btn-group-lg btn-success btn-sm" runat="server" Text="Registrar" />
+
+        <div class="col-lg-12" style="margin-top: 10px">
+              <div class="row">
+            <div class="col-lg-2"></div>
+        <div class="col-lg-3" style =" margin-left:10%; text-align:right; ">  
+           <asp:Button ID="btnIngresar" CssClass="btn-group-sm btn-success btn-sm" Width="75px" Height="35px" runat="server" Text="Registrar" />
             </div>
-        <div class="col-lg-4" style ="margin-left: 30%; margin-bottom:-1%; align-content:space-around; text-align:right;">  
-            <asp:Button ID="btnCancelar" CssClass="btn-group-lg btn-success btn-sm" runat="server" Text="Cancelar" />
+                  
+           
+        <div class="col-lg-3" style =" margin-right: 22%;  text-align:justify; ">  
+            <asp:Button ID="btnCancelar" CssClass="btn-group-sm btn-success btn-sm" Width="75px" Height="35px" runat="server" Text="Cancelar" />
             </div>
-         </div>
+                  <div class="col-lg-2"></div>
+             </div>
+                </div>
 
             
            </div>

@@ -6,8 +6,6 @@
     <div class=" container-fluid align-items-center" > 
         <div class="row">
             <div class="col-lg-12 ">
-
-                
                    <br />
                         <h3 style="font-size: x-large; font-weight: bold; font-style: normal">Lista de clientes  </h3> 
                    <asp:Panel ID="Panel1" runat="server" HorizontalAlign="Center" Height="93px">
