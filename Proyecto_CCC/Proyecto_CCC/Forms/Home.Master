@@ -166,7 +166,7 @@ input.invalid {
     <br />
     <div class="contenedor" style="overflow: scroll;">
         <section>
-            <h4 class=" modal-title btn-success" style="color:white"> Control de Cartera de Clientes </h4></section>
+            <h6 class=" modal-title btn-success" style="color:white"> Control de Cartera de Clientes </h6></section>
              <div class="row">
                         <div class="col-lg-12">
                             <div class="row">
@@ -176,19 +176,19 @@ input.invalid {
               <ul>
   <li class="text-center"  style=" color:white;font-size:32px; font-weight:bold; display:block; background-color:black;">  ILEDVIEW   </li>
   <li><a class="active" href="/Forms/Principal.aspx">  Volver al menu </a></li>
-  <li><a href="PreRegistro.aspx"> Registrar Cliente </a></li>
+  <li><a href="/Forms/PreRegistro.aspx"> Registrar Cliente </a></li>
+  <li><a href="/Forms/Promociones.aspx"> Registrar Promociones </a></li>
   <li><a href="/Forms/ListaClientes.aspx">  Historial de Clientes  </a></li>
   <li><a href="/Forms/ListaContratos.aspx">  Historial de Contratos  </a></li>
-  <li><a href="Promociones.aspx"> Registrar Promociones </a></li>
-    <li><a href="Agenda.aspx"> Agenda </a></li>
-  <%--<li><a href="ListaClientes.aspx"> Lista de Clientes </a></li>--%>
-  <li><a href="Acerda_de.aspx"> Acerca de </a></li>
+  <li><a href="/Forms/Agenda.aspx"> Agenda </a></li>
+  <li><a href="/Forms/EditarRegistros.aspx"> Editar Registros </a></li>
+  <li><a href="/Forms/Acerda_de.aspx"> Acerca de </a></li>
   <li><a href="/Forms/log.aspx"> Cerrar Sesión </a></li>
 </ul>
             </div>
 
         </div>
-        <div class="col-lg-7">
+        <div class="col-lg-7"  >
         <form id="form1" runat="server">
             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server"  >
         
@@ -279,6 +279,49 @@ function fixStepIndicator(n) {
   //... and adds the "active" class on the current step:
   x[n].className += " active";
 }
+</script>
+        <script>
+
+    function soloLetras(e){
+       key = e.keyCode || e.which;
+       tecla = String.fromCharCode(key).toLowerCase();
+       letras = "1234567890.";
+       especiales = "8-37-39-46";
+
+       tecla_especial = false
+       for(var i in especiales){
+            if(key == especiales[i]){
+                tecla_especial = true;
+                break;
+            }
+        }
+
+       if (letras.indexOf(tecla) == -1 && !tecla_especial) {
+           alert('Tecla no aceptada');
+            return false;
+        }
+    }
+    var haspoint = false;
+    function LetrasN(e) {
+        key = e.keyCode || e.which;
+        tecla = String.fromCharCode(key).toString();
+        letras = " áéíóúabcdefghijklmnñopqrstuvwxyzÁÉÍÓÚABCDEFGHIJKLMNÑOPQRSTUVWXYZ,";
+        especiales = [8, 37, 39, 46, 6]; 
+        tecla_especial = false
+       aler(document.getElementById("TxtMonto").textContent.toString)
+        for (var i in especiales) {
+            if (key == especiales[i]) {
+                tecla_especial = true;
+               
+                break;
+            }
+        }
+
+        if (letras.indexOf(tecla) == -1 && !tecla_especial) {
+            alert('Tecla no aceptada');
+            return false;
+        }
+    }
 </script>
 
 </body>

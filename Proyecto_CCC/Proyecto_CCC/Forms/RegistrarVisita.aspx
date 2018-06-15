@@ -12,7 +12,6 @@
        <div class="col-lg-3"> <h6 class="text-center float-right" > Fecha de visita: </h6> </div>
         <div class="col-lg-6 float-left"> 
         <asp:TextBox ID="TxtFecha" CssClass="border-success rounded form-control form-control-sm" PlaceHolder="DD/MM/AA" TextMode="Date" runat="server"></asp:TextBox>
-            <asp:CompareValidator ID="cvFechaV" runat="server" Display="Dynamic" ControlToValidate="TxtFecha" ErrorMessage="Fecha incorrecta, debe ser la fecha actual" Type="Date" Operator="Equal" ForeColor="Red"></asp:CompareValidator>
     </div></div></div>
 
         <div class="texto col-lg-12 border-success rounded border-bottom-0">  
@@ -40,7 +39,12 @@
         <div class="row"> 
        <div class="col-lg-3"> <h6 class="text-center float-right" > Estado: </h6> </div>
         <div class="col-lg-6 float-left">  
-        <asp:DropDownList ID="cmbestado" runat="server" CssClass="dropdown form-control border-success rounded"> <asp:ListItem Text="Pendiente">  </asp:ListItem> <asp:ListItem Text="Finalizada">  </asp:ListItem></asp:DropDownList>
+        <asp:DropDownList ID="cmbestado" runat="server" CssClass="dropdown form-control border-success rounded">
+             <asp:ListItem Text="Pendiente">  
+             </asp:ListItem> 
+            <asp:ListItem Text="Finalizada"> 
+            </asp:ListItem>
+            </asp:DropDownList>
     </div></div></div>
 
 

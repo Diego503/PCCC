@@ -16,16 +16,15 @@
          <div class="texto col-lg-12 border-success rounded border-bottom-0 ">  
         <h6> Propietario del contrato </h6>
              <asp:DropDownList CssClass="dropdown form-control-sm border-success" ID="cmbCliente" runat="server">
-                 <asp:ListItem> Empresa de Ejemplo 1 </asp:ListItem>
-                 <asp:ListItem> Empresa de Ejemplo 1 </asp:ListItem>
              </asp:DropDownList>
-             </div>
+             </div></div>
             <br />
   <div class="texto col-lg-12"> 
         <div class="row"> 
        <div class="col-lg-3"> <h6 class=" float-right" > Fecha de inicio: </h6> </div>
         <div class="col-lg-6 float-left">  
         <asp:TextBox ID="Txtfechainicio"  CssClass="border-success rounded form-control form-control-sm" PlaceHolder="Dia" TextMode="Date"  runat="server"></asp:TextBox>
+            <asp:CompareValidator ID="cvvFecha" ForeColor="Red" runat="server" Display="Dynamic" ControlToValidate="Txtfechainicio" ErrorMessage="Fecha incorrecta, debe ser despues de la fecha actual." Type="Date" Operator="Equal" ></asp:CompareValidator>
     </div></div></div>
 
           <div class="texto col-lg-12"> 
@@ -33,7 +32,7 @@
        <div class="col-lg-3"> <h6 class=" float-right" > Fecha de finalización: </h6> </div>
         <div class="col-lg-6 float-left">  
         <asp:TextBox ID="txtfechafin" CssClass="border-success rounded form-control form-control-sm" PlaceHolder="DD/MM/AA" TextMode="Date" runat="server"></asp:TextBox>
-            <asp:CompareValidator ID="cvFecha" runat="server" Display="Dynamic" ControlToValidate="TxtFechaFin" ErrorMessage="Fecha incorrecta, debe ser despues de la fecha actual." Type="Date" Operator="GreaterThanEqual" ForeColor="Red"></asp:CompareValidator>
+            <asp:CompareValidator ID="cvFecha" ForeColor="Red" runat="server" Display="Dynamic" ControlToValidate="txtfechafin" ErrorMessage="Fecha incorrecta, debe ser despues de la fecha actual." Type="Date" Operator="GreaterThanEqual" ></asp:CompareValidator>
     </div></div></div>
 
           <div class="texto col-lg-12"> 
@@ -41,7 +40,7 @@
        <div class="col-lg-3"> <h6 class=" float-right" > Monto total: </h6> </div>
         <div class="col-lg-6 float-left">  
         <asp:TextBox ID="txtmonto" CssClass="border-success rounded form-control form-control-sm" PlaceHolder="$"  onkeypress="return soloLetras(event)"  MaxLength="5" runat="server" > </asp:TextBox>
-            <asp:RangeValidator ID="rgvMonto" runat="server" Display="Dynamic" ControlToValidate="TxtMonto" ErrorMessage="Monto fuera de rango" Type="Double" MaximumValue="10000" MinimumValue="50" ForeColor="Red" ></asp:RangeValidator>
+            <asp:RangeValidator ID="rgvMonto"  runat="server" Display="Dynamic" ControlToValidate="TxtMonto" ErrorMessage="Monto fuera de rango" Type="Double" MaximumValue="10000" MinimumValue="50" ForeColor="Red" ></asp:RangeValidator>
     </div></div></div>
 
               <div class="texto col-lg-12"> 
@@ -79,7 +78,6 @@
         <br />
         <br />
         <br />
-       </div>
       </div>
       </div>
        <div class="tab"> 
@@ -146,7 +144,7 @@
     <div style="float:right;">
       <button type="button" class="btn btn-group-lg btn-success" id="prevBtn" onclick="nextPrev(-1)">Regresar</button>
       <button type="button" class="btn btn-group-lg btn-success" id="nextBtn" onclick="nextPrev(1)">Siguiente</button>
-      <asp:Button ID="btnCancelar"  CssClass="btn-group-sm btn-success btn-sm" runat="server" Text="Cancelar" />
+      <asp:Button ID="btnCancelar" Width="100"  Height="37"  CssClass="btn-group-sm btn-success btn-sm" runat="server" Text="Cancelar" />
 
             </div>
         </div>

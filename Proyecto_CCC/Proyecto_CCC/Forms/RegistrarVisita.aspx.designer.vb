@@ -23,15 +23,6 @@ Partial Public Class RegistrarVisita
     Protected WithEvents TxtFecha As Global.System.Web.UI.WebControls.TextBox
     
     '''<summary>
-    '''Control cvFechaV.
-    '''</summary>
-    '''<remarks>
-    '''Campo generado automáticamente.
-    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-    '''</remarks>
-    Protected WithEvents cvFechaV As Global.System.Web.UI.WebControls.CompareValidator
-    
-    '''<summary>
     '''Control TxtHora.
     '''</summary>
     '''<remarks>

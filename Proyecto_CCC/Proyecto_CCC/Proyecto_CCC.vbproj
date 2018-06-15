@@ -141,10 +141,15 @@
     <Content Include="Forms\Acerda_de.aspx" />
     <Content Include="Forms\Agenda.aspx" />
     <Content Include="Forms\Contrato.aspx" />
+    <Content Include="Forms\EditarCliente.aspx" />
+    <Content Include="Forms\EditarContacto.aspx" />
+    <Content Include="Forms\EditarContrato.aspx" />
+    <Content Include="Forms\EditarEvento.aspx" />
+    <Content Include="Forms\EditarPromociones.aspx" />
+    <Content Include="Forms\EditarRegistros.aspx" />
     <Content Include="Forms\Home.aspx" />
     <Content Include="Forms\ListaClientes.aspx" />
     <Content Include="Forms\ListaContratos.aspx" />
-    <Content Include="Forms\ListaDeContratos.aspx" />
     <Content Include="Forms\log.aspx" />
     <Content Include="Forms\Login.aspx" />
     <Content Include="Forms\PreRegistro.aspx" />
@@ -236,6 +241,48 @@
       <DependentUpon>Contrato.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
+    <Compile Include="Forms\EditarCliente.aspx.designer.vb">
+      <DependentUpon>EditarCliente.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\EditarCliente.aspx.vb">
+      <DependentUpon>EditarCliente.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Forms\EditarContacto.aspx.designer.vb">
+      <DependentUpon>EditarContacto.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\EditarContacto.aspx.vb">
+      <DependentUpon>EditarContacto.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Forms\EditarContrato.aspx.designer.vb">
+      <DependentUpon>EditarContrato.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\EditarContrato.aspx.vb">
+      <DependentUpon>EditarContrato.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Forms\EditarEvento.aspx.designer.vb">
+      <DependentUpon>EditarEvento.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\EditarEvento.aspx.vb">
+      <DependentUpon>EditarEvento.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Forms\EditarPromociones.aspx.designer.vb">
+      <DependentUpon>EditarPromociones.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\EditarPromociones.aspx.vb">
+      <DependentUpon>EditarPromociones.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Forms\EditarRegistros.aspx.designer.vb">
+      <DependentUpon>EditarRegistros.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\EditarRegistros.aspx.vb">
+      <DependentUpon>EditarRegistros.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
     <Compile Include="Forms\Home.aspx.designer.vb">
       <DependentUpon>Home.aspx</DependentUpon>
     </Compile>
@@ -262,13 +309,6 @@
     </Compile>
     <Compile Include="Forms\ListaContratos.aspx.vb">
       <DependentUpon>ListaContratos.aspx</DependentUpon>
-      <SubType>ASPXCodebehind</SubType>
-    </Compile>
-    <Compile Include="Forms\ListaDeContratos.aspx.designer.vb">
-      <DependentUpon>ListaDeContratos.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Forms\ListaDeContratos.aspx.vb">
-      <DependentUpon>ListaDeContratos.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="Forms\log.aspx.designer.vb">
@@ -390,6 +430,7 @@
   <ItemGroup>
     <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

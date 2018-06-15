@@ -34,7 +34,7 @@
                 <br />
                 <br />
                 
-                <asp:GridView ID="listacontratos" CssClass=" border-success table table-hover table-responsive-sm  " runat="server"> </asp:GridView>
+                <asp:GridView ID="listacontratos" CssClass=" table table-hover table-responsive-sm thead-dark table-striped "  runat="server"> </asp:GridView>
              
             </div>
         </div>

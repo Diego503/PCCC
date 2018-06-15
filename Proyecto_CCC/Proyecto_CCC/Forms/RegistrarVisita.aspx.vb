@@ -14,20 +14,22 @@
             cmbcontacto.Items.Add(i("nombre"))
         Next
 
-        If Not Page.IsPostBack Then
-
-            cvFechaV.ValueToCompare = Today
-
-
-        End If
-
 
     End Sub
 
     Protected Sub btnIngresar_Click(sender As Object, e As EventArgs) Handles btnIngresar.Click
-        Consulta("INSERT INTO `sql3221722`.`agenda` (`fecha_visita`, `hora_visita`, `encargado_visita`, `estado_visita`, `descripcion`, `contacto_idcontacto`) VALUES ('" & TxtFecha.Text & "', '" & TxtHora.Text & "', '" & TxtNomEncargado.Text & "', '" & cmbestado.SelectedItem.Text & "', '" & TxtDescripcion.Text & "', '" & GetID(cmbcontacto.SelectedItem.Text, "sql3221722.contacto", "idcontacto", "nombre") & "');")
-        MsgBox("Evento Registrado", MsgBoxStyle.Information, "Registro")
-        Response.Redirect("~/Forms/Agenda.aspx")
+        Try
+            If (TxtDescripcion.Text IsNot "" And TxtFecha.Text IsNot "" And TxtHora.Text IsNot "" And TxtNomEncargado.Text IsNot "") Then
+                Consulta("INSERT INTO `sql3221722`.`agenda` (`fecha_visita`, `hora_visita`, `encargado_visita`, `estado_visita`, `descripcion`, `contacto_idcontacto`) VALUES ('" & TxtFecha.Text & "', '" & TxtHora.Text & "', '" & TxtNomEncargado.Text & "', '" & cmbestado.SelectedItem.Text & "', '" & TxtDescripcion.Text & "', '" & GetID(cmbcontacto.SelectedItem.Text, "sql3221722.contacto", "idcontacto", "nombre") & "');")
+                MsgBox("Evento Registrado", MsgBoxStyle.Information, "Registro")
+                Response.Redirect("~/Forms/Agenda.aspx")
+            Else
+                MsgBox("Faltan campos por llenar", MsgBoxStyle.MsgBoxHelp, "")
+            End If
+        Catch ex As Exception
+
+        End Try
+
     End Sub
 
     Protected Sub btnCancelar_Click(sender As Object, e As EventArgs) Handles btnCancelar.Click

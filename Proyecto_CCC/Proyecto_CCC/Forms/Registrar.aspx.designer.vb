@@ -32,15 +32,6 @@ Partial Public Class Registrar
     Protected WithEvents TxtCorreo As Global.System.Web.UI.WebControls.TextBox
     
     '''<summary>
-    '''Control revCorreo.
-    '''</summary>
-    '''<remarks>
-    '''Campo generado automáticamente.
-    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-    '''</remarks>
-    Protected WithEvents revCorreo As Global.System.Web.UI.WebControls.RegularExpressionValidator
-    
-    '''<summary>
     '''Control TxtTelefono.
     '''</summary>
     '''<remarks>
@@ -95,15 +86,6 @@ Partial Public Class Registrar
     Protected WithEvents TxtCorreoContacto As Global.System.Web.UI.WebControls.TextBox
     
     '''<summary>
-    '''Control revCorreoC.
-    '''</summary>
-    '''<remarks>
-    '''Campo generado automáticamente.
-    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-    '''</remarks>
-    Protected WithEvents revCorreoC As Global.System.Web.UI.WebControls.RegularExpressionValidator
-    
-    '''<summary>
     '''Control TxtTelefonoContacto.
     '''</summary>
     '''<remarks>
@@ -131,15 +113,6 @@ Partial Public Class Registrar
     Protected WithEvents Txtfechainicio As Global.System.Web.UI.WebControls.TextBox
     
     '''<summary>
-    '''Control cvFechaI.
-    '''</summary>
-    '''<remarks>
-    '''Campo generado automáticamente.
-    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-    '''</remarks>
-    Protected WithEvents cvFechaI As Global.System.Web.UI.WebControls.CompareValidator
-    
-    '''<summary>
     '''Control txtfechafin.
     '''</summary>
     '''<remarks>
@@ -147,15 +120,6 @@ Partial Public Class Registrar
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
     Protected WithEvents txtfechafin As Global.System.Web.UI.WebControls.TextBox
-    
-    '''<summary>
-    '''Control cvFechaF.
-    '''</summary>
-    '''<remarks>
-    '''Campo generado automáticamente.
-    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-    '''</remarks>
-    Protected WithEvents cvFechaF As Global.System.Web.UI.WebControls.CompareValidator
     
     '''<summary>
     '''Control txtmonto.
@@ -275,13 +239,13 @@ Partial Public Class Registrar
     Protected WithEvents CheckBoxList1 As Global.System.Web.UI.WebControls.CheckBoxList
     
     '''<summary>
-    '''Control btnIngresar.
+    '''Control BtnInsertar.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents btnIngresar As Global.System.Web.UI.WebControls.Button
+    Protected WithEvents BtnInsertar As Global.System.Web.UI.WebControls.Button
     
     '''<summary>
     '''Control btnCancelar.

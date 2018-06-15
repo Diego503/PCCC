@@ -32,6 +32,15 @@ Partial Public Class Contrato1
     Protected WithEvents Txtfechainicio As Global.System.Web.UI.WebControls.TextBox
     
     '''<summary>
+    '''Control cvvFecha.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents cvvFecha As Global.System.Web.UI.WebControls.CompareValidator
+    
+    '''<summary>
     '''Control txtfechafin.
     '''</summary>
     '''<remarks>
@@ -41,6 +50,15 @@ Partial Public Class Contrato1
     Protected WithEvents txtfechafin As Global.System.Web.UI.WebControls.TextBox
     
     '''<summary>
+    '''Control cvFecha.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents cvFecha As Global.System.Web.UI.WebControls.CompareValidator
+    
+    '''<summary>
     '''Control txtmonto.
     '''</summary>
     '''<remarks>
@@ -48,6 +66,15 @@ Partial Public Class Contrato1
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
     Protected WithEvents txtmonto As Global.System.Web.UI.WebControls.TextBox
+    
+    '''<summary>
+    '''Control rgvMonto.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents rgvMonto As Global.System.Web.UI.WebControls.RangeValidator
     
     '''<summary>
     '''Control cmbtipodefacturacion.

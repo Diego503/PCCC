@@ -32,15 +32,6 @@ Partial Public Class Promociones
     Protected WithEvents txtdescripcion As Global.System.Web.UI.WebControls.TextBox
     
     '''<summary>
-    '''Control TextBox1.
-    '''</summary>
-    '''<remarks>
-    '''Campo generado automáticamente.
-    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-    '''</remarks>
-    Protected WithEvents TextBox1 As Global.System.Web.UI.WebControls.TextBox
-    
-    '''<summary>
     '''Control Txtfechainicio.
     '''</summary>
     '''<remarks>
@@ -50,13 +41,13 @@ Partial Public Class Promociones
     Protected WithEvents Txtfechainicio As Global.System.Web.UI.WebControls.TextBox
     
     '''<summary>
-    '''Control cvFechaPromo.
+    '''Control cvFechaProo.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents cvFechaPromo As Global.System.Web.UI.WebControls.CompareValidator
+    Protected WithEvents cvFechaProo As Global.System.Web.UI.WebControls.CompareValidator
     
     '''<summary>
     '''Control Txtfechafin.
@@ -66,15 +57,6 @@ Partial Public Class Promociones
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
     Protected WithEvents Txtfechafin As Global.System.Web.UI.WebControls.TextBox
-    
-    '''<summary>
-    '''Control cvFechaP.
-    '''</summary>
-    '''<remarks>
-    '''Campo generado automáticamente.
-    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-    '''</remarks>
-    Protected WithEvents cvFechaP As Global.System.Web.UI.WebControls.CompareValidator
     
     '''<summary>
     '''Control TxtDescuento.
